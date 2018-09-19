@@ -1,0 +1,16 @@
+/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+.facets-item-list-sort-selector {
+	@extend .list-header-filter-input;
+	color:$sc-color-grey-dark;
+	&[disabled]{
+		background-color: transparent;
+		border-color:$sc-color-grey-dark;
+		opacity: 0.5;
+	}	
+}

@@ -1,0 +1,17 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ],
+        "templates": [
+            "Templates/*"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/OrderWizard.Module.Address@2.1.0/Sass/_order-wizard-address-module.scss":"Sass/_order-wizard-address-module.scss",
+      "suitecommerce/OrderWizard.Module.Address@2.1.0/Sass/_order-wizard-msr-addresses-module.scss":"Sass/_order-wizard-msr-addresses-module.scss"
+    }
+}

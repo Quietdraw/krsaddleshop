@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "override":{
+      "suitecommerce/ListHeader@2.1.0/Sass/_list-header-view.scss":"Sass/_list-header-view.scss"
+    }
+}

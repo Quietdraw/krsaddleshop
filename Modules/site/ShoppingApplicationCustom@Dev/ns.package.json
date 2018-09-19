@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/ShoppingApplication@2.1.0/Sass/_shopping-layout.scss":"Sass/_shopping-layout.scss"
+    }
+}

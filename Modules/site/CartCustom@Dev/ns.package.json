@@ -1,0 +1,19 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/Cart@2.1.0/Sass/_cart-confirmation-modal.scss":"Sass/_cart-confirmation-modal.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-detailed.scss":"Sass/_cart-detailed.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-item-actions.scss":"Sass/_cart-item-actions.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-item-summary.scss":"Sass/_cart-item-summary.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-promocode-form.scss":"Sass/_cart-promocode-form.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-summary-gift-certificate-cell.scss":"Sass/_cart-summary-gift-certificate-cell.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-detailed.scss":"Sass/_cart-detailed.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart-summary.scss":"Sass/_cart-summary.scss",
+      "suitecommerce/Cart@2.1.0/Sass/_cart.scss":"Sass/_cart.scss"
+
+    }
+}

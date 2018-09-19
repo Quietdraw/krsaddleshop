@@ -1,0 +1,11 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "override":{
+      "suitecommerce/MyAccountApplication@2.1.0/Sass/_myaccount-layout-sb.scss":"Sass/_myaccount-layout-sb.scss",
+      "suitecommerce/MyAccountApplication@2.1.0/Sass/_myaccount-layout.scss":"Sass/_myaccount-layout.scss"
+    }
+}

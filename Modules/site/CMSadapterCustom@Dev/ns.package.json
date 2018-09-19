@@ -1,0 +1,19 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ],
+        "ssp-libraries": [
+            "SuiteScript/*.js"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/CMSadapter@2.1.0/Sass/_cms-landing-page.scss":"Sass/_cms-landing-page.scss"
+    }
+}

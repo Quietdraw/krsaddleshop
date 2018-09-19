@@ -1,0 +1,42 @@
+/*
+	© 2015 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+.landing-page-header {
+	@extend .view-header;
+}
+
+.landing-page-main-banner {}
+
+.landing-page-content {
+	margin-bottom: 28px;
+}
+
+.landing-page .page H1
+{
+	margin-top: 37px;
+}
+
+.landing-page-content .page
+{
+	line-height: 1.5;
+}
+
+.landing-page-content .row
+{
+	margin-top: 25px;
+}
+
+.landing-page-content .row LI
+{
+	line-height: 1.5;
+}
+
+.landing-page-content .row H2
+{
+	font-size: 17px;
+	padding-bottom: 8px;
+}

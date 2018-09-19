@@ -1,0 +1,280 @@
+/*
+	© 2015 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+.footer-location
+{
+	margin-bottom: -6px !important;
+	padding-bottom: 0 !important;
+	margin-top: 9px;
+	align-content: center;
+	font-size: 13px;
+}
+
+footer {
+    float: left;
+    width: 100%;	
+    background: $sc-color-secondary;
+}
+
+.footer-content{
+    @extend .container;
+    @extend .row;
+    margin: auto;
+	padding-top: 23px;
+    padding-bottom: 23px; 
+}
+.footer-content-nav {
+    @extend .col-md-8;
+    @extend .col-xs-12;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-nav-title
+{
+	font-size: 15px;
+	padding-bottom: 8px;
+	padding-top: 17px;
+	color:$sc-color-theme-background-light;
+	font-weight:$sc-font-weight-normal;
+    line-height: 26px;	
+    float: left;
+    width: 100%;    
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+	@media (max-width: 370px){
+		padding-top:0px;
+	}
+}
+
+.footer-newsletter{
+	position:relative;
+    float: left;
+    width: 100%;	
+	input{
+		padding: 3.3% 33% 3.3% 3.7%;
+	    background: transparent;
+	    border: 1px solid $sc-color-theme-background-light;	
+	    float: left;
+	    width: 100%;
+	    color: $sc-color-theme-background-light;
+	    &:hover, &:focus{
+			outline: none;
+	    }
+	    @media (max-width: $screen-sm-min) {	    
+	    	padding: 10px 3.7% 10px 3.7%;
+	    }	
+	}
+	button{
+	    padding: 3.4% 4.5%;
+	    background: $sc-color-theme-background-light;
+	    float: right;
+	    position: absolute;
+	    bottom: 1px;
+	    right: 0px;
+	    color: $sc-color-secondary;
+	    @media (max-width: $screen-md-min) {
+		    position: relative;
+		    bottom: 0;
+		    right: 0;
+		    width: 100%;
+		    margin-top: 7px;			
+	    }	    	
+	    @media (max-width: $screen-sm-min) {
+    		padding: 10px 4.5%;
+	    }	
+	}
+}
+
+.footer-social-links{
+    float: left;
+    width: 100%;	
+    @media (max-width: $screen-sm-min) {
+		margin-top: 20px
+    }
+}
+
+.footer-social-links .social-light-icon{
+	float: left;
+	margin-right: 12px;		
+	a{
+	    font-size: 24px;
+	    float: left;	
+	    color: $sc-color-theme-background-light;
+	    i{
+	    	float: left;
+	    }		
+	}
+}
+
+.footer-nav-column{
+	@extend .col-md-3;
+	@extend .col-sm-3;
+	@extend .col-xs-12;
+	margin-bottom:15px;
+}
+
+.footer-nav-contact{
+	span, a{
+		float: left;
+		width: 100%;
+		font-size: 12px;
+		color:$sc-color-theme-background-light;
+	}
+}
+
+.footer-nav-contact {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-content .contact-box .address-company A
+{
+	line-height: 1.5;
+}
+.footer-content .row .col-md-12
+{
+	padding-bottom: 19px;
+}
+
+.footer-content .contact-box ADDRESS.address-company
+{
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+}
+FOOTER .about-company IMG.wp-image-15260.aligncenter
+{
+	width: 150px;
+}
+
+.social-dark ul li{
+	display:inline;
+	margin-top: 10px;
+	float: left;
+	list-style-type: none;
+}
+
+.fa-facebook{
+	@extend .fa;
+	@extend %fa-facebook;
+}
+.fa-linkedin{
+	@extend .fa;
+	@extend %fa-linkedin;
+}
+.fa-instagram{
+	@extend .fa;
+	@extend %fa-instagram;
+}
+.fa-pinterest{
+	@extend .fa;
+	@extend %fa-pinterest;
+}
+.fa-video-camera{
+	@extend .fa;
+	@extend %fa-video-camera;
+}
+
+.fa-play{
+	@extend .fa;
+	@extend %fa-play;
+}
+
+.footer-content .col-md-12 .row
+{
+	margin-top: 31px;
+}
+.footer-content .trademark-statement P
+{
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+.footer-content .trademark-statement.row
+{
+	padding-top: 9px;
+	border-top: 1px solid rgba(106, 51, 31, 0.118);
+	margin-top: 14px;
+}
+
+
+.footer-content .contact-box.col-md-3
+{
+	border: 1px solid rgba(105, 51, 31, 0.255);
+	padding: 10px 0px;
+}
+
+.footer-content-nav-list {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: $sc-base-padding * 6 0 0;
+
+    @media (min-width: $screen-sm-min) {
+        padding-top: $sc-base-padding * 5;
+    }
+
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+}
+
+.footer-nav H4
+{
+@media (max-width: 900px){
+	margin-top: 21px;
+}
+}
+
+.footer-nav{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;	
+}
+
+.footer-content-nav-menu {
+	padding-bottom:2px;
+	> li {
+	    display: inline-block;
+	    font-weight: 300;
+	    float: left;
+   		width: 100%;    
+   		font-size: $sc-small-font-size;
+	}
+    a{
+    	color:$sc-color-theme-background-light;
+    }
+}
+
+.footer-content-copyright
+{
+	text-align: center;
+	font-size: $sc-smallest-font-size;
+	color: $sc-color-theme-light;
+	float: right;
+	clear: both;
+	width:100%;
+    @media (min-width: $screen-md-min) {
+        text-align: right;
+        float: right;
+    }	
+	@media (max-width: $screen-sm-min) {
+    	margin-top: 22px;
+	}
+	a{
+		color: $sc-color-theme-light;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.trademark-statement.col-md-12{
+    padding-bottom: 0 !important;
+    padding-top: 15px;
+}

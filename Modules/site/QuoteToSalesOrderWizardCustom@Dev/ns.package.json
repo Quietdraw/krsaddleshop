@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/QuoteToSalesOrderWizard@1.0.0/Sass/_quote-to-saleorder-wizard-detail.scss":"Sass/_quote-to-saleorder-wizard-detail.scss"
+    }
+}

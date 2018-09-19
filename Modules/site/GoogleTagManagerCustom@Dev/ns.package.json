@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "override":{
+      "suitecommerce/GoogleTagManager@1.0.0/JavaScript/GoogleTagManager.js":"JavaScript/GoogleTagManager.js"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/ItemDetails@2.1.0/Sass/_item-details.scss":"Sass/_item-details.scss",
+      "suitecommerce/ItemDetails@2.1.0/Sass/_quick-view.scss":"Sass/_quick-view.scss",
+      "suitecommerce/ItemDetails@2.1.0/Templates/item_details_image_gallery.tpl":"Templates/item_details_image_gallery.tpl",
+      "suitecommerce/ItemDetails@2.1.0/Templates/item_details.tpl":"Templates/item_details.tpl",
+      "suitecommerce/ItemDetails@2.1.0/Templates/quick_view.tpl":"Templates/quick_view.tpl"
+    }
+}

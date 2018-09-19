@@ -1,0 +1,55 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/_reset.scss":"Sass/_reset.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/_bootstrap-overrides.scss":"Sass/_bootstrap-overrides.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/_base.scss":"Sass/_base.scss",
+
+
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_buttons.scss":"Sass/atoms/_buttons.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_flyout.scss":"Sass/atoms/_flyout.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_forms.scss":"Sass/atoms/_forms.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_icons.scss":"Sass/atoms/_icons.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_messages.scss":"Sass/atoms/_messages.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_purchase-controls.scss":"Sass/atoms/_purchase-controls.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_pusher.scss":"Sass/atoms/_pusher.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_spacing.scss":"Sass/atoms/_spacing.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_sticky-button.scss":"Sass/atoms/_sticky-button.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_thumbnails.scss":"Sass/atoms/_thumbnails.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/atoms/_typography.scss":"Sass/atoms/_typography.scss",
+
+
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_accordions.scss":"Sass/molecules/_accordions.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_breadcrumb.scss":"Sass/molecules/_breadcrumb.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_columns.scss":"Sass/molecules/_columns.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_datepicker.scss":"Sass/molecules/_datepicker.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_dropdown.scss":"Sass/molecules/_dropdown.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_expands.scss":"Sass/molecules/_expands.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_forms.scss":"Sass/molecules/_forms.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_image-gallery.scss":"Sass/molecules/_image-gallery.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_information_cards.scss":"Sass/molecules/_information_cards.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_information-box.scss":"Sass/molecules/_information-box.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_item-cells.scss":"Sass/molecules/_item-cells.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_list-header.scss":"Sass/molecules/_list-header.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_lists.scss":"Sass/molecules/_lists.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_merchandizing-zone.scss":"Sass/molecules/_merchandizing-zone.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_pagination.scss":"Sass/molecules/_pagination.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_search.scss":"Sass/molecules/_search.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_summary_box.scss":"Sass/molecules/_summary_box.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_tabs.scss":"Sass/molecules/_tabs.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/molecules/_wizard_steps.scss":"Sass/molecules/_wizard_steps.scss",
+
+
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/variables/_animations.scss":"Sass/variables/_animations.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/variables/_colors.scss":"Sass/variables/_colors.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/variables/_sizing.scss":"Sass/variables/_sizing.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/variables/_spacing.scss":"Sass/variables/_spacing.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/variables/_typography.scss":"Sass/variables/_typography.scss",
+      "suitecommerce/BaseSassStyles@1.1.0/Sass/variables/_variables.scss":"Sass/variables/_variables.scss"
+
+    }
+}

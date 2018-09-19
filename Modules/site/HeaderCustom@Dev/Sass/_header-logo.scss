@@ -1,0 +1,49 @@
+/*
+	© 2015 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+.header-logo {
+    display: block;
+    line-height: 68px;
+    height: 130px;
+    width: 231px;
+    margin-left: auto;
+    margin-right: auto;
+    @media (max-width: $screen-md-min) {
+	    height: auto;
+	    width: 190px;  
+		line-height: 32px;      	
+    }
+    @media (max-width: $screen-sm-min) {
+	    width: 160px;    	
+    }
+    @media (max-width: $screen-xs-min) {
+    	line-height: 38px; 
+	    width: 117px;    	
+    }   
+    @media (max-width: $screen-xxs-min) {
+	    width: 108px;    	
+    }        
+}
+
+.header-logo-image {
+	width: auto;
+	margin: auto !important;
+	@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { width: 160px; }
+}
+
+.header-logo-wrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+    width: 100%;
+	float: left;
+}
+
+.header-logo-sitename{}

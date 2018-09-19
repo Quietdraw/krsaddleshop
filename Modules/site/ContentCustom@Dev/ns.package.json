@@ -1,0 +1,11 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/*"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/Content@2.1.0/Sass/_landing-page-my-account.scss":"Sass/_landing-page-my-account.scss",
+      "suitecommerce/Content@2.1.0/Sass/_landing-page.scss":"Sass/_landing-page.scss"
+    }
+}

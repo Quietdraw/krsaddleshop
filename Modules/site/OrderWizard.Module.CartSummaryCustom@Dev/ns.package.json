@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/OrderWizard.Module.CartSummary@2.1.0/Sass/_order-wizard-cart-summary.scss":"Sass/_order-wizard-cart-summary.scss"
+    }
+}

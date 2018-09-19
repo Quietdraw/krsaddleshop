@@ -1,0 +1,13 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/CheckoutApplication@2.1.0/Sass/_checkout-layout.scss":"Sass/_checkout-layout.scss"
+    }
+}

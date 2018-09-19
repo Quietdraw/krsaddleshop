@@ -1,0 +1,11 @@
+{
+    "gulp": {
+        "sass": [
+            "Sass/**/*.scss"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/CreditCard@2.1.0/Sass/_creditcard-edit-form.scss":"Sass/_creditcard-edit-form.scss",
+      "suitecommerce/CreditCard@2.1.0/Sass/_creditcard-edit.scss":"Sass/_creditcard-edit.scss"
+    }
+}

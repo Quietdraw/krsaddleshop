@@ -1,0 +1,17 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ],
+        "templates": [
+            "Templates/*"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/ItemViews@1.1.0/Sass/_item-views-related-item.scss":"Sass/_item-views-related-item.scss",
+      "suitecommerce/ItemViews@1.1.0/Sass/_item-views-stock.scss":"Sass/_item-views-stock.scss"
+    }
+}

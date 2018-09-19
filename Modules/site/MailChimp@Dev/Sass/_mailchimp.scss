@@ -1,0 +1,38 @@
+#mc-embedded-subscribe-form{
+	width:100% !important;
+}
+.validate input{
+	@extend .input-large;
+	width:100%!important;
+}
+.validate button{
+	height: 50px;
+    width: 60%;
+    background: #69331F;
+    color: white;
+}
+.address-edit-fields-group-label{
+	@extend .input-label	
+}
+.validate {
+	width:100%;
+}
+.image-mailchimp-container{
+	text-align: center;
+}
+
+.header-logo-image-mailchimp{
+	width:40%;
+}
+
+.validate .clear input{
+	width:100% !important;
+}
+
+.validate .clear{
+    text-align: center;
+    padding:5px;
+}
+#in-modal-mce-responses{
+	font-weight:bold;
+}

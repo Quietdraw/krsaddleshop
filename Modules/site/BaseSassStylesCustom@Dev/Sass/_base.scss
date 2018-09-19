@@ -1,0 +1,335 @@
+/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+body {
+	overflow-x: hidden;
+	min-width:320px;
+}
+
+
+.main, .layout-container {
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+}
+
+%sc-layout {
+	min-height: 100%;
+}
+
+%sc-footer {
+}
+
+.layout-overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+
+//HRMG Changes June 7, 2016
+.header-menu-level-container, .header-profile-menu-myaccount-container
+{
+	min-height: 20px !important;
+}
+A.facets-item-cell-grid-title
+{
+	text-transform: capitalize !important;
+}
+.facets-item-cell-list .facets-item-cell-list-right H2.facets-item-cell-list-title A.facets-item-cell-list-name SPAN
+{
+	font-weight: normal;
+	font-size: 20px;
+	color: #69331F;
+	letter-spacing: 1px;
+}
+.global-views-star-rating
+{
+	display: none;
+}
+.site-search-item-results-content .global-views-star-rating
+{
+	display: none;
+}
+.site-search-item-results .site-search-item-results-content .site-search-item-results-title
+{
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+.site-search-input
+{
+	height: 46px;
+}
+.site-search-input-reset
+{
+	height: 46px;
+}
+.item-details-info .item-details-sku-container
+{
+	margin-bottom: 0;
+}
+.product-detail .item-details-content .item-details-divider-desktop
+{
+	display: none;
+}
+#item-details-content-container A
+{
+	font-weight: 600;
+	color: #8A5717 !important;
+}
+.item-details-tab-content-panel #item-details-content-container
+{
+	line-height: 1.5;
+}
+.item-views-option-tile
+{
+	margin-top: 0 !important;
+}
+.item-details-options .stylenote P
+{
+	font-size: 13px;
+	font-style: italic;
+}
+.stylenote
+{
+	margin-bottom: 12px;
+	border-top: 1px solid rgba(221, 204, 185, 0.402);
+	padding-top: 3px;
+}
+.item-views-option-color-tiles-container A.style.active:before
+{
+	content: ' ';
+	display: block;
+	position: absolute;
+	border: 2px solid #693320;
+	z-index: 10;
+	margin-left: -5px;
+	margin-top: -8px;
+	padding-left: 4px;
+	padding-right: 41px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.item-views-option-color-tiles-container A.style:hover:before
+{
+	content: ' ';
+	display: block;
+	position: absolute;
+	border: 2px solid #693320;
+	z-index: 10;
+	margin-left: -5px;
+	margin-top: -8px;
+	padding-left: 4px;
+	padding-right: 41px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.item-views-option-color-tiles-container
+{
+	clear: both;
+	padding-left: 2px;
+}
+
+.item-views-option-color-tile.style IMG
+{
+	width: 75px;
+}
+.stylenote SPAN
+{
+	padding-left: 30px;
+}
+.item-views-option-color-tiles-container LI .style
+{
+	padding-right: 15px;
+}
+INPUT#option-custcol_personthreeinitials.item-views-option-text-input
+{
+	min-width: 80px;
+	width: 85px;
+}
+.item-views-stock-msg-in
+{
+	background: rgba(64, 120, 191, 0) !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 0px !important;
+	margin-left: -10px;
+	margin-top: 0 !important;
+}
+.item-views-option-color .item-views-option-color-label
+{
+	margin-bottom: 4px;
+}
+.item-views-option-color-label
+{
+	font-size: 14px;
+	margin-top: 12px;
+	letter-spacing: 1px;
+	font-weight: 300 !important;
+}
+.item-views-option-text-title
+{
+	margin-bottom: 1px !important;
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	font-size: 12px !important;
+	letter-spacing: 1px;
+}
+.item-relations-correlated H3
+{
+	margin-bottom: 11px !important;
+	margin-top: 35px;
+}
+.item-views-related-item-thumbnail IMG
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+LABEL.item-details-options-quantity-title
+{
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+.item-details-main-content .item-details-info .item-views-price-lead
+{
+	font-size: 22px;
+}
+.item-details-main-content .item-details-content-header H1.item-details-content-header-title
+{
+	margin-bottom: 12px;
+}
+//Personalization Options
+.step1 H4
+{
+	font-size: 11px;
+	margin-bottom: 11px;
+	padding-bottom: 0;
+}
+.style P.optionselect
+{
+	font-size: 10px;
+	font-style: italic;
+}
+.overflowing
+{
+	line-height: 1.4;
+}
+
+//PRODUCT VIDEO CSS MODIFICATIONS TO MODAL BOX AND BUTTON
+#productvideomodal .modal-header
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #FFFFFF;
+}
+#productvideomodal .modal-header .close
+{
+	float: right;
+	background-color: rgba(255, 255, 255, 0.117);
+	font-size: 24px;
+	margin-right: -8px;
+	margin-top: -4px;
+}
+
+.button-tertiary.productvideo
+{
+	padding: 7px;
+}
+.button-tertiary:hover .fa-play
+{
+	color: #FFFFFF !important;
+}
+.productvideo .fa-play
+{
+	padding-right: 6px;
+}
+#productvideo.button-tertiary
+{
+	margin-top: 15px;
+	cursor: pointer;
+}
+#productvideomodal .modal-body
+{
+	padding-top: 0;
+	margin-top: 5px;
+}
+
+//CMS CONTENT DESIGN MODIFICATIONS
+.cms-content-text P
+{
+	line-height: 1.6;
+	font-size: 14px;
+}
+@media only screen and (min-width: 800px) {
+.cms-content-text P
+{
+line-height: 1.3;
+font-size: 14px;
+}
+.facets-facet-browse-header
+{
+margin-bottom: -77px;
+}
+.cms-content-text H1
+{
+padding-bottom: 19px;
+}
+}
+.facets-facet-browse-narrowedby
+{
+	display: none;
+}
+.facets-facet-browse-header
+{
+	border-bottom: 0px solid #DBCCB9 !important;
+	padding-bottom: 20px !important;
+}
+.underlined-title
+{
+	margin-top: -35px;
+}
+#in-modal-option-custcol_item_number
+{
+	display: none;
+}
+.shopping-layout-breadcrumb
+{
+	display: none;
+}
+
+//FACET INTRO COPY
+P.floatright
+{
+	float: right;
+}
+.banner-section-top .span4
+{
+	margin-bottom: 25px;
+	border-bottom: 3px solid $sc-color-grey-light;
+    padding-bottom: 27px;
+}
+
+#banner-section-top{
+	h1{
+		font-weight: 500;
+	}
+}
+
+#list-header-filters
+{
+	margin-bottom: 12px;
+}
+
+.banner-section-top .span4 .tagline
+{
+	text-transform: uppercase;
+	color: $sc-color-grey-darkest;
+	font-weight: 500;
+    letter-spacing: 1px;
+}

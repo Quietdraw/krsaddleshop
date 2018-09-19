@@ -1,0 +1,17 @@
+{
+	"gulp": {
+		"javascript": [
+			"masterslider.js"
+		]
+	,	"images": [
+			"images/*"
+		]
+	,	"skins": [
+			"skins/*"
+		]
+	,	"style": [
+			"style/*"
+		]
+	}
+,	"jshint": "false"
+}
