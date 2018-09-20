@@ -27,6 +27,8 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<div style="display: block; background-color: gray; width: 100%; height: 4px;"></div>
+
 
 <!-- Mailchimp Code -->
 <!--
