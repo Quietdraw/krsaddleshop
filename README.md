@@ -1,6 +1,8 @@
 # LOCAL DEVELOPMENT NOTES
 
 - Add SSH Key to GitHub User Account that has access to this repo
+- For Managing Multiple SSH Keys - good article is:
+- https://medium.com/@trionkidnapper/ssh-keys-with-multiple-github-accounts-c67db56f191e
 - https://github.com/settings/keys
 - $pbcopy < ~/.ssh/id_rsa_quietdraw.pub
 - Clone this repo locally and change directory into it
