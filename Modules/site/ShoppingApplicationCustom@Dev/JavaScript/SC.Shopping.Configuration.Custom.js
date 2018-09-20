@@ -191,6 +191,9 @@ define(
 		,	'Nicasia Cognac/Plaid': { type: 'image', src: 'https://www.krsaddleshop.com/img/NicasiaCognacPlaid.png', width: 22, height: 22 } //custom King Ranch color
 		,	'Grizzly Sand': { type: 'image', src: 'https://www.krsaddleshop.com/img/Grizzly_Sand.png', width: 22, height: 22 } //custom King Ranch color
 		,	'Tan/Natural': { type: 'image', src: 'https://www.krsaddleshop.com/img/Tan_Natural.jpg', width: 22, height: 22 } //custom King Ranch color
+		,	'Antler': { type: 'image', src: 'https://www.krsaddleshop.com/img/antler.jpg', width: 22, height: 22 } //custom King Ranch color
+		,	'Saddle Tooled': { type: 'image', src: 'https://www.krsaddleshop.com/img/saddleTooled.jpg', width: 22, height: 22 } //custom King Ranch color
+		,	'Walnut': { type: 'image', src: 'https://www.krsaddleshop.com/img/walnut.jpg', width: 22, height: 22 } //custom King Ranch color
 		}
 	,	lightColors = [
 			'White'
