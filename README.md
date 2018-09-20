@@ -39,6 +39,14 @@
 
 ## DEPLOY CODE TO SANDBOX
 
-- // $ npm deploy ??? -> then follow CLI -> make sure to deploy to DEV environment 
+- $ gulp deploy 
+- then follow CLI -> make sure to deploy to DEV environment 
+- > Netsuite's email: travis@quietdraw.com
+- > Netsuite's password: ************
+- > King Ranch Saddle Shop - SANDBOX- - Administrator
+- > Live Hosting Files
+- > NetSuite Inc. - SCA Mont Blanc
+- > Development
+
 
 ## DEPLOY CODE TO PRODUCTION
