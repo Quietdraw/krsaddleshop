@@ -248,7 +248,8 @@
                     "SC.Configuration.Extend",
                     "ItemsKeyMapping.Site",
                     "ItemDetails.View.Custom",
-                    "FacebookTracking"
+                    "FacebookTracking",
+                    "MailChimp"
                 ],
                 "amdclean": true,
                 "amdConfig": {
