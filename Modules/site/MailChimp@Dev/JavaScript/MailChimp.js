@@ -33,6 +33,7 @@ define('MailChimp', ['MailChimp.View'], function (View) {
         return "";
     }
 
+
     return {
 
         mountToApp: function (application) {
@@ -41,12 +42,13 @@ define('MailChimp', ['MailChimp.View'], function (View) {
             if(!getCookie(cookieName)){
                 openPopup();
                 var view = new View({application: application});
-                Layout.once('afterAppendToDom', function () {
-                    Layout.showInModal(view , {macro: 'emptyModal', className: 'welcome-modal'});
-                    var $form = Layout.$('#in-modal-welcome-popup .newsletter-form form');
-                    var settings = application.getConfig('newsletter');
+                  Layout.once('afterAppendView', function () {
+                      view.popup();
+                      // Layout.showInModal(view , {macro: 'emptyModal', className: 'welcome-modal'});
+                      // var $form = Layout.$('#in-modal-welcome-popup .newsletter-form form');
+                      // var settings = application.getConfig('newsletter');
+                  });
 
-                });
             }else{
                 jQuery("body").removeClass("modal-open")
                 return;
