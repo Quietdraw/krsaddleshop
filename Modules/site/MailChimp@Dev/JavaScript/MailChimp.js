@@ -43,10 +43,9 @@ define('MailChimp', ['MailChimp.View'], function (View) {
                 openPopup();
                 var view = new View({application: application});
                   Layout.once('afterAppendView', function () {
+                    setTimeout(function () {
                       view.popup();
-                      // Layout.showInModal(view , {macro: 'emptyModal', className: 'welcome-modal'});
-                      // var $form = Layout.$('#in-modal-welcome-popup .newsletter-form form');
-                      // var settings = application.getConfig('newsletter');
+                    }, 1000);
                   });
 
             }else{
