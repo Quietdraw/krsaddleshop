@@ -62,14 +62,19 @@ define('MailChimp.View'
         sendForm:function(){
 
         	try{
+
         		if(this.checkEmail(jQuery("#in-modal-mce-EMAIL").val()) && jQuery("#in-modal-mce-MMERGE3").val()!=""){
         			this.showError("Success! thanks you for your subscription","green");
-        			var formdata = new FormData(document.getElementById("in-modal-mc-embedded-subscribe-form"));
-					var xhr = new XMLHttpRequest();
-					xhr.open("POST", "//krsaddleshop.us1.list-manage.com/subscribe/post?u=71538d58586f8eee69f172c09&id=b6b57b4dea", true)
-					xhr.send(formdata);
 
-					xhr.onload = function(e){}
+        			var formdata = new FormData(document.getElementById("in-modal-mc-embedded-subscribe-form"));
+							var xhr = new XMLHttpRequest();
+							xhr.open("POST", "//krsaddleshop.us1.list-manage.com/subscribe/post?u=71538d58586f8eee69f172c09&id=b6b57b4dea", true)
+							xhr.send(formdata);
+
+							xhr.onload = function(e){}
+
+							setTimeout(function () { jQuery("#modal").modal('hide');}, 2000);
+
         		}else{
         			this.showError("Please fill all the mandatory fields","red");
         		}
