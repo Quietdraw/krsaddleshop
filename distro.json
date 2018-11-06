@@ -10,6 +10,7 @@
         "deploy": "DeployDistribution"
     },
     "modules": {
+        "quietdraw/HelloWorld":"Dev",
         "css/FacebookTracking":"Dev",
         "site/CartCustom":"Dev",
         "site/BaseSassStylesCustom":"Dev",
@@ -249,7 +250,8 @@
                     "SC.Configuration.Extend",
                     "ItemsKeyMapping.Site",
                     "ItemDetails.View.Custom",
-                    "FacebookTracking"
+                    "FacebookTracking",
+                    "HelloWorld"
                 ],
                 "amdclean": true,
                 "amdConfig": {
