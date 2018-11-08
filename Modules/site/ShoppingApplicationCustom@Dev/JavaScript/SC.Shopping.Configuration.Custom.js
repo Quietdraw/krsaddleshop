@@ -194,12 +194,13 @@ define(
 		,	'Antler': { type: 'image', src: 'https://www.krsaddleshop.com/img/antler.jpg', width: 22, height: 22 } //custom King Ranch color
 		,	'Saddle Tooled': { type: 'image', src: 'https://www.krsaddleshop.com/img/saddleTooled.jpg', width: 22, height: 22 } //custom King Ranch color
 		,	'Walnut': { type: 'image', src: 'https://www.krsaddleshop.com/img/walnut.jpg', width: 22, height: 22 } //custom King Ranch color
+		,	'Vintage Sueded': { type: 'image', src: '/img/vintageSueded.png', width: 22, height: 22 } //custom King Ranch color
 		}
 	,	lightColors = [
 			'White'
 		,	'Clear'
 		];
-
+		
 
 	var Configuration = {
 
