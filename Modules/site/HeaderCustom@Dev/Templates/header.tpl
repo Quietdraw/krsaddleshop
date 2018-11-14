@@ -51,6 +51,10 @@
 		</div>
 	</div>
 
+	<div class="global-header-announcement-wrapper">
+		<div class="global-header-announcement" data-cms-area="global_header_announcement" data-cms-area-filters="global"></div>
+	</div>
+
 	<nav class="header-main-nav">
 
 		<div id="banner-header-top" class="content-banner banner-header-top" data-cms-area="header_banner_top" data-cms-area-filters="global"></div>
