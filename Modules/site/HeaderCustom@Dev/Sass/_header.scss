@@ -572,6 +572,31 @@ and (orientation : portrait) { padding-top: 40px; }
 	padding-right:0;
 }
 
+///// Header - Global Site Wide Announcement
+.global-header-announcement-wrapper {
+	display: block;
+    clear: both;
+    margin-bottom: 15px;
+    position: relative;
+    top: -15px;
+}
+
+.global-header-announcement {
+	@extend .container;
+	p {
+		margin: 0;
+		padding: 10px 15px;
+		line-height: 1.3em;
+		font-size: 0.8em;
+		letter-spacing: 0.1em;
+		color: #d7b578;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: "Open Sans",sans-serif;
+	}
+}
+
+
 //////Hader - Promo Section
 .header-banner-container{
 	@extend .container;
