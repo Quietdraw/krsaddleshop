@@ -379,16 +379,6 @@ define(
                                 }
 							},
 							{
-                                text: _('Backpacks').translate(),
-                                href: '/luggage/backkpacks',
-                                'class': 'header-menu-level3-anchor',
-                                data: {
-                                    touchpoint: 'home',
-                                    hashtag: '#custitem_websubcat/Backpacks'
-                                }
-                            },
-                            
-                            {
                                 text: _('Rolling Bags').translate(),
                                 href: '/luggage/rolling-bags',
                                 'class': 'header-menu-level3-anchor',
