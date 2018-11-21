@@ -3,3 +3,4 @@ DeployDistribution/
 LocalDistribution/
 node_modules/
 payload.json
+.DS_Store
