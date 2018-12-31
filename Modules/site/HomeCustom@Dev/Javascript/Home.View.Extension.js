@@ -11,7 +11,8 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 			var self = this;
 			this.windowWidth = jQuery(window).width();
 
-
+			console.log('Window Size = ' + this.windowWidth + "px");
+			
 			this.on('afterViewRender', function()
 			{
 				this.listenToOnce(
@@ -40,6 +41,8 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 
 		}
 		,initSliders: function(){
+			
+			console.log('Testing Slider');
 
 			var self = this;
 			_.initBxSlider(self.$('[data-slider]'), {
@@ -47,6 +50,20 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 				,	prevText: '<a class="home-gallery-prev-icon"></a>'
 				,   auto: true
 				,	pause:6000
+			});
+
+		}
+		,initEssentials: function(){
+			console.log('Testing Carousel');
+
+			jQuery('#container_2').html("<p>Soon you will be HTML</p>");
+
+			$('#container_2').bxSlider({
+				auto: true
+				,	pause:6000
+				, minSlides: 6
+				, maxSlides: 6
+				, slideWidth: 400
 			});
 
 		}
@@ -81,5 +98,24 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 
 	//	}
 	});
+
+	return {
+
+        mountToApp: function (application) {
+
+			var container = $(".card-img-top");
+			
+
+			var simple = jQuery('#site-header')[0];
+			console.log(simple);
+
+			
+
+			jQuery('.home-featured-collections').hide()
+			
+			$('#container_2').html("<p>Soon you will be HTML</p>");
+
+        }
+    }
 
 });

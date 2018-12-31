@@ -12,9 +12,11 @@
     width: 100%;
     padding:0;
   }
-  @media (min-width: $screen-lg-min){
+  @media (min-width: $screen-md-min){
+    // Time to go Full Screen
     width: 100%;
-    max-width: 1400px;
+    max-width: 100%;
+    padding: 0;
   }
 }
 #home-page H2.tagline
@@ -662,5 +664,165 @@ $sc-image-slider-max-width-mobile: 767px;
         background: $sc-color-tertiary;
         color:$sc-color-secondary;
       }
+  }
+}
+
+/*
+  New HOME Theme Modifications
+*/
+
+// Featured Collections
+.home-featured-collections {
+  @media (max-width: $screen-sm-min){
+    padding: 0 15%;
+  }
+}
+
+@mixin button-outlined($color: #777a6c, $size: 0.8rem) {
+  font-family: "Gotham Light", sans-serif;
+  text-transform: uppercase;
+  color: $color;
+  padding: 10px 15px;
+  font-size: $size;
+  border: 1px solid $color;
+  border-radius: 6px;
+  display: inline-block;
+  @include transition-duration(.2s);
+  @include transition-timing-function(ease);
+  &:hover{
+    background-color: #702b25;
+    color: white;
+    border-color: #702b25; 
+  }
+}
+
+.card {
+  margin-bottom: 20px;
+  .card-img-top {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: block;
+  }
+  // Card Content
+  .card-body {
+    border: 1px solid #e3e1d1;
+    padding: 30px;
+  }
+  .card-tagline {
+    font-family: "Freight Text Pro Book", serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #777a6c;
+  }
+  .card-title {
+    color: #777a6c;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-family: "Berthold Akzidenz Grotesk Extended", sans-serif;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    @media (min-width: $screen-sm-min){
+      font-size: 1.3rem;
+      height: 40px;
+    }
+    @media (min-width: $screen-md-min){
+      font-size: 1.4rem;
+      height: unset;
+    }
+    @media (min-width: $screen-lg-min){
+      font-size: 1.7rem;
+    }
+  }
+  .btn {
+    @include button-outlined(); 
+  }
+}
+
+// Product Cards
+.card.product {
+  .card-body {
+    border: none;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .card-title {
+    font-size: 0.8rem;
+    font-family: "Berthold Akzidenz Grotesk Extended", sans-serif;
+    margin-bottom: unset;
+  }
+}
+
+.home-essentials {
+  .container {
+    border-bottom: 1px solid #777a6c;
+    margin-bottom: 50px;
+  }
+}
+
+// Marquee style Heading
+.heading-marquee {
+  display: table;
+  white-space: nowrap;
+  font-family: "Berthold Akzidenz Grotesk Bold Extended", sans-serif;
+  line-height: 1em;
+  margin: 40px 0;
+  &:before, &:after {
+    border-top: 1px solid #777a6c;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 1em;
+    width: 45%;
+  }
+  &:before { right: 1.5%; }
+  &:after { left: 1.5%; }
+}
+
+// Spotlight Ads
+.home-spotlight__full {
+  .wrapper {
+    position: relative;
+  }
+  .home-spotlight__full_photo {
+    width: 100%;
+    max-width: 100%;
+  }
+  .home-spotlight__full_body {
+    padding: 30px 50px;
+    text-align: center;
+    width: 100%;
+    @media (min-width: $screen-md-min){
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2;
+    }
+  }
+  h5 {
+    font-family: "Century Schoolbook", serif;
+    font-size: 1.2rem;
+    color: #777a6c;
+    @media (min-width: $screen-md-min){
+      font-size: 2.8rem;
+      color: #e4e2d2;
+      margin-bottom: 20px;
+    }
+  }
+  p {
+    color: #777a6c;
+    font-family: "Berthold Akzidenz Grotesk Extended", sans-serif;
+    font-size: 1rem;
+    @media (min-width: $screen-md-min){
+      color: #e4e2d2;
+      font-size: 1.3rem;
+    }
+  }
+  .btn {
+    @include button-outlined;
+    @media (min-width: $screen-md-min){
+      @include button-outlined(#e4e2d2);
+      margin-top: 30px;
+    }
   }
 }

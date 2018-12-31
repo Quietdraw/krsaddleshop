@@ -9,7 +9,119 @@
 
 <section class="home-main-slider" data-cms-area="home-main-slider" data-cms-area-filters="path"></section>
 
+<section class="home-featured-collections container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" src="/img/home-collections-mens-jackets_1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-tagline">Dot Wack or Newness Indicator</p>
+          <h5 class="card-title">Men's Jackets</h5>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" src="/img/home-collections-hunting-gear_1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-tagline">Dot Wack or Newness Indicator</p>
+          <h5 class="card-title">Hunting Gear</h5>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" src="/img/home-collections-boots_1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-tagline">Dot Wack or Newness Indicator</p>
+          <h5 class="card-title">Signature Boots</h5>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 
 <section class="home-featured-section" data-cms-area="home-featured-section" data-cms-area-filters="path"></section>
+-->
+
+<section class="home-essentials">
+  <div class="container">
+    
+    <h2 class="heading-marquee">King Ranch<br>Essentials</h2>
+    
+    <div class="row">
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-tagline">Simple Tagline Here</p>
+            <h5 class="card-title">Product Name Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-tagline">Simple Tagline Here</p>
+            <h5 class="card-title">Product Name Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-tagline">Simple Tagline Here</p>
+            <h5 class="card-title">Product Name Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-tagline">Simple Tagline Here</p>
+            <h5 class="card-title">Product Name Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-tagline">Simple Tagline Here</p>
+            <h5 class="card-title">Product Name Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-tagline">Simple Tagline Here</p>
+            <h5 class="card-title">Product Name Here</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-spotlight__full">
+  <div class="wrapper">
+    <img class="home-spotlight__full_photo" src="/img/home-spotlight-knives.jpg" alt="Some Alt Here">
+    <div class="home-spotlight__full_body">
+      <h5>Wood Handled Check Knives</h5>
+      <p>Handmade cultery built to King Ranch specifications.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div>
+</section>
 
 <section class="home-featured-videos"  data-cms-area="home-featured-videos" data-cms-area-filters="path"></section>
 
