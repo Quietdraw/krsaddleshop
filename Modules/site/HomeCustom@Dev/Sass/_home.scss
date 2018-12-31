@@ -801,8 +801,10 @@ $sc-image-slider-max-width-mobile: 767px;
   }
   h5 {
     font-family: "Century Schoolbook", serif;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     color: #777a6c;
+    line-height: 1em;
+    margin-bottom: 15px;
     @media (min-width: $screen-md-min){
       font-size: 2.8rem;
       color: #e4e2d2;
@@ -813,6 +815,7 @@ $sc-image-slider-max-width-mobile: 767px;
     color: #777a6c;
     font-family: "Berthold Akzidenz Grotesk Extended", sans-serif;
     font-size: 1rem;
+    margin-bottom: 15px;
     @media (min-width: $screen-md-min){
       color: #e4e2d2;
       font-size: 1.3rem;
@@ -823,6 +826,76 @@ $sc-image-slider-max-width-mobile: 767px;
     @media (min-width: $screen-md-min){
       @include button-outlined(#e4e2d2);
       margin-top: 30px;
+    }
+  }
+}
+
+// 
+
+.home-spotlight__2-col {
+  margin: 30px auto;
+  @media (max-width: $screen-md-min){
+    padding: 0;
+  }
+  .wrapper {
+    @media (max-width: $screen-lg-min) and (min-width:600px) {
+      max-width: 600px;
+      margin: auto;
+    }
+  }
+  .home-spotlight__2-col_photo {
+    @media (max-width: $screen-md-min){
+      padding: 0;
+    }
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  //
+  .home-spotlight__2-col_body {
+    padding: 20px;
+    text-align: center;
+    @media (min-width: $screen-lg-min){
+      text-align: left;
+      padding-right: 40px;
+    }
+    h5 {
+      font-family: "Century Schoolbook", serif;
+      font-size: 2.2rem;
+      line-height: 1em;
+      color: #777a6c;    
+      margin-bottom: 15px;
+      @media (min-width: $screen-md-min){
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+      }
+    }
+    .subheading {
+      color: #777a6c;
+      font-family: "Berthold Akzidenz Grotesk Extended", sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      @media (min-width: $screen-md-min){
+        font-size: 1.3rem;
+      }
+    }
+    p {
+      font-family: "Freight Text Pro Book", serif;
+      font-size: 0.8rem;
+      color: #777a6c;
+      margin-bottom: 30px;
+      @media (min-width: $screen-md-min){
+        font-size: 1.1rem;
+      }
+    }
+    .btn {
+      @include button-outlined;
+      @media (min-width: $screen-md-min){
+        @include button-outlined(#777a6c);
+        margin-top: 30px;
+      }
     }
   }
 }

@@ -56,56 +56,69 @@
     <div class="row">
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-tagline">Simple Tagline Here</p>
-            <h5 class="card-title">Product Name Here</h5>
-          </div>
+          <a href="https://www.krsaddleshop.com/CANVAS-WORK-JACKET">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Simple Tagline Here</p>
+              <h5 class="card-title">CANVAS WORK JACKET</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-tagline">Simple Tagline Here</p>
-            <h5 class="card-title">Product Name Here</h5>
-          </div>
+          <a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Simple Tagline Here</p>
+              <h5 class="card-title">SPORTSMAN SERIES TRAPPER</h5>
+            </div>
+            
+          </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-tagline">Simple Tagline Here</p>
-            <h5 class="card-title">Product Name Here</h5>
-          </div>
+          <a href="https://www.krsaddleshop.com/MENS-OILSKIN-LIGHTWEIGHT-CANVAS-JACKET">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222749_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Simple Tagline Here</p>
+              <h5 class="card-title">MEN'S OILSKIN LIGHTWEIGHT CANVAS JACKET</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-tagline">Simple Tagline Here</p>
-            <h5 class="card-title">Product Name Here</h5>
-          </div>
+          <a href="https://www.krsaddleshop.com/LEATHER-GAME-CARRIER">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222582_main-image[1].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Simple Tagline Here</p>
+              <h5 class="card-title">LEATHER GAME CARRIER</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-tagline">Simple Tagline Here</p>
-            <h5 class="card-title">Product Name Here</h5>
-          </div>
+          <a href="https://www.krsaddleshop.com/KING-RANCH-BOS-MENS-BARN-BOOT">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222595_Rust-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Simple Tagline Here</p>
+              <h5 class="card-title">KING RANCH "BOS" MEN'S BARN BOOT</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-tagline">Simple Tagline Here</p>
-            <h5 class="card-title">Product Name Here</h5>
-          </div>
+          <a href="https://www.krsaddleshop.com/BOOT-BAG_2">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222588_Saddle%20Tooled-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Simple Tagline Here</p>
+              <h5 class="card-title">BOOT BAG</h5>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -118,6 +131,20 @@
     <div class="home-spotlight__full_body">
       <h5>Wood Handled Check Knives</h5>
       <p>Handmade cultery built to King Ranch specifications.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-spotlight__2-col container">
+  <div class="wrapper">
+    <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
+      <img src="/img/home-spotlight-field-collection_1.jpg" alt="Some Alt Here">
+    </div>
+    <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
+      <h5>Field Collection</h5>
+      <p class="subheading">A definitive list of essentials</p>
+      <p>The Wild Horse Desert, in the South Texas Plains, is a vast place. The coastal grasslands seem to flow into infinity. No The Wild Horse Desert, in the South Texas Plains, is a vast place.</p>
       <a href="#" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
@@ -141,7 +168,18 @@
 
 <div style="display: block; background-color: gray; width: 100%; height: 4px;"></div>
 
-
+<script>
+  $(document).ready(function(){
+    $('.home-essentials .row').bxSlider({
+      auto: true,
+      minSlides: 1,
+      maxSlides: 5,
+      slideWidth: 280,
+      moveSlides: 1,
+      pager: false
+    });
+  });
+</script>
 <!-- Mailchimp Code -->
 <!--
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
