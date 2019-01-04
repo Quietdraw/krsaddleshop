@@ -14,12 +14,135 @@
 	font-size: 13px;
 }
 
-footer {
-    float: left;
-    width: 100%;
+nav.footer {
+	.menu {
+		> li {
+			border-top: 1px solid #777a6c;
+			&:first-child {
+				border: none;
+			}
+		}
+	}
+	ul {
+		li {
+			-webkit-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+			
+			> a {
+				display: block;
+				padding: 0.5rem 3rem;
+				position: relative;
+				text-decoration: none;
+				font-family: $font-family-syncopate, sans-serif;
+				color: #777a6c;
+				text-transform: uppercase;
+				font-weight: 400;
+				font-size: 0.6rem;
+			}
+			
+			&.menu-item-has-children{
+				&:nth-of-type(5) {
+					> a::after {
+						content: '' !important;
+					}
+				}
+				> a {
+					font-size: 0.7rem;
+					padding: 1rem 1.6rem 1rem 2rem;
+					font-weight: 700;
+					&::after {
+						content: url(../img/icon-opener-plus.svg);
+						display: block;
+						font: normal normal normal 14px/1 FontAwesome;
+						position: absolute;
+						right: 1.04em;
+						width: 15px;
+						top: 50%;
+						-webkit-transform: translateY(-50%);
+						transform: translateY(-50%);
+					}
+				}
+				&.open {
+					> a {
+						&::after {
+							content: url(../img/icon-opener-minus.svg);
+						}
+					}
+					
+					> ul {
+						max-height: 999px;
+					}
+				}
+			}
+			
+			> ul {
+				max-height: 0;
+    			overflow: hidden;
+				-webkit-transition: all .25s ease-in-out;
+				transition: all .25s ease-in-out;
+			}
+		}
+		
+	}
 }
 
-// Newsletter
+.locations {
+	display: block;
+	padding: 0.5rem 3rem;
+	position: relative;
+	text-decoration: none;
+	font-family: $font-family-syncopate, sans-serif;
+	color: #777a6c;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.6rem;
+	address {
+		margin-bottom: 1.3rem;
+	}
+	.office-name {
+		display: block;
+	}
+	.office-street-address {
+		display: block;
+	}
+	.office-postal-code {
+		margin-left: 4px;
+	}
+}
+
+
+#menu-item-social {
+	> a {
+		display: none;
+	}
+	.social-links {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		max-height: 999px;
+		margin: 1rem 1rem 1rem 2rem;
+	}
+	.social-icon {
+		display: inline-block;
+		> a {
+			display: inline-block;
+			border: 1px solid #777a6c;
+			padding: 0;
+			border-radius: 50%;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			.fa {
+				margin-top: 4px;
+			}
+			.fa-play {
+				margin-left: 3px;
+			}
+		}
+	}
+}
+
+
 .footer-newsletter-signup {
 	padding: 30px 15px;
 	border-top: 1px solid #777a6c;
@@ -54,29 +177,42 @@ footer {
 		color: #777a6c;
 		text-transform: uppercase;
 		font-weight: 700;
-		font-size: 1.0rem;
+		font-size: 0.5rem;
 		margin-right: 15px;
-		margin-left: -90px;
+		margin-left: -20px;
+		@media (min-width: $screen-sm-min){
+			font-size: 1.0rem;
+			margin-left: -90px;
+		}
 	}
 	form {
-		padding: 4px 7px;
+		padding: 0px 7px;
 		border: 1px solid #777a6c;
 		width: auto;
 		display: inline-block;
 		border-radius: 4px;
+		@media (min-width: $screen-sm-min){
+			padding: 4px 7px;
+		}
 		label {
 			display: none;
 		}
 		input[type="text"] {
-			font-size: 11px;
-			width: 310px;
+			width: 150px;
 			-webkit-transition: ease-in-out,width .35s ease-in-out;
 			transition: ease-in-out,width .35s ease-in-out;
 			border-right: 1px solid #777a6c;
     		margin-right: 8px;
 			padding: 0;
+			font-size: 0.4rem;
+			@media (min-width: $screen-sm-min){
+				font-size: 0.8rem;
+				width: 310px;
+			}
 			&:focus {
-				width: 320px;
+				@media (min-width: $screen-sm-min){
+					width: 320px;
+				}
 			}
 		}
 		input[type="submit"] {
@@ -85,11 +221,46 @@ footer {
 			color: #777a6c;
 			text-transform: uppercase;
 			font-weight: 700;
-			font-size: 0.8rem;
+			background-color: transparent;
+			font-size: 0.4rem;
+			@media (min-width: $screen-sm-min){
+				font-size: 0.8rem;
+			}
 		}
 	}
 }
 
+// Copyright + Base Nav
+
+.footer__auxiliary {
+	background-color: #702b25;
+	text-align: center;
+}
+
+.footer__legal {
+	p {
+		color: #e6e4d4;
+		font-family: $font-family-syncopate, sans-serif;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.5rem;
+		padding-top: 0.5rem;
+	}
+}
+
+.footer__auxiliary-nav-list {
+	li {
+		display: inline-block;
+		padding: 0 0.4rem;
+		a {
+			color: #e6e4d4;
+			font-family: $font-family-syncopate, sans-serif;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 0.5rem;
+		}
+	}
+}
 
 .footer-content{
     @extend .container;
