@@ -152,7 +152,47 @@
 
 <section class="home-featured-videos"  data-cms-area="home-featured-videos" data-cms-area-filters="path"></section>
 
-</div>
+<section class="home-spotlight__3-col">
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-3">
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top" src="/img/home_spotlight_3-col_leather-goods.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Explore King Ranch</p>
+              <h5 class="card-title">Leather Goods</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col col-sm-3">
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top" src="/img/home_spotlight_3-col_knives.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Explore King Ranch</p>
+              <h5 class="card-title">Knivess</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col col-sm-3">
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top" src="/img/home_spotlight_3-col_travel-gear.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-tagline">Explore King Ranch</p>
+              <h5 class="card-title">Travel Gear</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /.home -->
 
 <div class="modal fade" tabindex="-1" role="dialog" id="homeVideoModal">
   <div class="modal-dialog" role="document">
@@ -165,8 +205,6 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-<div style="display: block; background-color: gray; width: 100%; height: 4px;"></div>
 
 <script>
   $(document).ready(function(){

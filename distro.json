@@ -10,6 +10,7 @@
         "deploy": "DeployDistribution"
     },
     "modules": {
+        "quietdraw/QuietDrawCustom":"Dev",
         "css/FacebookTracking":"Dev",
         "site/CartCustom":"Dev",
         "site/BaseSassStylesCustom":"Dev",
@@ -249,7 +250,8 @@
                     "SC.Configuration.Extend",
                     "ItemsKeyMapping.Site",
                     "ItemDetails.View.Custom",
-                    "FacebookTracking"
+                    "FacebookTracking",
+                    "QuietDrawCustom"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -455,7 +457,8 @@
                     "Header.View.Extend",
                     "OrderWizard.Module.Confirmation.Extend",
                     "ItemsKeyMapping.Site",
-                    "FacebookTracking"
+                    "FacebookTracking",
+                    "QuietDrawCustom"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -668,6 +671,12 @@
                             ]
                         },
                         {
+                            "module": "QuietDrawCustom",
+                            "include": [
+                                "webfonts"
+                            ]
+                        },
+                        {
                             "module": "BaseSassStyles",
                             "include": [
                                 "main-variables",
@@ -761,6 +770,12 @@
                             "module": "font-awesome",
                             "include": [
                                 "font-awesome"
+                            ]
+                        },
+                        {
+                            "module": "QuietDrawCustom",
+                            "include": [
+                                "webfonts"
                             ]
                         },
                         {
@@ -931,6 +946,12 @@
                             "module": "font-awesome",
                             "include": [
                                 "font-awesome"
+                            ]
+                        },
+                        {
+                            "module": "QuietDrawCustom",
+                            "include": [
+                                "webfonts"
                             ]
                         },
                         {

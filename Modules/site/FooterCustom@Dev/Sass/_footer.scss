@@ -16,9 +16,80 @@
 
 footer {
     float: left;
-    width: 100%;	
-    background: $sc-color-secondary;
+    width: 100%;
 }
+
+// Newsletter
+.footer-newsletter-signup {
+	padding: 30px 15px;
+	border-top: 1px solid #777a6c;
+	border-bottom: 1px solid #777a6c;
+	text-align: center;
+	.wrapper {
+		position: relative;
+		overflow: hidden;
+	}
+	h5 {
+		font-family: $font-family-syncopate, sans-serif;
+		color: #777a6c;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.2em;
+		letter-spacing: 0.1rem;
+		margin-bottom: 12px;
+	}
+	p {
+		font-family: $font-family-syncopate, sans-serif;
+		color: #777a6c;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.5rem;
+		max-width: 340px;
+    	margin: auto;
+		margin-bottom: 12px;
+	}
+	h4 {
+		display: inline-block;
+		font-family: $font-family-syncopate, sans-serif;
+		color: #777a6c;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.0rem;
+		margin-right: 15px;
+		margin-left: -90px;
+	}
+	form {
+		padding: 4px 7px;
+		border: 1px solid #777a6c;
+		width: auto;
+		display: inline-block;
+		border-radius: 4px;
+		label {
+			display: none;
+		}
+		input[type="text"] {
+			font-size: 11px;
+			width: 310px;
+			-webkit-transition: ease-in-out,width .35s ease-in-out;
+			transition: ease-in-out,width .35s ease-in-out;
+			border-right: 1px solid #777a6c;
+    		margin-right: 8px;
+			padding: 0;
+			&:focus {
+				width: 320px;
+			}
+		}
+		input[type="submit"] {
+			letter-spacing: 2px;
+			font-family: $font-family-syncopate, sans-serif;
+			color: #777a6c;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 0.8rem;
+		}
+	}
+}
+
 
 .footer-content{
     @extend .container;

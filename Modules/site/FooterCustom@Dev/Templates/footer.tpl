@@ -4,11 +4,25 @@
 	provided, however, if you are an authorized user with a NetSuite account or log-in, you
 	may use this code subject to the terms that govern your access and use.
 }}
+
+<section class="footer-newsletter-signup">
+	<div class="wrapper">
+		<h5>Join Our Newsletter</h5>
+		<p>Subscribe to kingranchsaddleshop.com to receive exclusive offers, first looks, event information, and more.</p>
+		<h4>Subscribe</h4>
+		<form id="newsletterSignup" method="post" _lpchecked="1">
+			<label for="newsletterEmail">Email:</label>
+			<input id="newsletterEmail" type="text" name="email" placeholder="Enter Email Here">
+			<input id="newsletterSubmit" type="submit" value="Send">
+      </form>
+	</div>
+</section>
+
 <div class="footer-content" id="ratings-reviews-title">
 	<div class="row">
 		<div class="footer-nav-column">
 			<div class="footer-nav">
-				<span class="footer-nav-title">About Us</span>
+				<span class="footer-nav-title">About Us HERE</span>
 				<ul class="footer-content-nav-menu">
 					<li><a href="/about-us" data-touchpoint="home" data-hashtag="#about-us">Our Heritage</a></li>
 					<li><a href="/corporate-gifts" data-touchpoint="home" data-hashtag="#corporate-gifts">Corporate Sales</a></li>
