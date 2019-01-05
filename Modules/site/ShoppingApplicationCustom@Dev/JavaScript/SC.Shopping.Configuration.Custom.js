@@ -195,6 +195,9 @@ define(
 		,	'Saddle Tooled': { type: 'image', src: 'https://www.krsaddleshop.com/img/saddleTooled.jpg', width: 22, height: 22 } //custom King Ranch color
 		,	'Walnut': { type: 'image', src: 'https://www.krsaddleshop.com/img/walnut.jpg', width: 22, height: 22 } //custom King Ranch color
 		,	'Vintage Sueded': { type: 'image', src: '/img/vintageSueded.png', width: 22, height: 22 } //custom King Ranch color
+		,	'Atlantic': { type: 'image', src: '/img/atlantic.png', width: 22, height: 22 } //custom King Ranch color
+		,	'Caribbean': { type: 'image', src: '/img/caribbean.png', width: 22, height: 22 } //custom King Ranch color
+		,	'GameGuard Camo': { type: 'image', src: '/img/GameGuardCamo.png', width: 22, height: 22 } //custom King Ranch color
 		}
 	,	lightColors = [
 			'White'
