@@ -247,13 +247,3 @@ e.parentNode.insertBefore(s, e);
 <script type="text/javascript" src="https://www.krsaddleshop.com/jquery.shorten.js"></script>
 
 <div data-view="Global.BackToTop"></div>
-
-<script>
-  $(document).ready(function(){
-	  
-    $('.footer .menu li  > a').on('click', function(event){
-      event.preventDefault();
-	  $(this).parent().toggleClass("open");
-    });
-  });
-</script>

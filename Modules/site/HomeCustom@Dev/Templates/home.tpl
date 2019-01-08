@@ -205,19 +205,6 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-<script>
-  $(document).ready(function(){
-    $('.home-essentials .row').bxSlider({
-      auto: true,
-      minSlides: 1,
-      maxSlides: 5,
-      slideWidth: 280,
-      moveSlides: 1,
-      pager: false
-    });
-  });
-</script>
 <!-- Mailchimp Code -->
 <!--
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>

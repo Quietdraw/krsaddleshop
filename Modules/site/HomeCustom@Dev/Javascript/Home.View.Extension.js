@@ -9,9 +9,28 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 	initialize: function ()
 		{
 			var self = this;
+			
+			// debugger
+			
 			this.windowWidth = jQuery(window).width();
 
-			console.log('Window Size = ' + this.windowWidth + "px");
+			// Inside of Application Skeleton
+			var layout = this.options.application.getLayout();
+			
+			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
+			layout.on('afterAppendToDom', function(){
+				//debugger
+				$('.home-essentials .row').bxSlider({
+					auto: true,
+					minSlides: 1,
+					maxSlides: 5,
+					slideWidth: 280,
+					moveSlides: 1,
+					pager: false
+				  });
+			}, this);
+
+			//console.log('Window Size = ' + this.windowWidth + "px");
 			
 			this.on('afterViewRender', function()
 			{
@@ -42,7 +61,7 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 		}
 		,initSliders: function(){
 			
-			console.log('Testing Slider');
+			//console.log('Testing Slider');
 
 			var self = this;
 			_.initBxSlider(self.$('[data-slider]'), {
@@ -50,20 +69,6 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 				,	prevText: '<a class="home-gallery-prev-icon"></a>'
 				,   auto: true
 				,	pause:6000
-			});
-
-		}
-		,initEssentials: function(){
-			console.log('Testing Carousel');
-
-			jQuery('#container_2').html("<p>Soon you will be HTML</p>");
-
-			$('#container_2').bxSlider({
-				auto: true
-				,	pause:6000
-				, minSlides: 6
-				, maxSlides: 6
-				, slideWidth: 400
 			});
 
 		}

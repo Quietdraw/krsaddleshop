@@ -218,6 +218,7 @@
                     "Cart",
                     "Content",
                     "Facets",
+                    "Footer.View.Extend",
                     "GoogleUniversalAnalytics",
                     "SC.Shopping.Configuration.Custom",
                     "GoogleTagManager",
