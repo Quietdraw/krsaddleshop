@@ -305,6 +305,9 @@ nav.footer {
 }
 
 .footer__legal {
+	@media (min-width: $screen-md-min){
+		text-align: left;
+	}
 	p {
 		color: #e6e4d4;
 		font-family: $font-family-syncopate, sans-serif;
@@ -315,7 +318,17 @@ nav.footer {
 	}
 }
 
+.footer__auxiliary-nav {
+	@media (min-width: $screen-md-min){
+		text-align: right;
+	}
+}
+
 .footer__auxiliary-nav-list {
+	@media (min-width: $screen-md-min){
+		text-align: right;
+		width: auto;
+	}
 	li {
 		display: inline-block;
 		padding: 0 0.4rem;

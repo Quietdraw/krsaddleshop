@@ -7,38 +7,34 @@
 
 // @module Footer
 define(
-	'Footer.View.Extend'
-,	[	'Footer.View'
-	,	'footer.tpl'
+	'Footer.View.Extend', ['Footer.View', 'footer.tpl', 'Backbone', 'Backbone.CompositeView', 'jQuery'],
+	function (FooterView, footer_tpl, Backbone, BackboneCompositeView, jQuery) {
+		'use strict';
 
-	,	'Backbone'
-	,	'Backbone.CompositeView'
-	,	'jQuery'
-	]
-,	function (
-		FooterView
-	,	footer_tpl
+		// @class Footer.View @extends Backbone.View
+		return _.extend(FooterView.prototype, {
 
-	,	Backbone
-	,	BackboneCompositeView
-	,	jQuery
-	)
-{
-	'use strict';
+			events: {
+				'click .footer .menu li  > a': 'toggleFunction'
+			},
+			// Onload
+			initialize: function () {
+				// Inside of Application Skeleton
+				var layout = this.options.application.getLayout();
 
+				// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
+				layout.on('afterAppendToDom', function () {
+					//debugger
+					$('#spanYear').html(new Date().getFullYear());
+				}, this);
+			},
+			// Mobile style menu
+			toggleFunction: function (e) {
+				//console.log(e);
+				e.preventDefault();
+				//debugger
+				this.$(e.target).parent().toggleClass("open");
+			}
 
-	// @class Footer.View @extends Backbone.View
-	return _.extend(FooterView.prototype,{
-
-		events: {
-			'click .footer .menu li  > a': 'toggleFunction'
-		},
-		toggleFunction: function(e){
-			//console.log(e);
-			e.preventDefault();
-			//debugger
-			this.$(e.target).parent().toggleClass("open");
-		}
-
+		});
 	});
-});

@@ -739,7 +739,7 @@ $sc-image-slider-max-width-mobile: 767px;
 // Featured Collections
 .home-featured-collections {
   @media (max-width: $screen-sm-min){
-    padding: 0 15%;
+    padding: 0 5%;
   }
   // Featurette Cards
   .card {
@@ -799,6 +799,48 @@ $sc-image-slider-max-width-mobile: 767px;
   .container {
     border-bottom: 1px solid #777a6c;
     margin-bottom: 50px;
+  }
+  // BX Slider Pager
+  .bx-wrapper {
+    position: relative;
+  }
+  .btn-arrow {
+      span {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background-color: #f0e9e9;
+        display: inline-block;
+        border-radius: 100%;
+        &::after {
+          content: url(../img/arrow-left-brown.svg);
+          width: 10px;
+          height: auto;
+          display: block;
+          top: 50%;
+          left: 50%;
+          line-height: 0;
+          transform: translate(-50%, -50%);
+          position: absolute;
+        }
+      }
+      &.btn-arrow-prev {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+      &.btn-arrow-next {
+        position: absolute;
+        top: 40%;
+        right: 0;
+        transform: translateY(-50%);
+        span {
+          &::after {
+            content: url(../img/arrow-right-brown.svg);
+          }
+        }
+      }
   }
 }
 

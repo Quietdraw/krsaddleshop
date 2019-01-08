@@ -1,24 +1,23 @@
-define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeView,jQuery,_){
+define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (HomeView, jQuery, _) {
 
-	_.extend(HomeView.prototype,{
-	events: {
-		'click button[data-dismiss]': 'stopModalVideo',
-		'click .modal.fade': 'stopModalVideo',
-		'click a[data-toggle]': 'startModalVideo'
-	},
-	initialize: function ()
-		{
+	_.extend(HomeView.prototype, {
+		events: {
+			'click button[data-dismiss]': 'stopModalVideo',
+			'click .modal.fade': 'stopModalVideo',
+			'click a[data-toggle]': 'startModalVideo'
+		},
+		initialize: function () {
 			var self = this;
-			
+
 			// debugger
-			
+
 			this.windowWidth = jQuery(window).width();
 
 			// Inside of Application Skeleton
 			var layout = this.options.application.getLayout();
-			
+
 			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
-			layout.on('afterAppendToDom', function(){
+			layout.on('afterAppendToDom', function () {
 				//debugger
 				$('.home-essentials .row').bxSlider({
 					auto: true,
@@ -26,23 +25,22 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 					maxSlides: 5,
 					slideWidth: 280,
 					moveSlides: 1,
-					pager: false
-				  });
+					pager: false,
+     				prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
+					nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+				});
 			}, this);
 
 			//console.log('Window Size = ' + this.windowWidth + "px");
-			
-			this.on('afterViewRender', function()
-			{
+
+			this.on('afterViewRender', function () {
 				this.listenToOnce(
-					typeof CMS !== 'undefined'? CMS : Backbone.Events, 'cms:rendered', this.initSliders
+					typeof CMS !== 'undefined' ? CMS : Backbone.Events, 'cms:rendered', this.initSliders
 				);
 			});
 
-			var windowResizeHandler = _.throttle(function ()
-			{
-				if (_.getDeviceType(self.windowWidth) === _.getDeviceType(jQuery(window).width()))
-				{
+			var windowResizeHandler = _.throttle(function () {
+				if (_.getDeviceType(self.windowWidth) === _.getDeviceType(jQuery(window).width())) {
 					return;
 				}
 				this.showContent();
@@ -58,31 +56,31 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
 			jQuery(window).on('resize', this._windowResizeHandler);
 			//this.startMailChimp();
 
-		}
-		,initSliders: function(){
-			
+		},
+		initSliders: function () {
+
 			//console.log('Testing Slider');
 
 			var self = this;
 			_.initBxSlider(self.$('[data-slider]'), {
-					nextText: '<a class="home-gallery-next-icon"></a>'
-				,	prevText: '<a class="home-gallery-prev-icon"></a>'
-				,   auto: true
-				,	pause:6000
+				nextText: '<a class="home-gallery-next-icon"></a>',
+				prevText: '<a class="home-gallery-prev-icon"></a>',
+				auto: true,
+				pause: 6000
 			});
 
+		},
+		stopModalVideo: function () {
+			this.$('div#homeVideoModal iframe').remove();
+		},
+		startModalVideo: function () {
+			var videoID = this.$('.home-video-code').text();
+			this.$('div#homeVideoModal .modal-body').html('<iframe src="https://player.vimeo.com/video/' + videoID + '?autoplay=1" class="video-play-url" frameborder="0" allowfullscreen=""></iframe>');
 		}
-		,stopModalVideo: function() {
-      	this.$('div#homeVideoModal iframe').remove();
-    }
-  	,startModalVideo: function() {
-  		var videoID = this.$('.home-video-code').text();
-    	this.$('div#homeVideoModal .modal-body').html('<iframe src="https://player.vimeo.com/video/'+videoID+'?autoplay=1" class="video-play-url" frameborder="0" allowfullscreen=""></iframe>');
-  	}
-  	//,startMailChimp: function() {
+		//,startMailChimp: function() {
 
-  	    // Fill in your MailChimp popup settings below.
-				/*var mailchimpConfig = {
+		// Fill in your MailChimp popup settings below.
+		/*var mailchimpConfig = {
           baseUrl: 'mc.us1.list-manage.com',
           uuid: 	 '71538d58586f8eee69f172c09',
           lid: 		 'b6b57b4dea'
@@ -101,26 +99,7 @@ define('Home.View.Extension',['Home.View','jQuery','underscore'],function (HomeV
         document.body.appendChild(chimpPopup);
     		//});*/
 
-	//	}
+		//	}
 	});
-
-	return {
-
-        mountToApp: function (application) {
-
-			var container = $(".card-img-top");
-			
-
-			var simple = jQuery('#site-header')[0];
-			console.log(simple);
-
-			
-
-			jQuery('.home-featured-collections').hide()
-			
-			$('#container_2').html("<p>Soon you will be HTML</p>");
-
-        }
-    }
 
 });
