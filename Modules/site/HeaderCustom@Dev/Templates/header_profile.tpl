@@ -22,6 +22,9 @@
 
 	{{#if showLoginMenu}}
 		{{#if showLogin}}
+
+		<p>Three</p>
+
 			<div class="header-profile-menu-login-container">
 				<ul class="header-profile-menu-login">
 					<li>
@@ -43,6 +46,9 @@
 			</div>
 		{{/if}}
 	{{else}}
+
+	<p>Four</p>
+
 		<a class="header-profile-loading-link">
 			<i class="header-profile-loading-icon"></i>
 			<span class="header-profile-loading-indicator"></span>
@@ -50,3 +56,5 @@
 	{{/if}}
 
 {{/if}}
+
+<p>Five</p>

@@ -65,9 +65,11 @@ define(
 			{
 				this.showSiteSearch(null, true);
 			}*/
+			/*
 			if (_.getDeviceType() !== 'desktop'){
 				this.hideSiteSearch();
 			}
+			*/
 		}
 	});
 

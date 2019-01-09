@@ -182,7 +182,7 @@ define(
 
             // @property {String} logoUrl header will show an image with the url you set here
             ,
-            logoUrl: _.getAbsoluteUrl('img/KRSSwebret.png')
+            logoUrl: _.getAbsoluteUrl('img/logo-w-header-brown.svg')
 
                 // @property {String} defaultSearchUrl
                 ,

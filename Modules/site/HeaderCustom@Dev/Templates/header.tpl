@@ -7,6 +7,28 @@
 
 <div class="header-message" data-type="message-placeholder"></div>
 
+<section class="global-header-mobile">
+	<div class="global-header-announcement-wrapper">
+			<div class="global-header-announcement" data-cms-area="global_header_announcement" data-cms-area-filters="global"></div>
+	</div>
+
+	<div class="global-header-mobile__navigation">
+		<i class="global-header-mobile__toggle-menu"></i>
+		<div class="global-header-mobile__logo">
+			<img alt="King Ranch Saddle Shop logo" src="/img/logo-w-header-brown.svg">
+		</div>
+		<div class="global-header-mobile__auxiliary-links">
+				<div class="header-menu-profile" data-view="Header.Profile"></div>
+				<div data-view="Header.MiniCart"></div>
+		</div>
+	</div>
+
+	<div class="global-header-mobile__search">
+		<div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
+	</div>
+</section>
+<!-- 
+
 <div class="header-main-wrapper">
 
 	<div class="header-topsection">
@@ -88,7 +110,7 @@
 						<li class="social-dark-icon"><a href="https://www.facebook.com/Kingranchsaddleshop" target="_blank"><i class="fa-facebook"></i></a></li>
 						<li class="social-dark-icon"><a href="https://instagram.com/kingranchsaddleshop/" target="_blank"><i class="fa-instagram"></i></a></li>
 						<li class="social-dark-icon"><a href="https://www.pinterest.com/krsaddleshop" target="_blank"><i class="fa-pinterest"></i></a></li>
-					</ul><!-- /.social -->
+					</ul>
 
 					<div class="header-menu-quote" data-view="RequestQuoteWizardHeaderLink">
 					</div>
@@ -101,8 +123,12 @@
 	</nav>
 </div>
 
+
 <div class="header-sidebar-overlay" data-action="header-sidebar-hide"></div>
 <div class="header-secondary-wrapper" data-view="Header.Menu" data-phone-template="header_sidebar" data-tablet-template="header_sidebar">
 </div>
 
+
+
 <div class="header-banner-section" data-cms-area="header-banner-section" data-cms-area-filters="global"></div>
+-->

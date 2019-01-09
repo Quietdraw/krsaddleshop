@@ -11,14 +11,6 @@ $sc-main-nav-link-height: 44px;
 $sc-secondary-menu-height: auto;
 $sc-sidebar-size: 100vw;
 
-.shopping-layout-header{
-	@media (max-width: $screen-md-min) {
-			border-bottom: 2px solid $sc-color-grey-light;
-	}	
-	@media (max-width: $screen-sm-min) {
-   		margin-bottom: 15px;
-  }
-}
 
 .header-menu-quote
 {
@@ -255,9 +247,6 @@ $sc-sidebar-size: 100vw;
 }
 
 .site-search{
-	@media (max-width: $screen-md-min) {
-    	margin-bottom: 13px;
-	}
 }
 
 .header-menu-search-icon,
@@ -501,8 +490,8 @@ and (orientation : portrait) { padding-top: 40px; }
 	display: block;
 }
 .header-site-search {
-	display: none;
-	width: 100%;
+	//display: none;
+	//width: 100%;
 	@media (min-width: $screen-md-min) {
 		display: block;
 	}
@@ -576,9 +565,7 @@ and (orientation : portrait) { padding-top: 40px; }
 .global-header-announcement-wrapper {
 	display: block;
     clear: both;
-    margin-bottom: 15px;
     position: relative;
-    top: -15px;
 }
 
 .global-header-announcement {
@@ -587,22 +574,57 @@ and (orientation : portrait) { padding-top: 40px; }
 		margin: 0;
 		padding: 10px 15px;
 		line-height: 1.3em;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		letter-spacing: 0.1em;
-		color: #d7b578;
+		color: #702b25;
 		text-transform: uppercase;
 		text-align: center;
 		font-family: "Open Sans",sans-serif;
 	}
 }
 
+// Quietdraw Custom
 
-//////Hader - Promo Section
+.global-header-mobile {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 10;
+	background-color: white;
+	@media (min-width: $screen-md-min) {
+		display: none;
+	}
+}
+.global-header-mobile__navigation {
+	padding: 4px 15px;
+	border-bottom: 1px solid #e3e1d1;
+	text-align: center;
+	position: relative;
+}
+
+.global-header-mobile__toggle-menu {
+	@extend .fa;
+	@extend %fa-bars;
+	color: #702b25;
+	font-size: 24px;
+	position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+.global-header-mobile__logo {
+	width: 70px;
+	margin: auto;
+}
+
+//////Header - Promo Section
 .header-banner-container{
 	@extend .container;
 }
 .header-banner{
-		background:$sc-color-secondary;
+	background:$sc-color-secondary;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;

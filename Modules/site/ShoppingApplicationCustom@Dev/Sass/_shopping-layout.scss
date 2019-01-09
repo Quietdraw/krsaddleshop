@@ -9,11 +9,6 @@
 	@extend %sc-layout;
 }
 
-.shopping-layout-header {
-  @include box-shadow(none);
-  margin-bottom: $sc-base-margin * 4;
-}
-
 .shopping-layout-footer {
 	@extend %sc-footer;
 }

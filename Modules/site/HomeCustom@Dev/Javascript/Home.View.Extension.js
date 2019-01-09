@@ -16,20 +16,26 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 			// Inside of Application Skeleton
 			var layout = this.options.application.getLayout();
 
+			
+
 			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
-			layout.on('afterAppendToDom', function () {
-				//debugger
-				$('.home-essentials .row').bxSlider({
-					auto: true,
-					minSlides: 1,
-					maxSlides: 5,
-					slideWidth: 280,
-					moveSlides: 1,
-					pager: false,
-     				prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
-					nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
-				});
-			}, this);
+			if (_.getDeviceType() !== 'phone'){
+				layout.on('afterAppendToDom', function () {
+					//debugger
+					essentials = $('.home-essentials .row').bxSlider({
+						auto: true,
+						minSlides: 1,
+						maxSlides: 5,
+						slideWidth: 450,
+						moveSlides: 1,
+						pager: false,
+						shrinkItems: true,
+						 prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
+						nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+					});
+				}, this);
+			}
+			
 
 			//console.log('Window Size = ' + this.windowWidth + "px");
 
@@ -40,9 +46,11 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 			});
 
 			var windowResizeHandler = _.throttle(function () {
+
 				if (_.getDeviceType(self.windowWidth) === _.getDeviceType(jQuery(window).width())) {
 					return;
 				}
+
 				this.showContent();
 
 				_.resetViewportWidth();
@@ -63,6 +71,9 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 
 			var self = this;
 			_.initBxSlider(self.$('[data-slider]'), {
+				nextSelector: '.home-slider-next',
+				prevSelector: '.home-slider-prev',
+				pagerSelector: '.home-slider-pager',
 				nextText: '<a class="home-gallery-next-icon"></a>',
 				prevText: '<a class="home-gallery-prev-icon"></a>',
 				auto: true,

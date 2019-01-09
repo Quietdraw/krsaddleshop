@@ -17,7 +17,23 @@
 //
 // Styleguide 1.1
 
-
+@mixin button-outlined($color: #777a6c, $size: 0.8rem) {
+	font-family: "Gotham Light", sans-serif;
+	text-transform: uppercase;
+	color: $color;
+	padding: 10px 15px;
+	font-size: $size;
+	border: 1px solid $color;
+	border-radius: 6px;
+	display: inline-block;
+	@include transition-duration(.2s);
+	@include transition-timing-function(ease);
+	&:hover{
+	  background-color: #702b25;
+	  color: white;
+	  border-color: #702b25; 
+	}
+  }
 
 .button-primary{
 	color:#FFFFFF;
