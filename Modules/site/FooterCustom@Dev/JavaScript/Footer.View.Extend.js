@@ -27,6 +27,9 @@ define(
 					//debugger
 					$('#spanYear').html(new Date().getFullYear());
 				}, this);
+				
+				// This pulls in all the Header Backbone Views
+				BackboneCompositeView.add(this);
 			},
 			// Mobile style menu
 			toggleFunction: function (e) {

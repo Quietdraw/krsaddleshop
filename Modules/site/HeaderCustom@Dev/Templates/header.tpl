@@ -7,15 +7,33 @@
 
 <div class="header-message" data-type="message-placeholder"></div>
 
+<section class="global-header-usertools-wrapper">
+	<div class="container">
+		<div class="global-header__search">
+			<div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
+		</div>
+		<div class="global-header__auxiliary-links">
+				<div class="header-menu-profile" data-view="Header.Profile"></div>
+				<div data-view="Header.MiniCart"></div>
+		</div>
+	</div>	
+</section>
+
+<section class="global-header-announcement-wrapper">
+		<div class="global-header-announcement" data-cms-area="global_header_announcement" data-cms-area-filters="global"></div>
+</section>
+
 <section class="global-header-mobile">
-	<div class="global-header-announcement-wrapper">
-			<div class="global-header-announcement" data-cms-area="global_header_announcement" data-cms-area-filters="global"></div>
-	</div>
+	
 
 	<div class="global-header-mobile__navigation">
-		<i class="global-header-mobile__toggle-menu"></i>
+		<button class="global-header-mobile__toggle-button" data-action="mobile-menu-show">
+			<i class="global-header-mobile__toggle-menu"></i>
+		</button>
 		<div class="global-header-mobile__logo">
-			<img alt="King Ranch Saddle Shop logo" src="/img/logo-w-header-brown.svg">
+			<a href="/" data-touchpoint="home" data-hashtag="#" title="King Ranch Saddle Shop">
+				<img alt="King Ranch Saddle Shop logo" src="/img/logo-w-header-brown.svg">
+			</a>
 		</div>
 		<div class="global-header-mobile__auxiliary-links">
 				<div class="header-menu-profile" data-view="Header.Profile"></div>
@@ -26,7 +44,19 @@
 	<div class="global-header-mobile__search">
 		<div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
 	</div>
+
+
+	<div class="global-header-mobile__primary-nav">
+		<div class="header-secondary-wrapper" data-view="Header.Menu" data-phone-template="header_sidebar" data-tablet-template="header_sidebar"></div>
+	</div>
 </section>
+
+<section class="global-header-navigation__wrapper">
+	<div class="global-header-navigation__primary-nav">
+		<div data-view="Header.Menu"></div>
+	</div>
+</section>
+
 <!-- 
 
 <div class="header-main-wrapper">

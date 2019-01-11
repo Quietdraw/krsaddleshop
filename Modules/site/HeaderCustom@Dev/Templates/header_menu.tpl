@@ -11,16 +11,16 @@
 
 		{{#each categories}}
 		<li {{#if categories}} class="dropdown-link" {{/if}}>
-			<a class="{{class}}" {{objectToAtrributes this}} {{#if categories}}data-toggle="dropdown"{{/if}}>
-			{{text}}
+			<a class="{{class}}" {{objectToAtrributes this}} {{#if categories}}data-toggle="dropdown"{{/if}}>{{#if image}}<i class="global-header-navigation__logo"></i>{{else}}{{text}}{{/if}}
 			</a>
 			{{#if categories}}
 			<ul class="header-menu-level-container">
 				<li>
+					<span>Shop by category</span>
 					<ul class="header-menu-level2">
 						{{#each categories}}
 						<li>
-							<a class="{{class}}" {{objectToAtrributes this}}>{{text}}</a>
+							<a class="{{class}}" {{objectToAtrributes this}}>{{#if image}}<img src="{{image}}">{{else}}{{text}}{{/if}}</a>
 
 							{{#if categories}}
 							<ul class="header-menu-level3">

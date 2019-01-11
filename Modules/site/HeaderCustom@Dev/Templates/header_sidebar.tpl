@@ -6,11 +6,8 @@
 }}
 
 <div class="header-sidebar-wrapper">
-	<div data-view="Header.Profile"></div>
 	
 	<div class="header-sidebar-menu-wrapper" data-type="header-sidebar-menu">
-
-<p>Six</p>
 
 		<ul class="header-sidebar-menu">
 			{{#each categories}}
@@ -69,16 +66,12 @@
 
 	</div>
 
-	<p>Seven</p>
-
 	{{#if showExtendedMenu}}
 	<a class="header-sidebar-user-logout" href="#" data-touchpoint="logout" name="logout">
 		<i class="header-sidebar-user-logout-icon"></i>
 		{{translate 'Sign Out'}}
 	</a>
 	{{/if}}
-
-	<p>Eight</p>
 
 	{{#if showLanguages}}
 	<div data-view="Global.HostSelector"></div>
@@ -87,8 +80,4 @@
 	<div data-view="Global.CurrencySelector"></div>
 	{{/if}}
 
-	<p>Nine</p>
-
 </div>
-
-<p>Ten</p>

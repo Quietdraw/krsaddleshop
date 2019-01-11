@@ -16,25 +16,21 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 			// Inside of Application Skeleton
 			var layout = this.options.application.getLayout();
 
-			
-
-			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
-			if (_.getDeviceType() !== 'phone'){
-				layout.on('afterAppendToDom', function () {
-					//debugger
-					essentials = $('.home-essentials .row').bxSlider({
-						auto: true,
-						minSlides: 1,
-						maxSlides: 5,
-						slideWidth: 450,
-						moveSlides: 1,
-						pager: false,
-						shrinkItems: true,
-						 prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
-						nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
-					});
-				}, this);
-			}
+			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView, etc.
+			layout.on('afterAppendToDom', function () {
+				//debugger
+				essentials = $('.home-essentials .row').bxSlider({
+					auto: true,
+					minSlides: 1,
+					maxSlides: 5,
+					slideWidth: 450,
+					moveSlides: 1,
+					pager: false,
+					shrinkItems: true,
+					 prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
+					nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+				});
+			}, this);
 			
 
 			//console.log('Window Size = ' + this.windowWidth + "px");
@@ -66,9 +62,6 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 
 		},
 		initSliders: function () {
-
-			//console.log('Testing Slider');
-
 			var self = this;
 			_.initBxSlider(self.$('[data-slider]'), {
 				nextSelector: '.home-slider-next',
