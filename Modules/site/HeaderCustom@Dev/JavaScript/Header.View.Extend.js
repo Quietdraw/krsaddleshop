@@ -56,7 +56,8 @@ define(
 	return _.extend(HeaderView.prototype,{
 		// Bind Backbone.Events = Click
 		events: {
-			'click .global-header-mobile__toggle-button': 'toggleMobileMenu'
+			'click .global-header-mobile__toggle-button': 'toggleMobileMenu',
+			'click .header-menu-level1-anchor': 'toggleDesktopMenu'
 		},
 		// Onload
 		initialize: function () {
@@ -97,9 +98,26 @@ define(
 		},
 		toggleMobileMenu: function (e) {
 			//console.log(e);
+			//console.log('Menu Clicked New');
 			e.preventDefault();
 			//debugger
 			this.$('.global-header-mobile__primary-nav').toggleClass("open");
+		},
+		toggleDesktopMenu: function (e) {
+			//console.log(e);
+			e.preventDefault();
+			//console.log('Menu Clicked - Toggle Paerents');
+			
+			
+			if (this.$(e.target).parent().hasClass("open")) {
+				this.$(e.target).parent().toggleClass("open");
+				$('.global-header-navigation__wrapper').removeClass("menu-open");
+			} else {
+				$('.global-header-navigation__wrapper').addClass("menu-open");
+				$('.header-menu-level1-anchor').parent().removeClass('open');
+				this.$(e.target).parent().addClass("open");
+			}
+			
 		},
 		verifyShowSiteSearch: function ()
 		{

@@ -10,8 +10,8 @@
 	<ul class="header-menu-level1">
 
 		{{#each categories}}
-		<li {{#if categories}} class="dropdown-link" {{/if}}>
-			<a class="{{class}}" {{objectToAtrributes this}} {{#if categories}}data-toggle="dropdown"{{/if}}>{{#if image}}<i class="global-header-navigation__logo"></i>{{else}}{{text}}{{/if}}
+		<li {{#if categories}} class="menu-dropdown-link" {{/if}}>
+			<a class="{{class}}" {{objectToAtrributes this}} {{#if categories}} {{/if}}>{{#if image}}<i class="global-header-navigation__logo"></i>{{else}}{{text}}{{/if}}
 			</a>
 			{{#if categories}}
 			<ul class="header-menu-level-container">

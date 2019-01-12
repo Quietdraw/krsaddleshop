@@ -217,7 +217,7 @@ define(
                 },
                 {
                     text: _('Men').translate(),
-                    href: '/men',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -289,7 +289,7 @@ define(
                 },
                 {
                     text: _('Women').translate(),
-                    href: '/women',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -342,7 +342,7 @@ define(
                 },
                 {
                     text: _('YOUTH').translate(),
-                    href: '/youth',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -368,7 +368,7 @@ define(
                 },
                 {
                     text: _('Luggage').translate(),
-                    href: '/luggage',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -431,7 +431,7 @@ define(
                 },
                 {
                     text: _('Outdoors').translate(),
-                    href: '/outdoors',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -466,7 +466,7 @@ define(
                 },
                 {
                     text: _('Office').translate(),
-                    href: '/office',
+                    href: '#',
                     'class': 'header-menu-level1-anchor',
                     categories: [{
                             text: _('Briefcases').translate(),
@@ -508,7 +508,7 @@ define(
                 },
                 {
                     text: _('Ranch Home').translate(),
-                    href: '/ranch-home',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -615,7 +615,7 @@ define(
                 },
                 {
                     text: _('Saddles').translate(),
-                    href: '/saddles',
+                    href: '#',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
