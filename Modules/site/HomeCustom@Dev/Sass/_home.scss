@@ -170,7 +170,8 @@ $sc-image-slider-max-width-mobile: 767px;
 	}
 	p {
 		color: #777a6c;
-		font-family: $font-family-syncopate;
+    font-family: $font-family-syncopate;
+    text-transform: uppercase;
     margin-bottom: 15px;
     font-size: 0.6rem;
     @media (max-width: $screen-sm-min - 1){
@@ -806,6 +807,7 @@ $sc-image-slider-max-width-mobile: 767px;
     text-align: center;
     font-size: 15px;
     font-family: $font-family-syncopate;
+    text-transform: uppercase;
 }
 
 .home-video-button{
@@ -907,6 +909,7 @@ $sc-image-slider-max-width-mobile: 767px;
     .card-title {
       font-size: 1.4rem;
       font-family: $font-family-syncopate;
+      text-transform: uppercase;
       @media (min-width: $screen-sm-min){
         font-size: 1.3rem;
         height: 40px;
@@ -937,6 +940,7 @@ $sc-image-slider-max-width-mobile: 767px;
   .card-title {
     font-size: 0.8rem;
     font-family: $font-family-syncopate;
+    text-transform: uppercase;
     margin-bottom: unset;
   }
 }
@@ -995,6 +999,7 @@ $sc-image-slider-max-width-mobile: 767px;
   display: table;
   white-space: nowrap;
   font-family: $font-family-syncopate;
+  text-transform: uppercase;
   font-weight: bold;
   line-height: 1em;
   margin: 40px 0;
@@ -1048,6 +1053,7 @@ $sc-image-slider-max-width-mobile: 767px;
   p {
     color: #777a6c;
     font-family: $font-family-syncopate;
+    text-transform: uppercase;
     font-size: 1rem;
     margin-bottom: 15px;
     @media (min-width: $screen-md-min){
