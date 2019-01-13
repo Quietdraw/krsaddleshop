@@ -25,7 +25,7 @@ define(
 				// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
 				layout.on('afterAppendToDom', function () {
 					//debugger
-					$('#spanYear').html(new Date().getFullYear());
+					this.$('#spanYear').html(new Date().getFullYear());
 				}, this);
 				
 				// This pulls in all the Header Backbone Views

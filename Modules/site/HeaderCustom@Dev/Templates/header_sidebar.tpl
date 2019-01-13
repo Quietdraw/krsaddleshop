@@ -4,69 +4,34 @@
 	provided, however, if you are an authorized user with a NetSuite account or log-in, you
 	may use this code subject to the terms that govern your access and use.
 }}
+<nav class="header-menu-mobile-nav__wrapper">
+	<div class="header-menu-mobile-nav__container">
+		<ul class="header-menu-mobile-nav__lists">
 
-<div class="header-sidebar-wrapper">
-	
-	<div class="header-sidebar-menu-wrapper" data-type="header-sidebar-menu">
-
-		<ul class="header-sidebar-menu">
 			{{#each categories}}
-			<li class="{{#if @last}}header-sidebar-menu-lastoption{{/if}}">
-				<a {{objectToAtrributes this}} {{#if categories}}data-action="push-menu"{{/if}} name="{{text}}">
-				{{text}}
-				{{#if categories}}<i class="header-sidebar-menu-push-icon"></i>{{/if}}
-				</a>
+			<li {{#if categories}} class="menu-item menu-item-has-children" {{/if}}>
+				{{#if image}}{{else}}<a href="" data-toggle-submenu >{{text}} <i class="toggle-menu-arrow"></i></a>{{/if}}
 				{{#if categories}}
-				<ul>
-
-					<li>
-						<a href="#" class="header-sidebar-menu-back" data-action="pop-menu" name="back-sidebar">
-							<i class="header-sidebar-menu-pop-icon"></i>
-							{{translate 'Back'}}
-						</a>
-					</li>
+				<ul class="sub-menu">
+					<span>Shop by category</span>
 					{{#each categories}}
-					<li>
-						<a {{objectToAtrributes this}} {{#if categories}}data-action="push-menu"{{/if}}>
-						{{text}}
-						{{#if categories}}<i class="header-sidebar-menu-push-icon"></i>{{/if}}
-						</a>
-
-						{{#if categories}}
-						<ul>
-							<li>
-								<a href="#" class="header-sidebar-menu-back" data-action="pop-menu">
-									<i class="header-sidebar-menu-pop-icon"></i>
-									{{translate 'Back'}}
-								</a>
-							</li>
-							{{#each categories}}
-							<li>
-								<a {{objectToAtrributes this}} name="{{text}}">{{text}}</a>
-							</li>
-							{{/each}}
-						</ul>
-						{{/if}}
+					<li class="menu-item">
+						<a {{objectToAtrributes this}}>{{text}}</a>
 					</li>
 					{{/each}}
 				</ul>
 				{{/if}}
 			</li>
 			{{/each}}
-			<li><a href="/about-us" data-touchpoint="home" data-hashtag="#about-us">Our Heritage</a></li>
-			<li><a href="/corporate-gifts" data-touchpoint="home" data-hashtag="#corporate-gifts">Corporate Gifts</a></li>
-			<li class="header-sidebar-menu-separator"></li>
-			{{#if showExtendedMenu}}
-			<li class="header-sidebar-menu-myaccount" data-view="Header.Menu.MyAccount"></li>
-			{{/if}}
-			<li data-view="RequestQuoteWizardHeaderLink">
-			</li>
-			<li><a href="/faq" data-touchpoint="home" data-hashtag="#faq">Help</a></li>
+
 		</ul>
-
 	</div>
+</nav>
 
-	{{#if showExtendedMenu}}
+	
+
+
+{{#if showExtendedMenu}}
 	<a class="header-sidebar-user-logout" href="#" data-touchpoint="logout" name="logout">
 		<i class="header-sidebar-user-logout-icon"></i>
 		{{translate 'Sign Out'}}
@@ -79,5 +44,3 @@
 	{{#if showCurrencies}}
 	<div data-view="Global.CurrencySelector"></div>
 	{{/if}}
-
-</div>

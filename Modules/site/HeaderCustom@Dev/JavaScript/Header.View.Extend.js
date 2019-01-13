@@ -57,7 +57,9 @@ define(
 		// Bind Backbone.Events = Click
 		events: {
 			'click .global-header-mobile__toggle-button': 'toggleMobileMenu',
-			'click .header-menu-level1-anchor': 'toggleDesktopMenu'
+			'click .header-menu-level1-anchor': 'toggleDesktopMenu',
+			'click a[data-toggle-submenu]': 'toggleMobileMenuLinks',
+			'click .global-header-mobile__closer-menu': 'toggleMobileMenu'
 		},
 		// Onload
 		initialize: function () {
@@ -65,10 +67,7 @@ define(
 
 			var layout = this.options.application.getLayout();
 
-			// Backbone.Events = https://developers.suitecommerce.com/til-thursday-netsuite-professional-services-best-practices#title15
-			layout.on('afterAppendToDom', function () {
-				//debugger
-			}, this);
+			
 
 			this.on('afterViewRender', function () {
 				// object.listenToOnce(other, event, callback)
@@ -82,43 +81,44 @@ define(
 			// This pulls in all the Header Backbone Views
 			BackboneCompositeView.add(this);
 
+			// URL has changed and new model list is pulled into DOM
+			Backbone.history.on('all', this.displayDropdownNav, this);
+
 		},
 		siteWideAnnouncement: function () {
-			if ($('.global-header-announcement .cms-content').children().length > 0 ) {
-				$('.global-header-announcement-wrapper').addClass("cms-content-yes");
-				var announcementHeight = $('.global-header-announcement').height();
-				var mobileHeaderHeight = $('.global-header-mobile').height();
-				$('#main').addClass('global-header-announcement-cms-yes');
-				//$('.global-header-usertools-wrapper').css('height', announcementHeight );
-				//$('.global-header-announcement-cms-yes #main-container').css('margin-top', announcementHeight + mobileHeaderHeight);
-				
-				console.log('Announement + Mobile = ' + announcementHeight +  mobileHeaderHeight + 'px');
-				//$('.global-header-mobile').css('margin-top', announcementHeight);
+			if (this.$('.global-header-announcement .cms-content').children().length > 0 ) {
+				this.$('.global-header-announcement-wrapper').addClass("cms-content-yes");
+				this.$('#main').addClass('global-header-announcement-cms-yes');
 		   	}
 		},
 		toggleMobileMenu: function (e) {
-			//console.log(e);
-			//console.log('Menu Clicked New');
 			e.preventDefault();
+			console.log(e);
 			//debugger
-			this.$('.global-header-mobile__primary-nav').toggleClass("open");
+			this.$('.global-header-mobile').toggleClass('mobile-menu-open');
 		},
 		toggleDesktopMenu: function (e) {
 			//console.log(e);
 			e.preventDefault();
-			//console.log('Menu Clicked - Toggle Paerents');
-			
 			
 			if (this.$(e.target).parent().hasClass("open")) {
 				this.$(e.target).parent().toggleClass("open");
-				$('.global-header-navigation__wrapper').removeClass("menu-open");
+				this.$('.global-header-navigation__wrapper').removeClass("menu-open");
 			} else {
-				$('.global-header-navigation__wrapper').addClass("menu-open");
-				$('.header-menu-level1-anchor').parent().removeClass('open');
+				this.$('.global-header-navigation__wrapper').addClass("menu-open");
+				this.$('.header-menu-level1-anchor').parent().removeClass('open');
 				this.$(e.target).parent().addClass("open");
 			}
+		},
+		// Mobile style menu
+		toggleMobileMenuLinks: function (e) {
+			//console.log(e);
+			e.preventDefault();
+			//debugger
+			this.$(e.target).parent().toggleClass("open");
 			
 		},
+		// @method verifyShowSiteSearch expand the site search only if hash===home and (phone or tablet)
 		verifyShowSiteSearch: function ()
 		{
 			var hash = Backbone.history.getFragment() || '';
@@ -134,6 +134,22 @@ define(
 				this.hideSiteSearch();
 			}
 			*/
+		},
+		displayDropdownNav: function ()
+		{
+			// console.log('URL Changed');
+
+			if (_.getDeviceType() !== 'desktop')
+			{
+				this.$('.global-header-mobile').removeClass('mobile-menu-open');
+				this.$('.menu-item-has-children').removeClass("open");
+			} else {
+				// Clean up the Header Nav
+				this.$('.global-header-navigation__wrapper').removeClass("menu-open");
+				this.$('.header-menu-level1-anchor').parent().removeClass('open');
+			}
+			
+			
 		}
 	});
 
