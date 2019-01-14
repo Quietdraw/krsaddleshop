@@ -76,6 +76,16 @@ define(
 					'cms:rendered', 
 					this.siteWideAnnouncement
 				);
+
+				var hash = Backbone.history.getFragment() || '';
+				hash = hash.indexOf('?') === -1 ? hash : hash.substring(0, hash.indexOf('?'));
+				var is_home = hash === '' || hash === '/';
+
+				if (is_home) {
+					//this.showSiteSearch(null, true);
+					this.initializeHomeNav();
+					console.log('This is the Home Page');
+				}
 			});
 
 			// This pulls in all the Header Backbone Views
@@ -83,6 +93,13 @@ define(
 
 			// URL has changed and new model list is pulled into DOM
 			Backbone.history.on('all', this.displayDropdownNav, this);
+
+			// Lets see if we can listen for Scrolling
+			//_.bindAll(this, 'detect_scroll');
+			// bind to window
+			$(window).scroll(this.detect_scroll);
+
+			
 
 		},
 		siteWideAnnouncement: function () {
@@ -138,6 +155,9 @@ define(
 		displayDropdownNav: function ()
 		{
 			// console.log('URL Changed');
+			var hash = Backbone.history.getFragment() || '';
+			hash = hash.indexOf('?') === -1 ? hash : hash.substring(0, hash.indexOf('?'));
+			var is_home = hash === '' || hash === '/';
 
 			if (_.getDeviceType() !== 'desktop')
 			{
@@ -147,10 +167,53 @@ define(
 				// Clean up the Header Nav
 				this.$('.global-header-navigation__wrapper').removeClass("menu-open");
 				this.$('.header-menu-level1-anchor').parent().removeClass('open');
+
+				
+
+				if (is_home) {
+					
+					this.$('.global-header-navigation__wrapper').addClass("hash-home");
+				} else {
+					this.$('.global-header-navigation__wrapper').removeClass("hash-home");
+				}
 			}
 			
 			
+		},
+		detect_scroll: function() {
+		  	console.log('detected again');
+		  	// console.log('URL Changed');
+			var hash = Backbone.history.getFragment() || '';
+			hash = hash.indexOf('?') === -1 ? hash : hash.substring(0, hash.indexOf('?'));
+			var is_home = hash === '' || hash === '/';
+
+			if (is_home) {
+				//console.log('home page yes');
+				var main = this.$('#main-container');
+				var nav = this.$('.global-header-navigation__wrapper');
+				//debugger
+				var y = main.offset().top  - jQuery(window).scrollTop();
+
+				console.log(y);
+
+				if (y < -300) {
+					console.log('Scrolled Past Destination');
+					nav.addClass("fix-main-nav");
+				  } else {
+					nav.removeClass("fix-main-nav");
+				  }
+
+
+
+			}
+		},
+		initializeHomeNav: function() {
+			//debugger
+			
+			this.$('.global-header-navigation__wrapper').addClass("hash-home");
+			console.log('Gonzo it was init');
 		}
+		
 	});
 
 });
