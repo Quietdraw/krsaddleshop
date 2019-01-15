@@ -84,7 +84,7 @@ define(
 				if (is_home) {
 					//this.showSiteSearch(null, true);
 					this.initializeHomeNav();
-					console.log('This is the Home Page');
+					
 				}
 			});
 
@@ -110,8 +110,8 @@ define(
 		},
 		toggleMobileMenu: function (e) {
 			e.preventDefault();
-			console.log(e);
-			//debugger
+			
+			
 			this.$('.global-header-mobile').toggleClass('mobile-menu-open');
 		},
 		toggleDesktopMenu: function (e) {
@@ -131,7 +131,7 @@ define(
 		toggleMobileMenuLinks: function (e) {
 			//console.log(e);
 			e.preventDefault();
-			//debugger
+			
 			this.$(e.target).parent().toggleClass("open");
 			
 		},
@@ -181,7 +181,7 @@ define(
 			
 		},
 		detect_scroll: function() {
-		  	console.log('detected again');
+		  	
 		  	// console.log('URL Changed');
 			var hash = Backbone.history.getFragment() || '';
 			hash = hash.indexOf('?') === -1 ? hash : hash.substring(0, hash.indexOf('?'));
@@ -191,13 +191,13 @@ define(
 				//console.log('home page yes');
 				var main = this.$('#main-container');
 				var nav = this.$('.global-header-navigation__wrapper');
-				//debugger
+				
 				var y = main.offset().top  - jQuery(window).scrollTop();
 
-				console.log(y);
+				
 
 				if (y < -300) {
-					console.log('Scrolled Past Destination');
+					
 					nav.addClass("fix-main-nav");
 				  } else {
 					nav.removeClass("fix-main-nav");
@@ -205,10 +205,10 @@ define(
 			}
 		},
 		initializeHomeNav: function() {
-			//debugger
+			
 			
 			this.$('.global-header-navigation__wrapper').addClass("hash-home");
-			console.log('Gonzo it was init');
+			
 		}
 		
 	});

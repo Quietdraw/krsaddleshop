@@ -459,7 +459,8 @@
                     "OrderWizard.Module.Confirmation.Extend",
                     "ItemsKeyMapping.Site",
                     "FacebookTracking",
-                    "QuietDrawCustom"
+                    "QuietDrawCustom",
+                    "SC.Configuration.Extend"
                 ],
                 "amdclean": true,
                 "amdConfig": {
