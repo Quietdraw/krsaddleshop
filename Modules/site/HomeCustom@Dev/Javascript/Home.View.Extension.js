@@ -17,19 +17,24 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 			var layout = this.options.application.getLayout();
 
 			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView, etc.
-			layout.on('afterAppendToDom', function () {
-				//debugger
-				essentials = $('.home-essentials .row').bxSlider({
-					auto: true,
-					minSlides: 1,
-					maxSlides: 5,
-					slideWidth: 450,
-					moveSlides: 1,
-					pager: false,
-					shrinkItems: true,
-					 prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
-					nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
-				});
+			layout.on('afterAppendView', function () {
+				console.log("EXECUTED afterAppendView");
+				debugger;
+				if(this.$el.find('.home-essentials .row').length >0){
+					essentials = this.$el.find('.home-essentials .row').bxSlider({
+						auto: true,
+						minSlides: 1,
+						maxSlides: 5,
+						slideWidth: 450,
+						moveSlides: 1,
+						pager: false,
+						shrinkItems: true,
+						 prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
+						nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+					});
+				}
+				
+				
 			}, this);
 			
 
