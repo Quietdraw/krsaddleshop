@@ -9,6 +9,7 @@
 
 <section class="global-header-usertools-wrapper">
 	<div class="container">
+		<!-- <img class="header-logo-image" src="{{logoCustomUrl}}" alt="{{siteName}}"> -->
 		<div class="global-header__search">
 			<div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
 		</div>

@@ -54,6 +54,12 @@ define(
 
 	// @class Header.View @extends Backbone.View
 	return _.extend(HeaderView.prototype,{
+		getContext: _.wrap(HeaderView.prototype.getContext,function(fn){
+			var fnReturn = fn.apply(this, _.toArray(arguments).slice(1));
+			return _.extend(fnReturn,{
+				logoCustomUrl: Configuration.logoUrl
+			})
+		}),
 		// Bind Backbone.Events = Click
 		events: {
 			'click .global-header-mobile__toggle-button': 'toggleMobileMenu',
