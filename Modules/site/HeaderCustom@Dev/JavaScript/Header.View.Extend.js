@@ -202,9 +202,6 @@ define(
 				  } else {
 					nav.removeClass("fix-main-nav");
 				  }
-
-
-
 			}
 		},
 		initializeHomeNav: function() {
