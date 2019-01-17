@@ -18,8 +18,8 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 
 			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView, etc.
 			layout.on('afterAppendView', function () {
-				console.log("EXECUTED afterAppendView");
-				debugger;
+				
+				
 				if(this.$el.find('.home-essentials .row').length >0){
 					essentials = this.$el.find('.home-essentials .row').bxSlider({
 						auto: true,
