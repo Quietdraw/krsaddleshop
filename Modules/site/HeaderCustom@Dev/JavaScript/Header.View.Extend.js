@@ -193,21 +193,20 @@ define(
 			hash = hash.indexOf('?') === -1 ? hash : hash.substring(0, hash.indexOf('?'));
 			var is_home = hash === '' || hash === '/';
 
-			if (is_home) {
-				//console.log('home page yes');
-				var main = this.$('#main-container');
-				var nav = this.$('.global-header-navigation__wrapper');
-				
-				var y = main.offset().top  - jQuery(window).scrollTop();
+			//console.log('home page yes');
+			var main = this.$('#main-container');
+			var nav = this.$('.global-header-navigation__wrapper');
+			
+			var y = main.offset().top  - jQuery(window).scrollTop();
 
-				
+			
 
-				if (y < -300) {
-					
-					nav.addClass("fix-main-nav");
-				  } else {
-					nav.removeClass("fix-main-nav");
-				  }
+			if (y < -300) {
+				nav.addClass("fix-main-nav");
+				nav.addClass("menu-fixed");
+			} else {
+				nav.removeClass("fix-main-nav");
+				nav.removeClass("menu-fixed");
 			}
 		},
 		initializeHomeNav: function() {

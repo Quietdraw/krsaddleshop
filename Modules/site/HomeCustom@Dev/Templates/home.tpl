@@ -13,31 +13,31 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/home-collections-mens-jackets_1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_01.jpg" alt="Everyday Workwear">
         <div class="card-body">
-          <p class="card-tagline">Dot Wack or Newness Indicator</p>
-          <h5 class="card-title">Men's Jackets</h5>
-          <a href="#" class="btn btn-primary">Shop Now</a>
+          <p class="card-tagline">Everyday Workwear</p>
+          <h5 class="card-title">MEN’S JACKETS</h5>
+          <a href="#" class="btn btn-primary">Shop Outerwear</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/home-collections-hunting-gear_1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_02.jpg" alt="Field Proven Favorites">
         <div class="card-body">
-          <p class="card-tagline">Dot Wack or Newness Indicator</p>
-          <h5 class="card-title">Hunting Gear</h5>
-          <a href="#" class="btn btn-primary">Shop Now</a>
+          <p class="card-tagline">Field Proven Favorites</p>
+          <h5 class="card-title">HUNTING GEAR</h5>
+          <a href="#" class="btn btn-primary">Shop Hunting</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/home-collections-boots_1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_03.jpg" alt="Card image cap">
         <div class="card-body">
-          <p class="card-tagline">Dot Wack or Newness Indicator</p>
-          <h5 class="card-title">Signature Boots</h5>
-          <a href="#" class="btn btn-primary">Shop Now</a>
+          <p class="card-tagline">A Texas Legacy</p>
+          <h5 class="card-title">SIGNATURE BOOTS</h5>
+          <a href="#" class="btn btn-primary">Shop Boots</a>
         </div>
       </div>
     </div>
@@ -127,11 +127,11 @@
 
 <section class="home-spotlight__full">
   <div class="wrapper">
-    <img class="home-spotlight__full_photo" src="/img/home-spotlight-knives.jpg" alt="Some Alt Here">
+    <img class="home-spotlight__full_photo" src="/img/KRSS_MID-FULLWIDTH_01.jpg" alt="WOOD HANDLED CHEF KNIVES">
     <div class="home-spotlight__full_body">
-      <h5>Wood Handled Check Knives</h5>
-      <p>Handmade cultery built to King Ranch specifications.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
+      <h5>Wood Handled Chef Knives</h5>
+      <p>Handmade cutlery built to King Ranch specifications.</p>
+      <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
 </section>
@@ -139,13 +139,14 @@
 <section class="home-spotlight__2-col container">
   <div class="wrapper">
     <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
-      <img src="/img/home-spotlight-field-collection_1.jpg" alt="Some Alt Here">
+      <img src="/img/KRSS_NEWS-IMAGE-01.jpg" alt="Waxed Canvas Bag">
     </div>
     <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
-      <h5>Field Collection</h5>
-      <p class="subheading">A definitive list of essentials</p>
-      <p>The Wild Horse Desert, in the South Texas Plains, is a vast place. The coastal grasslands seem to flow into infinity. No The Wild Horse Desert, in the South Texas Plains, is a vast place.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
+      <p class="tinytype">New Release</p>
+      <h5>Waxed Canvas</h5>
+      <p class="subheading">Durable Field Gear</p>
+      <p>Hunting Gear Bag is Guide -tested waxed canvas fabric with reinforced leather detailing in a six compartment bag to house photography equipment and hunting gear alike, with confidence and security.  Double opening and removable internal Velcro panels allow custom organization.</p>
+      <a href="/WAXED-CANVAS-HUNTING-GEAR-BAG" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
 </section>
@@ -157,33 +158,33 @@
     <div class="row">
       <div class="col col-sm-3">
         <div class="card">
-          <a href="#">
-            <img class="card-img-top" src="/img/home_spotlight_3-col_leather-goods.jpg" alt="Card image cap">
+          <a href="/custitem_websubcat/Carry-Ons--AND--Duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
+            <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
             <div class="card-body">
-              <p class="card-tagline">Explore King Ranch</p>
-              <h5 class="card-title">Leather Goods</h5>
+              <p class="card-tagline">Leather Goods</p>
+              <h5 class="card-title">Saddle Shop Specials</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col col-sm-3">
         <div class="card">
-          <a href="#">
-            <img class="card-img-top" src="/img/home_spotlight_3-col_knives.jpg" alt="Card image cap">
+          <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives">
+            <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
             <div class="card-body">
-              <p class="card-tagline">Explore King Ranch</p>
-              <h5 class="card-title">Knivess</h5>
+              <p class="card-tagline">Knives</p>
+              <h5 class="card-title">Everyday Companions</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col col-sm-3">
         <div class="card">
-          <a href="#">
-            <img class="card-img-top" src="/img/home_spotlight_3-col_travel-gear.jpg" alt="Card image cap">
+          <a href="/luggage/carryons-duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
+            <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_03.jpg" alt="TRAVEL GEAR">
             <div class="card-body">
-              <p class="card-tagline">Explore King Ranch</p>
-              <h5 class="card-title">Travel Gear</h5>
+              <p class="card-tagline">Travel Gear</p>
+              <h5 class="card-title">We Know Leather</h5>
             </div>
           </a>
         </div>

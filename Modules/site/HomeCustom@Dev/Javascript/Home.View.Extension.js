@@ -24,8 +24,8 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 					essentials = this.$el.find('.home-essentials .row').bxSlider({
 						auto: true,
 						minSlides: 1,
-						maxSlides: 5,
-						slideWidth: 450,
+						maxSlides: 6,
+						slideWidth: 230,
 						moveSlides: 1,
 						pager: false,
 						shrinkItems: true,

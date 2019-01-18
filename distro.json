@@ -356,7 +356,9 @@
                     "CMSadapter",
                     "Sensors",
                     "Header.View.Extend",
-                    "ItemsKeyMapping.Site"
+                    "ItemsKeyMapping.Site",
+                    "QuietDrawCustom",
+                    "SC.Configuration.Extend"
                 ],
                 "amdclean": true,
                 "amdConfig": {
