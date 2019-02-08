@@ -17,7 +17,7 @@
         <div class="card-body">
           <p class="card-tagline">Everyday Workwear</p>
           <h5 class="card-title">MEN’S JACKETS</h5>
-          <a href="#" class="btn btn-primary">Shop Outerwear</a>
+          <a href="/custitem_websubcat/Mens-Vests--AND--Jackets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Vests--AND--Jackets" class="btn btn-primary">Shop Outerwear</a>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
         <div class="card-body">
           <p class="card-tagline">Field Proven Favorites</p>
           <h5 class="card-title">HUNTING GEAR</h5>
-          <a href="#" class="btn btn-primary">Shop Hunting</a>
+          <a href="/search?keywords=CAMO" data-touchpoint="home"  class="btn btn-primary">Shop Hunting</a>
         </div>
       </div>
     </div>
@@ -35,9 +35,9 @@
       <div class="card">
         <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_03.jpg" alt="Card image cap">
         <div class="card-body">
-          <p class="card-tagline">A Texas Legacy</p>
-          <h5 class="card-title">SIGNATURE BOOTS</h5>
-          <a href="#" class="btn btn-primary">Shop Boots</a>
+          <p class="card-tagline">Durable Travel Goods</p>
+          <h5 class="card-title">BAGS AND LUGGAGE</h5>
+          <a href="/search?keywords=BAGS" data-touchpoint="home"  class="btn btn-primary">SHOP NOW</a>
         </div>
       </div>
     </div>
@@ -59,7 +59,6 @@
           <a href="https://www.krsaddleshop.com/CANVAS-WORK-JACKET">
             <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
-              <p class="card-tagline">Simple Tagline Here</p>
               <h5 class="card-title">CANVAS WORK JACKET</h5>
             </div>
           </a>
@@ -70,7 +69,6 @@
           <a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE">
             <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
-              <p class="card-tagline">Simple Tagline Here</p>
               <h5 class="card-title">SPORTSMAN SERIES TRAPPER</h5>
             </div>
             
@@ -82,7 +80,6 @@
           <a href="https://www.krsaddleshop.com/MENS-OILSKIN-LIGHTWEIGHT-CANVAS-JACKET">
             <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222749_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
-              <p class="card-tagline">Simple Tagline Here</p>
               <h5 class="card-title">MEN'S OILSKIN LIGHTWEIGHT CANVAS JACKET</h5>
             </div>
           </a>
@@ -93,7 +90,6 @@
           <a href="https://www.krsaddleshop.com/LEATHER-GAME-CARRIER">
             <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222582_main-image[1].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
-              <p class="card-tagline">Simple Tagline Here</p>
               <h5 class="card-title">LEATHER GAME CARRIER</h5>
             </div>
           </a>
@@ -104,7 +100,6 @@
           <a href="https://www.krsaddleshop.com/KING-RANCH-BOS-MENS-BARN-BOOT">
             <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222595_Rust-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
-              <p class="card-tagline">Simple Tagline Here</p>
               <h5 class="card-title">KING RANCH "BOS" MEN'S BARN BOOT</h5>
             </div>
           </a>
@@ -115,7 +110,6 @@
           <a href="https://www.krsaddleshop.com/BOOT-BAG_2">
             <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222588_Saddle%20Tooled-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
-              <p class="card-tagline">Simple Tagline Here</p>
               <h5 class="card-title">BOOT BAG</h5>
             </div>
           </a>
@@ -145,7 +139,7 @@
       <p class="tinytype">New Release</p>
       <h5>Waxed Canvas</h5>
       <p class="subheading">Durable Field Gear</p>
-      <p>Hunting Gear Bag is Guide -tested waxed canvas fabric with reinforced leather detailing in a six compartment bag to house photography equipment and hunting gear alike, with confidence and security.  Double opening and removable internal Velcro panels allow custom organization.</p>
+      <p>Hunting Gear Bag is guide-tested waxed canvas fabric with reinforced leather detailing in a six compartment bag to house photography equipment and hunting gear alike, with confidence and security.  Double opening and removable internal Velcro panels allow custom organization.</p>
       <a href="/WAXED-CANVAS-HUNTING-GEAR-BAG" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
@@ -161,8 +155,8 @@
           <a href="/custitem_websubcat/Carry-Ons--AND--Duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
             <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
             <div class="card-body">
-              <p class="card-tagline">Leather Goods</p>
-              <h5 class="card-title">Saddle Shop Specials</h5>
+              <p class="card-tagline">Saddle Shop Specials</p>
+              <h5 class="card-title">Leather Goods</h5>
             </div>
           </a>
         </div>
@@ -172,8 +166,8 @@
           <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives">
             <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
             <div class="card-body">
-              <p class="card-tagline">Knives</p>
-              <h5 class="card-title">Everyday Companions</h5>
+              <p class="card-tagline">Everyday Companions</p>
+              <h5 class="card-title">Knives</h5>
             </div>
           </a>
         </div>
@@ -183,8 +177,8 @@
           <a href="/luggage/carryons-duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
             <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_03.jpg" alt="TRAVEL GEAR">
             <div class="card-body">
-              <p class="card-tagline">Travel Gear</p>
-              <h5 class="card-title">We Know Leather</h5>
+              <p class="card-tagline">We Know Leather</p>
+              <h5 class="card-title">Travel Gear</h5>
             </div>
           </a>
         </div>
