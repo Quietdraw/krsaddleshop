@@ -104,6 +104,7 @@ define(
                 // @property {closable:Boolean,saveInCookie:Boolean,anchorText:String,message:String} cookieWarningBanner
                 // settings for the cookie warning message (mandatory for UK stores)
                 ,
+            footerLogoUrl: _.getAbsoluteUrl('img/logo-w-footer.svg'),    
             cookieWarningBanner: {
                 closable: true,
                 saveInCookie: true,

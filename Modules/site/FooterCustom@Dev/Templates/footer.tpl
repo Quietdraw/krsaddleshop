@@ -21,6 +21,7 @@
 <footer>
 	<nav id="footer-nav" class="footer">
 		<div class="menu-footer-container">
+			<a id="menu-footer__logo" href="https://king-ranch.com/" target="_blank"><img src="{{{footerLogoCustomUrl}}}"></a>
 			<ul id="menu-footer" class="menu">
 
 				<span class="col-group">

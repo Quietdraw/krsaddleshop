@@ -7,13 +7,26 @@
 
 // @module Footer
 define(
-	'Footer.View.Extend', ['Footer.View', 'footer.tpl', 'Backbone', 'Backbone.CompositeView', 'jQuery'],
-	function (FooterView, footer_tpl, Backbone, BackboneCompositeView, jQuery) {
+	'Footer.View.Extend', 
+	[
+		'Footer.View',
+		'SC.Configuration',
+		'footer.tpl', 
+		'Backbone', 
+		'Backbone.CompositeView', 
+		'jQuery'
+	],
+	function (FooterView, Configuration, footer_tpl, Backbone, BackboneCompositeView, jQuery) {
 		'use strict';
 
 		// @class Footer.View @extends Backbone.View
 		return _.extend(FooterView.prototype, {
-
+			getContext: _.wrap(FooterView.prototype.getContext,function(fn){
+				var fnReturn = fn.apply(this, _.toArray(arguments).slice(1));
+				return _.extend(fnReturn,{
+					footerLogoCustomUrl: Configuration.footerLogoUrl
+				})
+			}),
 			events: {
 				'click .footer .menu li  > a': 'toggleFunction'
 			},

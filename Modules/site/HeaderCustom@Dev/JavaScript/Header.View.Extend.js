@@ -63,7 +63,8 @@ define(
 		// Bind Backbone.Events = Click
 		events: {
 			'click .global-header-mobile__toggle-button': 'toggleMobileMenu',
-			'click .header-menu-level1-anchor': 'toggleDesktopMenu',
+			'click .global-header-navigation__wrapper:not(.menu-open) .header-menu-level1-anchor': 'toggleDesktopMenu',
+			'mouseover .global-header-navigation__wrapper.menu-open .header-menu-level1-anchor': 'toggleDesktopMenu',
 			'click a[data-toggle-submenu]': 'toggleMobileMenuLinks',
 			'click .global-header-mobile__closer-menu': 'toggleMobileMenu'
 		},
@@ -123,6 +124,7 @@ define(
 		toggleDesktopMenu: function (e) {
 			//console.log(e);
 			e.preventDefault();
+
 			
 			if (this.$(e.target).parent().hasClass("open")) {
 				this.$(e.target).parent().toggleClass("open");
@@ -195,6 +197,7 @@ define(
 
 			//console.log('home page yes');
 			var main = this.$('#main-container');
+			var header = this.$('#site-header');
 			var nav = this.$('.global-header-navigation__wrapper');
 			
 			var y = main.offset().top  - jQuery(window).scrollTop();
@@ -202,9 +205,11 @@ define(
 			
 
 			if (y < -300) {
+				header.addClass("menu-fixed");
 				nav.addClass("fix-main-nav");
 				nav.addClass("menu-fixed");
 			} else {
+				header.removeClass("menu-fixed");
 				nav.removeClass("fix-main-nav");
 				nav.removeClass("menu-fixed");
 			}
