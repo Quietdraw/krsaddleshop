@@ -569,10 +569,12 @@ and (orientation : portrait) { padding-top: 40px; }
 
 #site-header {
 	&.menu-fixed {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 5;
+		@media (min-width: 1100px) {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 5;
+		}
 	}
 }
 
@@ -1016,6 +1018,7 @@ and (orientation : portrait) { padding-top: 40px; }
 	position: relative;
 	z-index: 5;
 	background-color: white;
+	overflow: hidden;
 }
 
 .global-header-mobile__toggle-button {
@@ -1241,9 +1244,11 @@ and (orientation : portrait) { padding-top: 40px; }
 
 .header-menu-mobile-nav__container {
 	// Compensate for Mobile Header
-	height: calc(100vh - 160px);
-	overflow: auto;
+	//height: calc(100vh - 160px);
+	//overflow: visible;
+	background-color: white;
 	> ul {
+		padding-bottom: 40px;
 		> li {
 			-webkit-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;

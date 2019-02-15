@@ -63,8 +63,9 @@ define(
 		// Bind Backbone.Events = Click
 		events: {
 			'click .global-header-mobile__toggle-button': 'toggleMobileMenu',
-			'click .global-header-navigation__wrapper:not(.menu-open) .header-menu-level1-anchor': 'toggleDesktopMenu',
-			'mouseover .global-header-navigation__wrapper.menu-open .header-menu-level1-anchor': 'toggleDesktopMenu',
+			'click .header-menu-level1-anchor': 'toggleDesktopMenu',
+			//'click .global-header-navigation__wrapper:not(.menu-open) .header-menu-level1-anchor': 'toggleDesktopMenu',
+			//'mouseover .global-header-navigation__wrapper.menu-open .header-menu-level1-anchor': 'toggleDesktopMenu',
 			'click a[data-toggle-submenu]': 'toggleMobileMenuLinks',
 			'click .global-header-mobile__closer-menu': 'toggleMobileMenu'
 		},
@@ -118,8 +119,9 @@ define(
 		toggleMobileMenu: function (e) {
 			e.preventDefault();
 			
-			
 			this.$('.global-header-mobile').toggleClass('mobile-menu-open');
+			this.$('.header-menu-mobile-nav__lists .menu-item-has-children').removeClass("open");
+			
 		},
 		toggleDesktopMenu: function (e) {
 			//console.log(e);

@@ -28,7 +28,8 @@ define(
 				})
 			}),
 			events: {
-				'click .footer .menu li  > a': 'toggleFunction'
+				'click .footer .menu li  > a': 'toggleFunction',
+				'click #newsletterSubmit': 'newsletterFormAction' 
 			},
 			// Onload
 			initialize: function () {
@@ -50,6 +51,16 @@ define(
 				e.preventDefault();
 				//debugger
 				this.$(e.target).parent().toggleClass("open");
+			},
+			// Mobile style menu
+			newsletterFormAction: function (e) {
+				//console.log(e);
+				//debugger
+				var emailInput = this.$('#newsletterEmail').val();
+				if (!emailInput) {
+					//console.log(emailInput);
+					e.preventDefault();
+				}
 			}
 
 		});
