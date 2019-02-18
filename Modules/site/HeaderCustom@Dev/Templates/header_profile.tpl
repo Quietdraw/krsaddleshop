@@ -22,27 +22,15 @@
 
 	{{#if showLoginMenu}}
 		{{#if showLogin}}
+
 			<div class="header-profile-menu-login-container">
-				<ul class="header-profile-menu-login">
-					<li>
-						<i class="header-profile-login-icon"></i>
-					</li>
-					<li>
-						<a class="header-profile-login-link" data-touchpoint="login" data-hashtag="login-register" href="#">
-							{{translate 'Login'}}
-						</a>
-					</li>
-					{{#if showRegister}}
-						<li>
-							<a class="header-profile-register-link" data-touchpoint="register" data-hashtag="login-register" href="#">
-								{{translate 'Register'}}
-							</a>
-						</li>
-					{{/if}}
-				</ul>
+				<a class="header-profile-login-link" data-touchpoint="login" data-hashtag="login-register" href="#">
+					{{translate 'Login'}}
+				</a>
 			</div>
 		{{/if}}
 	{{else}}
+
 		<a class="header-profile-loading-link">
 			<i class="header-profile-loading-icon"></i>
 			<span class="header-profile-loading-indicator"></span>

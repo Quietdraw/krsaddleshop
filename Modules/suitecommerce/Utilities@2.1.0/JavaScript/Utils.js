@@ -1026,7 +1026,7 @@ define('Utils'
 		{
 			return 'phone';
 		}
-		else if (width < 992)
+		else if (width < 1100)
 		{
 			return 'tablet';
 		}

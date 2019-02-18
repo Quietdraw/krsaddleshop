@@ -6,14 +6,21 @@
 */
 
 .global-views-back-to-top {
-    background: $sc-color-theme-background;
-    border-bottom: 1px solid $sc-color-theme-border;
+    background: #e3e1d1;
+    border-bottom: 1px solid darken(#e3e1d1, 20%);
     display: block;
     text-align:center;
     padding-bottom: $sc-base-padding * 3;
-
+    font-family: $font-family-syncopate;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    color: #777a6c;
     @media (min-width: $screen-sm-min) {
         display: none;
+    }
+    a {
+        color: #777a6c;
     }
 }
 .global-views-back-to-top a:hover {
@@ -21,7 +28,7 @@
 }
 .global-views-back-to-top-icon {
     @extend .icon-angle-up;
-    color: $sc-color-link;
+    color: #777a6c;
     display: block;
     font-size: 22px;
     padding: $sc-base-padding * 2 0 0;

@@ -15,7 +15,6 @@
             <button class="site-search-button-submit" type="submit">
                 <i class="site-search-input-icon"></i>
             </button>
-            <a href="#" class="site-search-button-close" data-action="show-sitesearch">{{translate 'Close'}}</a>
         </form>
     </div>
 </div>

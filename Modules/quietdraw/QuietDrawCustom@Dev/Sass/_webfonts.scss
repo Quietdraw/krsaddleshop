@@ -1,0 +1,37 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3693594, 2019-01-03T17:27:55-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FreightTextProBook-Italic by GarageFonts
+ * URL: https://www.myfonts.com/fonts/garagefonts/freight-text-pro/book-italic/
+ * Copyright: Copyright &#x00A9; 2004-2009, Joshua Darden &amp; Phil's Fonts, Inc. All rights reserved. Published by Garagefonts USA 301-879-9222 www.garagefonts.com
+ * 
+ * Webfont: CentSchbookBTWGL4WXX-Roman by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/century-schoolbook/roman/
+ * Copyright: Copyright 1990-2005 Bitstream Inc. All rights reserved.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3693594
+ * Licensed pageviews: 100,000
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/385c1a");
+
+@font-face {font-family: 'FreightTextProBook-Italic';src: url('../fonts/385C1A_0_0.eot');src: url('../fonts/385C1A_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/385C1A_0_0.woff2') format('woff2'),url('../fonts/385C1A_0_0.woff') format('woff'),url('../fonts/385C1A_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CentSchbookBTWGL4WXX-Roman';src: url('../fonts/385C1A_1_0.eot');src: url('../fonts/385C1A_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/385C1A_1_0.woff2') format('woff2'),url('../fonts/385C1A_1_0.woff') format('woff'),url('../fonts/385C1A_1_0.ttf') format('truetype');}
+
+// Google Fonts
+@import 'https://fonts.googleapis.com/css?family=Syncopate:400,700';
+$font-family-syncopate: 'Syncopate', Verdana , 'Helvetica Neue', Helvetica, sans-serif;
