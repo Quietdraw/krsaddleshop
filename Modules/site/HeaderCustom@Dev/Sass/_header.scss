@@ -1276,9 +1276,7 @@ and (orientation : portrait) { padding-top: 40px; }
 					}
 					
 					> ul {
-						@media (max-width: $screen-md-min - 1){
 							max-height: 999px;
-						}
 					}
 				}
 			}
@@ -1296,12 +1294,10 @@ and (orientation : portrait) { padding-top: 40px; }
 				font-size: 1.3rem;
 			}
 			> ul {
-				@media (max-width: $screen-md-min - 1){
 					max-height: 0;
 					overflow: hidden;
 					-webkit-transition: all .25s ease-in-out;
 					transition: all .25s ease-in-out;
-				}
 				span {
 					display: block;
 					padding: 5px 30px;
