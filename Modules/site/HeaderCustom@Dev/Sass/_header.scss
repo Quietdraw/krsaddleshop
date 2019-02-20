@@ -737,6 +737,7 @@ and (orientation : portrait) { padding-top: 40px; }
 		float: right;
 		font-size: 15px;
 		min-width: 15px;
+		width: 15px;
 		margin-top: -1px;
 		&:before {
 			content: url(../img/icon-shopping-cart.svg);
@@ -1089,6 +1090,7 @@ and (orientation : portrait) { padding-top: 40px; }
 	float: right;
 	font-size: 15px;
 	min-width: 15px;
+	width: 15px;
 	transition: all 300ms;
 	&:before {
 		content: url(../img/icon-closer-x.svg);
@@ -1124,6 +1126,7 @@ and (orientation : portrait) { padding-top: 40px; }
 		float: right;
 		font-size: 15px;
 		min-width: 15px;
+		width: 15px;
 		&:before {
 			content: url(../img/icon-shopping-cart-brown.svg);
 		}

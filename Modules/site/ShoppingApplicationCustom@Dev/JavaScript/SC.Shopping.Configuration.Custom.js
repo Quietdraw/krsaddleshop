@@ -198,6 +198,7 @@ define(
 		,	'Atlantic': { type: 'image', src: '/img/atlantic.png', width: 22, height: 22 } //custom King Ranch color
 		,	'Caribbean': { type: 'image', src: '/img/caribbean.png', width: 22, height: 22 } //custom King Ranch color
 		,	'Camo Fall': { type: 'image', src: '/img/GameGuardCamoFall.png', width: 22, height: 22 } //custom King Ranch color
+		,	defaultColor: 'customImage'
 		}
 	,	lightColors = [
 			'White'
