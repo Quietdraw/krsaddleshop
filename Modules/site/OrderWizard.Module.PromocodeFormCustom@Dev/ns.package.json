@@ -5,6 +5,6 @@
         ]
     },
     "overrides":{
-      "suitecommerce/OrderWizard.Module.Promocodeform@1.0.0/Sass/_order-wizard-promocodeform.scss":"Sass/_order-wizard-promocodeform.scss"
+      "suitecommerce/OrderWizard.Module.PromocodeForm@1.0.0/Sass/_order-wizard-promocodeform.scss":"Sass/_order-wizard-promocodeform.scss"
     }
 }
