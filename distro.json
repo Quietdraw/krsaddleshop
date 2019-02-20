@@ -253,6 +253,9 @@
                     "ItemDetails.View.Custom",
                     "FacebookTracking",
                     "QuietDrawCustom"
+
+				,	"ItemViews.Option.View.CustomImage"
+				,	"ItemViews.SelectedOption.View.CustomImage"
                 ],
                 "amdclean": true,
                 "amdConfig": {
