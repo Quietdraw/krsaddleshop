@@ -10,7 +10,7 @@
 		<h5>Join Our Newsletter</h5>
 		<p>Subscribe to kingranchsaddleshop.com to receive exclusive offers, first looks, event information, and more.</p>
 		<h4>Subscribe</h4>
-		<form id="newsletterSignup" action="http://bm5150.com/public/webform/process/" method="post" target="_blank" _lpchecked="1">
+		<form id="newsletterSignup" action="https://bm5150.com/public/webform/process/" method="post" target="_blank" _lpchecked="1">
 			<input type="hidden" name="fid" value="gglu2ndubpy9709aidn778unjwukp" />
 			<input type="hidden" name="sid" value="3be99a5f342ba23de6556820a2f71b45" />
 			<input type="hidden" name="delid" value="" />
@@ -80,11 +80,11 @@
 						href="#">Locations</a>
 						<ul class="sub-menu">
 							<li id="menu-item-locations" class="menu-item">
-								<div class="locations" itemref="attorneyProfile attorney-list" itemscope="itemscope" itemtype="http://schema.org/Attorney">
+								<div class="locations" itemref="attorneyProfile attorney-list" itemscope="itemscope" itemtype="https://schema.org/Attorney">
 									<meta itemprop="name" content="King Ranch">
-									<div class="location location-1" itemprop="location" itemscope="itemscope" itemtype="http://schema.org/Place">
+									<div class="location location-1" itemprop="location" itemscope="itemscope" itemtype="https://schema.org/Place">
 										<address>
-											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
 												<span itemprop="name" class="office-name"> Saddle Shop</span>
 												<span itemprop="streetAddress" class="office-street-address"> 201 E. Kleberg Ave </span>
 												<span class="office-locality" itemprop="addressLocality">Kingsville</span>, 
@@ -93,7 +93,7 @@
 											</span>
 										</address>
 										<address>
-											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
 												<span itemprop="name" class="office-name"> Century Square College Station</span>
 												<span itemprop="streetAddress" class="office-street-address"> 166 Century Court Drive Suite106</span>
 												<span class="office-locality" itemprop="addressLocality">College Station</span>, 
@@ -102,7 +102,7 @@
 											</span>
 										</address>
 										<address>
-											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
 												<span itemprop="name" class="office-name"> City Centre Houston</span>
 												<span itemprop="streetAddress" class="office-street-address"> 796 Town and Country Blvd Suite 118A</span>
 												<span class="office-locality" itemprop="addressLocality">Houston</span>, 
