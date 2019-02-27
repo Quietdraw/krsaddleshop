@@ -12,6 +12,8 @@
     "modules": {
         "quietdraw/QuietDrawCustom":"Dev",
         "css/FacebookTracking":"Dev",
+        "css/Tracker.Custom":"Dev",
+        "css/AcuityPlatform":"Dev",
         "site/CartCustom":"Dev",
         "site/BaseSassStylesCustom":"Dev",
         "site/CaseCustom":"Dev",
@@ -252,7 +254,9 @@
                     "ItemsKeyMapping.Site",
                     "ItemDetails.View.Custom",
                     "FacebookTracking",
-                    "QuietDrawCustom"
+                    "QuietDrawCustom",
+                    "Cart.Detailed.View.Extend",
+                    "AcuityPlatform"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -358,7 +362,9 @@
                     "Header.View.Extend",
                     "ItemsKeyMapping.Site",
                     "QuietDrawCustom",
-                    "SC.Configuration.Extend"
+
+                    "SC.Configuration.Extend",
+                    "AcuityPlatform"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -462,7 +468,8 @@
                     "ItemsKeyMapping.Site",
                     "FacebookTracking",
                     "QuietDrawCustom",
-                    "SC.Configuration.Extend"
+                    "SC.Configuration.Extend",
+                    "AcuityPlatform"
                 ],
                 "amdclean": true,
                 "amdConfig": {
