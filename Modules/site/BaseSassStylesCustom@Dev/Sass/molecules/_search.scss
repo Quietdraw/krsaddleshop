@@ -18,7 +18,7 @@
     clear:both;
     margin-top: 0;
     margin-bottom: 0;
-    height: 50px;
+    //height: 50px;
     padding: 0;
     position:relative;
 
@@ -123,14 +123,11 @@
     color:$sc-color-tertiary;
     padding: $sc-base-padding * 3;
     float:right;
-    visibility: hidden;
+    //visibility: hidden;
     position: absolute;
     top: 0;
     right: 0;
 
-    @media (min-width: $screen-md-min){
-        visibility: visible;
-    }
 }
 .nav-search-button-submit:hover, .nav-search-button-submit:focus {
     background:$sc-color-secondary-hover;

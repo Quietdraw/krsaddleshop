@@ -10,7 +10,10 @@
         "deploy": "DeployDistribution"
     },
     "modules": {
+        "quietdraw/QuietDrawCustom":"Dev",
         "css/FacebookTracking":"Dev",
+        "css/Tracker.Custom":"Dev",
+        "css/AcuityPlatform":"Dev",
         "site/CartCustom":"Dev",
         "site/BaseSassStylesCustom":"Dev",
         "site/CaseCustom":"Dev",
@@ -217,6 +220,7 @@
                     "Cart",
                     "Content",
                     "Facets",
+                    "Footer.View.Extend",
                     "GoogleUniversalAnalytics",
                     "SC.Shopping.Configuration.Custom",
                     "GoogleTagManager",
@@ -249,7 +253,10 @@
                     "SC.Configuration.Extend",
                     "ItemsKeyMapping.Site",
                     "ItemDetails.View.Custom",
-                    "FacebookTracking"
+                    "FacebookTracking",
+                    "QuietDrawCustom",
+                    "Cart.Detailed.View.Extend",
+                    "AcuityPlatform"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -353,7 +360,10 @@
                     "CMSadapter",
                     "Sensors",
                     "Header.View.Extend",
-                    "ItemsKeyMapping.Site"
+                    "ItemsKeyMapping.Site",
+                    "QuietDrawCustom",
+                    "SC.Configuration.Extend",
+                    "AcuityPlatform"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -455,7 +465,10 @@
                     "Header.View.Extend",
                     "OrderWizard.Module.Confirmation.Extend",
                     "ItemsKeyMapping.Site",
-                    "FacebookTracking"
+                    "FacebookTracking",
+                    "QuietDrawCustom",
+                    "SC.Configuration.Extend",
+                    "AcuityPlatform"
                 ],
                 "amdclean": true,
                 "amdConfig": {
@@ -668,6 +681,12 @@
                             ]
                         },
                         {
+                            "module": "QuietDrawCustom",
+                            "include": [
+                                "webfonts"
+                            ]
+                        },
+                        {
                             "module": "BaseSassStyles",
                             "include": [
                                 "main-variables",
@@ -761,6 +780,12 @@
                             "module": "font-awesome",
                             "include": [
                                 "font-awesome"
+                            ]
+                        },
+                        {
+                            "module": "QuietDrawCustom",
+                            "include": [
+                                "webfonts"
                             ]
                         },
                         {
@@ -931,6 +956,12 @@
                             "module": "font-awesome",
                             "include": [
                                 "font-awesome"
+                            ]
+                        },
+                        {
+                            "module": "QuietDrawCustom",
+                            "include": [
+                                "webfonts"
                             ]
                         },
                         {
