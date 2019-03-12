@@ -257,6 +257,9 @@
                     "QuietDrawCustom",
                     "Cart.Detailed.View.Extend",
                     "AcuityPlatform"
+				,	"ItemViews.Option.View.CustomImage"
+				,	"ItemViews.SelectedOption.View.CustomImage"
+
                 ],
                 "amdclean": true,
                 "amdConfig": {
