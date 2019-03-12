@@ -85,7 +85,7 @@ define(
 					color = '';
 					is_image_tile = true;
 				}
-				else if (color === 'customImage') {
+				else if (color === 'customImage' && cart_line_option.displayvalue) {
 					image = self.getCustomImage(cart_line_option.displayvalue);
 					color = '';
 					is_image_tile = true;

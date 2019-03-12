@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":{
+        "suitecommerce/Tracker@2.1.0/JavaScript/Tracker.js":"JavaScript/Tracker.js"
+    }
+}

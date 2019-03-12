@@ -102,7 +102,7 @@ define(
 						color = '';
 						is_image_tile = true;
 					}
-					else if (color === 'customImage') {
+					else if (color === 'customImage' && value.label) {
 						image = self.getCustomImage(value.label);
 						color = '';
 						is_image_tile = true;

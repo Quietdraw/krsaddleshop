@@ -1,4 +1,28 @@
-define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (HomeView, jQuery, _) {
+
+define('Home.View.Extension', ['Home.View',
+	'SC.Configuration'
+,	'Utilities.ResizeImage'
+
+,	'home.tpl'
+
+,	'Backbone'
+,	'jQuery'
+,	'underscore'
+,	'Utils'
+,	'Tracker'
+]
+,	function (
+	HomeView
+,	Configuration
+
+,	resizeImage
+,	home_tpl
+
+,	Backbone
+,	jQuery
+,	_
+,	Utils
+,	Tracker) {
 
 	_.extend(HomeView.prototype, {
 		events: {
@@ -7,6 +31,7 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 			'click a[data-toggle]': 'startModalVideo'
 		},
 		initialize: function () {
+
 			var self = this;
 
 			// debugger
@@ -37,9 +62,6 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 				
 			}, this);
 			
-
-			//console.log('Window Size = ' + this.windowWidth + "px");
-
 			this.on('afterViewRender', function () {
 				this.listenToOnce(
 					typeof CMS !== 'undefined' ? CMS : Backbone.Events, 'cms:rendered', this.initSliders
@@ -85,30 +107,14 @@ define('Home.View.Extension', ['Home.View', 'jQuery', 'underscore'], function (H
 		startModalVideo: function () {
 			var videoID = this.$('.home-video-code').text();
 			this.$('div#homeVideoModal .modal-body').html('<iframe src="https://player.vimeo.com/video/' + videoID + '?autoplay=1" class="video-play-url" frameborder="0" allowfullscreen=""></iframe>');
-		}
-		//,startMailChimp: function() {
 
-		// Fill in your MailChimp popup settings below.
-		/*var mailchimpConfig = {
-          baseUrl: 'mc.us1.list-manage.com',
-          uuid: 	 '71538d58586f8eee69f172c09',
-          lid: 		 'b6b57b4dea'
-			  };
+		},
 
-        // No edits below this line are required
-        var chimpPopupLoader = document.createElement("script");
-        chimpPopupLoader.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
-        chimpPopupLoader.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
-
-        var chimpPopup = document.createElement("script");
-        chimpPopup.appendChild(document.createTextNode('require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": "' +  mailchimpConfig.baseUrl + '", "uuid": "' + mailchimpConfig.uuid + '", "lid": "' + mailchimpConfig.lid + '"})});'));
-
-        // jQuery(function () {
-        document.body.appendChild(chimpPopupLoader);
-        document.body.appendChild(chimpPopup);
-    		//});*/
-
-		//	}
+		getContext: _.wrap(HomeView.prototype.getContext,function(fn){
+			var fnReturn = fn.apply(this, _.toArray(arguments).slice(1));
+			Tracker.getInstance().trackViewHome();
+			return _.extend(fnReturn,{})
+		})
 	});
 
 });

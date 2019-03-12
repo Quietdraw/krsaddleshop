@@ -432,7 +432,7 @@ define(
 	// Append Bronto Integration configuration
 	_.extend(Configuration, {
 		bronto: {
-			accountId: ''
+			accountId: '12103502650dd72c48fd5077f091f3aee03e46a2bd8d2a695164f15c55df5b32'
 		}
 	});
 
