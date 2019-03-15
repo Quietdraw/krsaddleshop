@@ -232,7 +232,7 @@
                     "SocialSharing.Plugins.Pinterest.Hover",
                     "SocialSharing.Plugins.AddThis",
                     "ProductReviews",
-                    "AjaxRequestsKiller"
+                    "AjaxRequestsKiller",
                     "CookieWarningBanner",
                     "ImageNotAvailable",
                     "ErrorManagement",
