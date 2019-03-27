@@ -216,8 +216,8 @@ define(
 	,	tracking: {
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 			googleUniversalAnalytics: {
-				propertyID: 'UA-6524357-1'
-			,	domainName: window.location.hostname
+				propertyID: ''
+			,	domainName: ''
 			}
 			// [Google AdWords](https://support.google.com/adwords/answer/1722054/)
 		,	googleAdWordsConversion: {

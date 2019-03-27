@@ -93,8 +93,8 @@ define(
 	,	tracking: {
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 			googleUniversalAnalytics: {
-				propertyID: 'UA-6524357-1'
-			,	domainName: 'checkout.krsaddleshop.com'
+				propertyID: ''
+			,	domainName: ''
 			}
 			,	googleTagManager: {
 						id: "GTM-559CRGV",
