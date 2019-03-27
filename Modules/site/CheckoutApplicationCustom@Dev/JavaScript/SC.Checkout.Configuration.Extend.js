@@ -50,8 +50,8 @@ define(
 		tracking: {
 			// [Google Universal Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 			googleUniversalAnalytics: {
-				propertyID: 'UA-6524357-1'
-			,	domainName: window.location.hostname
+				propertyID: ''
+			,	domainName: ''
 			}
 			,	googleTagManager: {
 						id: "GTM-559CRGV",
