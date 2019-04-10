@@ -16,7 +16,7 @@
         <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_01.jpg" alt="Everyday Workwear">
         <div class="card-body">
           <p class="card-tagline">Everyday Workwear</p>
-          <h5 class="card-title">MEN’S JACKETS</h5>
+          <h2 class="card-title">MEN’S JACKETS</h2>
           <a href="/custitem_websubcat/Mens-Vests--AND--Jackets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Vests--AND--Jackets" class="btn btn-primary">Shop Outerwear</a>
         </div>
       </div>
@@ -26,7 +26,7 @@
         <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_02.jpg" alt="Field Proven Favorites">
         <div class="card-body">
           <p class="card-tagline">Field Proven Favorites</p>
-          <h5 class="card-title">HUNTING GEAR</h5>
+          <h2 class="card-title">HUNTING GEAR</h2>
           <a href="/search?keywords=CAMO" data-touchpoint="home"  class="btn btn-primary">Shop Hunting</a>
         </div>
       </div>
@@ -36,7 +36,7 @@
         <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_03.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-tagline">Durable Travel Goods</p>
-          <h5 class="card-title">BAGS AND LUGGAGE</h5>
+          <h2 class="card-title">BAGS AND LUGGAGE</h2>
           <a href="/search?keywords=BAGS" data-touchpoint="home"  class="btn btn-primary">SHOP NOW</a>
         </div>
       </div>
@@ -108,7 +108,7 @@
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
           <a href="https://www.krsaddleshop.com/BOOT-BAG_2">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222588_Saddle%20Tooled-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222588_Black%20Cherry-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">BOOT BAG</h5>
             </div>
@@ -123,7 +123,7 @@
   <div class="wrapper">
     <img class="home-spotlight__full_photo" src="/img/KRSS_MID-FULLWIDTH_01.jpg" alt="WOOD HANDLED CHEF KNIVES">
     <div class="home-spotlight__full_body">
-      <h5>Wood Handled Chef Knives</h5>
+      <h3>Wood Handled Chef Knives</h3>
       <p>Handmade cutlery built to King Ranch specifications.</p>
       <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives" class="btn btn-primary">Shop Now</a>
     </div>
@@ -137,7 +137,7 @@
     </div>
     <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
       <p class="tinytype">New Release</p>
-      <h5>Waxed Canvas</h5>
+      <h3>Waxed Canvas</h3>
       <p class="subheading">Durable Field Gear</p>
       <p>Hunting Gear Bag is guide-tested waxed canvas fabric with reinforced leather detailing in a six compartment bag to house photography equipment and hunting gear alike, with confidence and security.  Double opening and removable internal Velcro panels allow custom organization.</p>
       <a href="/WAXED-CANVAS-HUNTING-GEAR-BAG" class="btn btn-primary">Shop Now</a>
@@ -156,7 +156,7 @@
             <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
             <div class="card-body">
               <p class="card-tagline">Saddle Shop Specials</p>
-              <h5 class="card-title">Leather Goods</h5>
+              <h3 class="card-title">Leather Goods</h3>
             </div>
           </a>
         </div>
@@ -167,7 +167,7 @@
             <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
             <div class="card-body">
               <p class="card-tagline">Everyday Companions</p>
-              <h5 class="card-title">Knives</h5>
+              <h3 class="card-title">Knives</h3>
             </div>
           </a>
         </div>
@@ -178,7 +178,7 @@
             <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_03.jpg" alt="TRAVEL GEAR">
             <div class="card-body">
               <p class="card-tagline">We Know Leather</p>
-              <h5 class="card-title">Travel Gear</h5>
+              <h3 class="card-title">Travel Gear</h3>
             </div>
           </a>
         </div>
