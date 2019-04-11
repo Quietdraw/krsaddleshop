@@ -17,7 +17,7 @@
         <div class="card-body">
           <p class="card-tagline">Everyday Workwear</p>
           <h2 class="card-title">MEN’S JACKETS</h2>
-          <a href="/custitem_websubcat/Mens-Vests--AND--Jackets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Vests--AND--Jackets" class="btn btn-primary">Shop Outerwear</a>
+          <a href="/custitem_websubcat/Mens-Vests--AND--Jackets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Vests--AND--Jackets" class="btn btn-primary" title="Click to shop King Ranch Outerwear">Shop Outerwear</a>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
         <div class="card-body">
           <p class="card-tagline">Field Proven Favorites</p>
           <h2 class="card-title">HUNTING GEAR</h2>
-          <a href="/search?keywords=CAMO" data-touchpoint="home"  class="btn btn-primary">Shop Hunting</a>
+          <a href="/search?keywords=CAMO" data-touchpoint="home"  class="btn btn-primary" title="Click to shop King Ranch Hunting Gear">Shop Hunting</a>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
         <div class="card-body">
           <p class="card-tagline">Durable Travel Goods</p>
           <h2 class="card-title">BAGS AND LUGGAGE</h2>
-          <a href="/search?keywords=BAGS" data-touchpoint="home"  class="btn btn-primary">SHOP NOW</a>
+          <a href="/search?keywords=BAGS" data-touchpoint="home"  class="btn btn-primary" title="Click to shop leather bags and leather luggage">SHOP NOW</a>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@
 <section class="home-essentials">
   <div class="container">
     
-    <h2 class="heading-marquee">King Ranch<br>Essentials</h2>
+    <h1 class="heading-marquee">King Ranch<br>Essentials</h1>
     
     <div class="row">
       <div class="col-xs-6 col-sm-3 col-md-2">
