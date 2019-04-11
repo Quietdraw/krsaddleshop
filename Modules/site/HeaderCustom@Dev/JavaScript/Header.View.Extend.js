@@ -139,10 +139,14 @@ define(
 		},
 		// Mobile style menu
 		toggleMobileMenuLinks: function (e) {
-			//console.log(e);
-			e.preventDefault();
+			console.log('click');
+
+			if (this.$(e.target).parent().hasClass("menu-item-has-children")) {
+				e.preventDefault();
+				this.$(e.target).parent().toggleClass("open");
+				console.log(e);
+			}
 			
-			this.$(e.target).parent().toggleClass("open");
 			
 		},
 		// @method verifyShowSiteSearch expand the site search only if hash===home and (phone or tablet)

@@ -8,7 +8,7 @@
 <section class="footer-newsletter-signup">
 	<div class="wrapper">
 		<h5>Join Our Newsletter</h5>
-		<p>Subscribe to kingranchsaddleshop.com to receive exclusive offers, first looks, event information, and more.</p>
+		<p>Subscribe to krsaddleshop.com to receive exclusive offers, first looks, event information, and more.</p>
 		<h4>Subscribe</h4>
 		<form id="newsletterSignup" action="https://bm5150.com/public/webform/process/" method="post" target="_blank" _lpchecked="1">
 			<input type="hidden" name="fid" value="gglu2ndubpy9709aidn778unjwukp" />
