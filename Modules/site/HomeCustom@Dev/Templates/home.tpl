@@ -13,31 +13,31 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_01.jpg" alt="Everyday Workwear">
+        <img class="card-img-top" src="/img/spring_19/KRSS_MIDCOLUMN_01.jpg" alt="King Ranch women's apparel">
         <div class="card-body">
-          <p class="card-tagline">Everyday Workwear</p>
-          <h2 class="card-title">MEN’S JACKETS</h2>
-          <a href="/custitem_websubcat/Mens-Vests--AND--Jackets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Vests--AND--Jackets" class="btn btn-primary" title="Click to shop King Ranch Outerwear">Shop Outerwear</a>
+          <p class="card-tagline">Designed for Her</p>
+          <h2 class="card-title">WOMEN’S APPAREL</h2>
+          <a href="#custitem_websubcat/Womens-Apparel" data-touchpoint="home" data-hashtag="#custitem_websubcat/Womens-Apparel" class="btn btn-primary" title="Click to shop women's apparel">Shop Apparel</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_02.jpg" alt="Field Proven Favorites">
+        <img class="card-img-top" src="/img/spring_19/KRSS_MIDCOLUMN_02.jpg" alt="Life on the Ranch">
         <div class="card-body">
-          <p class="card-tagline">Field Proven Favorites</p>
-          <h2 class="card-title">HUNTING GEAR</h2>
-          <a href="/search?keywords=CAMO" data-touchpoint="home"  class="btn btn-primary" title="Click to shop King Ranch Hunting Gear">Shop Hunting</a>
+          <p class="card-tagline">Life on the Ranch</p>
+          <h2 class="card-title">EXCLUSIVE ARTICLES</h2>
+          <a href="https://blog.krsaddleshop.com/" class="btn btn-primary" title="Click to read exclusive articles from the King Ranch blog">READ MORE</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/KRSS_MIDCOLUMN_03.jpg" alt="Card image cap">
+        <img class="card-img-top" src="/img/spring_19/KRSS_MIDCOLUMN_03.jpg" alt="Durable tooled leather">
         <div class="card-body">
-          <p class="card-tagline">Durable Travel Goods</p>
-          <h2 class="card-title">BAGS AND LUGGAGE</h2>
-          <a href="/search?keywords=BAGS" data-touchpoint="home"  class="btn btn-primary" title="Click to shop leather bags and leather luggage">SHOP NOW</a>
+          <p class="card-tagline">Designed for Durability</p>
+          <h2 class="card-title">TOOLED LEATHER</h2>
+          <a href="/search?keywords=TOOLED" data-touchpoint="home"  class="btn btn-primary" title="Click to shop tooled leather products">SHOP NOW</a>
         </div>
       </div>
     </div>
@@ -121,11 +121,11 @@
 
 <section class="home-spotlight__full">
   <div class="wrapper">
-    <img class="home-spotlight__full_photo" src="/img/KRSS_MID-FULLWIDTH_01.jpg" alt="WOOD HANDLED CHEF KNIVES">
+    <img class="home-spotlight__full_photo" src="/img/spring_19/KRSS_MID-FULLWIDTH_01.jpg" alt="NEW CAPED BACK SHIRT">
     <div class="home-spotlight__full_body">
-      <h3>Wood Handled Chef Knives</h3>
-      <p>Handmade cutlery built to King Ranch specifications.</p>
-      <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives" class="btn btn-primary">Shop Now</a>
+      <h3>NEW CAPED BACK SHIRT</h3>
+      <p>Vented Performance Wear for Warm Weather</p>
+      <a href="/SHORT-SLEEVE-CAPE-BACK-SHIRT" data-touchpoint="home" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
 </section>
@@ -133,14 +133,14 @@
 <section class="home-spotlight__2-col container">
   <div class="wrapper">
     <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
-      <img src="/img/KRSS_NEWS-IMAGE-01.jpg" alt="Waxed Canvas Bag">
+      <img src="/img/spring_19/KRSS_NEWS-IMAGE-01.jpg" alt="womens spring jacket">
     </div>
     <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
       <p class="tinytype">New Release</p>
-      <h3>Waxed Canvas</h3>
-      <p class="subheading">Durable Field Gear</p>
-      <p>Hunting Gear Bag is guide-tested waxed canvas fabric with reinforced leather detailing in a six compartment bag to house photography equipment and hunting gear alike, with confidence and security.  Double opening and removable internal Velcro panels allow custom organization.</p>
-      <a href="/WAXED-CANVAS-HUNTING-GEAR-BAG" class="btn btn-primary">Shop Now</a>
+      <h3>SPRING JACKET</h3>
+      <p class="subheading">Lightweight Dual Tie Layer</p>
+      <p>A perfect way to greet cold spring days and early evening outings.</p>
+      <a href="/Dual-Tie-Spring-Jacket" class="btn btn-primary" title="Click to shop our new womens spring jacket">Shop Now</a>
     </div>
   </div>
 </section>
@@ -153,7 +153,7 @@
       <div class="col col-sm-3">
         <div class="card">
           <a href="/custitem_websubcat/Carry-Ons--AND--Duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
-            <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
+            <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
             <div class="card-body">
               <p class="card-tagline">Saddle Shop Specials</p>
               <h3 class="card-title">Leather Goods</h3>
@@ -164,7 +164,7 @@
       <div class="col col-sm-3">
         <div class="card">
           <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives">
-            <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
+            <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
             <div class="card-body">
               <p class="card-tagline">Everyday Companions</p>
               <h3 class="card-title">Knives</h3>
@@ -174,11 +174,11 @@
       </div>
       <div class="col col-sm-3">
         <div class="card">
-          <a href="/luggage/carryons-duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
-            <img class="card-img-top" src="/img/KRSS_BOTTOM-ITEMS_03.jpg" alt="TRAVEL GEAR">
+          <a href="/search?keywords=mercado" data-touchpoint="home">
+            <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_03.jpg" alt="EL MERCADO TOTE">
             <div class="card-body">
-              <p class="card-tagline">We Know Leather</p>
-              <h3 class="card-title">Travel Gear</h3>
+              <p class="card-tagline">A Classic Continues</p>
+              <h3 class="card-title">EL MERCADO TOTE</h3>
             </div>
           </a>
         </div>
