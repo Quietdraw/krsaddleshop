@@ -35,6 +35,9 @@
 					<li id="menu-item-company" class="menu-item menu-item-has-children"><a
 						href="#">Company</a>
 						<ul class="sub-menu">
+							<li id="menu-item-blog" class="menu-item">
+								<a href="https://blog.krsaddleshop.com/" target="_blank">King Ranch Blog</a>
+							</li>
 							<li id="menu-item-about" class="menu-item">
 								<a href="/about-us" data-touchpoint="home" data-hashtag="#about-us">Our Heritage</a>
 							</li>
