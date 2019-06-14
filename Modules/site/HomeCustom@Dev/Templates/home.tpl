@@ -125,7 +125,7 @@
     <div class="home-spotlight__full_body">
       <h3>NEW CAPED BACK SHIRT</h3>
       <p>Vented Performance Wear for Warm Weather</p>
-      <a href="/SHORT-SLEEVE-CAPE-BACK-SHIRT" data-touchpoint="home" class="btn btn-primary">Shop Now</a>
+      <a href="/GAMEGUARD-MICROFIBER-SHORT-SLEEVE" data-touchpoint="home" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
 </section>
