@@ -526,3 +526,24 @@
 .item-details-add-to-cart-help-text{}
 .item-details-add-to-cart-form{}
 .item-details-rating-header-rating{}
+
+// Added by Quietdraw
+
+.item-details-content {
+	// Product Title
+	&-header-title {
+		color: #777a6c;
+		font-family: $font-family-syncopate;
+		font-size: 1.1rem;
+		line-height: 1.1rem;
+		font-weight: normal;
+		margin-bottom: 4px !important;
+	}
+	// Product SKU
+	.item-details-sku-container {
+		color: #777a6c;
+		font-family: FreightTextProBook-Italic, serif;
+		font-size: 0.7rem;
+		font-weight: normal;
+	}
+}

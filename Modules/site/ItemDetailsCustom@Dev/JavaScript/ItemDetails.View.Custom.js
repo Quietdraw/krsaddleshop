@@ -182,6 +182,9 @@ define(
 				}
 			}
 
+			// ADDED BY QUIETDRAW
+			//debugger;
+
 			//@class ItemDetails.View.Context
 			return {
 				//@property {ItemDetails.Model} model

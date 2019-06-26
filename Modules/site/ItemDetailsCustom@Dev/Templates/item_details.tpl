@@ -17,12 +17,11 @@
 
 		<section class="item-details-main-content">
 			<div class="item-details-content-header">
+				
+				<div class="item-details-breadcrumb"> Mens / {{ model.custitem_websubcat }}</div>
 				<h1 class="item-details-content-header-title" itemprop="name">{{model._pageHeader}}</h1>
-				{{#if showReviews}}
-				<div class="item-details-rating-header" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-					<div class="item-details-rating-header-rating" data-view="Global.StarRating"></div>
-				</div>
-				{{/if}}
+				
+				
 				<div data-cms-area="item_info" data-cms-area-filters="path"></div>
 			</div>
 
@@ -40,17 +39,20 @@
 
 				<section class="item-details-info">
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
+						
+						<div class="item-details-sku-container">
+							<span class="item-details-sku">
+								{{translate 'PRODUCT NUMBER: #'}}
+							</span>
+							<span class="item-details-sku-value" itemprop="sku">
+								{{sku}}
+							</span>
+							
+						</div>
 
 						<div data-view="Item.Price"></div>
 
-					<div class="item-details-sku-container">
-						<span class="item-details-sku">
-							{{translate 'SKU: #'}}
-						</span>
-						<span class="item-details-sku-value" itemprop="sku">
-							{{sku}}
-						</span>
-					</div>
+					
 					<div data-view="Item.Stock"></div>
 				</section>
 
@@ -147,6 +149,15 @@
 					<div data-view="SocialSharing.Flyout"></div>
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
 				</div>
+				
+				<!-- Customer Ratings -->
+				{{#if showReviews}}
+				<div class="item-details-rating-header" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+					<div class="item-details-rating-header-rating" data-view="Global.StarRating"></div>
+				</div>
+				{{/if}}
+
+
 			<div id="banner-details-bottom" class="item-details-banner-details-bottom" data-cms-area="item_info_bottom" data-cms-area-filters="page_type"></div>
 			</div>
 		</section>
