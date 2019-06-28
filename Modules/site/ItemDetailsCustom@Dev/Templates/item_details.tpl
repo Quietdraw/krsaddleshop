@@ -18,7 +18,7 @@
 		<section class="item-details-main-content">
 			<div class="item-details-content-header">
 				
-				<div class="item-details-breadcrumb"> Mens / {{ model.custitem_websubcat }}</div>
+				<div class="item-details-breadcrumb"> {{ model.custitem_websubcat }} / <span class="item-details-breadcrumb__product-name">{{model._pageHeader}}</span></div>
 				<h1 class="item-details-content-header-title" itemprop="name">{{model._pageHeader}}</h1>
 				
 				
@@ -40,17 +40,19 @@
 				<section class="item-details-info">
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
 						
-						<div class="item-details-sku-container">
-							<span class="item-details-sku">
-								{{translate 'PRODUCT NUMBER: #'}}
-							</span>
-							<span class="item-details-sku-value" itemprop="sku">
-								{{sku}}
-							</span>
-							
-						</div>
+						<div class="item-details-product-info-group lockup__price">
+							<div class="item-details-sku-container">
+								<span class="item-details-sku">
+									{{translate 'PRODUCT NUMBER: #'}}
+								</span>
+								<span class="item-details-sku-value" itemprop="sku">
+									{{sku}}
+								</span>
+								
+							</div>
 
-						<div data-view="Item.Price"></div>
+							<div data-view="Item.Price"></div>
+						</div>
 
 					
 					<div data-view="Item.Stock"></div>
@@ -82,6 +84,7 @@
 
 							<div class="item-details-options-content-stock"  data-view="Item.Stock"></div>
 
+							
 							<div data-view="ItemDetails.Options"></div>
 						</div>
 					{{else}}
@@ -105,9 +108,11 @@
 										{{translate 'Quantity'}}
 									</label>
 
-									<button class="item-details-quantity-remove" data-action="minus" {{#if isMinusButtonDisabled}}disabled{{/if}}>-</button>
-									<input type="number" name="quantity" id="quantity" class="item-details-quantity-value" value="{{quantity}}" min="1">
-									<button class="item-details-quantity-add" data-action="plus">+</button>
+									<div class="item-details-quantity-wrapper">
+										<button class="item-details-quantity-remove" data-action="minus" {{#if isMinusButtonDisabled}}disabled{{/if}}>-</button>
+										<input type="number" name="quantity" id="quantity" class="item-details-quantity-value" value="{{quantity}}" min="1">
+										<button class="item-details-quantity-add" data-action="plus">+</button>
+									</div>
 
 									{{#if showMinimumQuantity}}
 										<small class="item-details-options-quantity-title-help">
@@ -145,6 +150,17 @@
 				{{/if}}
 				{{/if}}
 
+				<section class="item-details-product-description">
+					{{#each details}}
+						{{#if @first}} 
+						<h3 class="item-details-description">
+								{{translate 'Product Description'}}
+							</h3>
+							<p>{{{content}}}</p>
+						{{/if}}
+					{{/each}}
+				</section>
+
 				<div class="item-details-main-bottom-banner">
 					<div data-view="SocialSharing.Flyout"></div>
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
@@ -161,6 +177,8 @@
 			<div id="banner-details-bottom" class="item-details-banner-details-bottom" data-cms-area="item_info_bottom" data-cms-area-filters="page_type"></div>
 			</div>
 		</section>
+
+
 
 		<section class="item-details-more-info-content">
 			{{#if showDetails}}
