@@ -152,7 +152,7 @@
     <div class="row">
       <div class="col col-sm-3">
         <div class="card">
-          <a href="/custitem_websubcat/Carry-Ons--AND--Duffels" data-touchpoint="home" data-hashtag="#custitem_websubcat/Carry-Ons--AND--Duffels">
+          <a href="/search?keywords=leather" data-touchpoint="home" title="Click to shop all leather goods">
             <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
             <div class="card-body">
               <p class="card-tagline">Saddle Shop Specials</p>
