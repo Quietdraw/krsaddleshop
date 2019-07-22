@@ -49,6 +49,7 @@
         "site/SCACustom":"Dev",
         "site/ShoppingApplicationCustom":"Dev",
         "site/SiteSearchCustom":"Dev",
+        "site/SocialSharingCustom":"Dev",
         "site/SspLibrariesCustom":"Dev",
         "site/WizardCustom":"Dev",
         "site/GoogleTagManagerCustom": "Dev",

@@ -542,9 +542,71 @@ $product-form-label-size: 0.6rem;
 // Product Photos
 .item-details-image-gallery-container {
 	padding-top: 25px;
+	// Adjust width according to new design
+	@media (min-width: $screen-md-min){
+		width: 56%;
+		// Make room for the thumbnails
+		.item-details-image-gallery {
+			padding-left: 105px;
+		}
+		// Social Sharing -- when Hover
+		.social-sharing-flyout-hover-icons {
+			top: 20px;
+    		left: 120px;
+		}
+		// Fade it in
+		.bxslider, .item-details-image-gallery-detailed-image {
+			-webkit-animation: 1s ease 0s normal forwards 1 productfadein;
+			animation: 1s ease 0s normal forwards 1 productfadein;
+		}
+		// Product Thumbnails
+		.bx-pager {
+			position: absolute !important;
+			top: 0;
+			left: 0;
+			margin: 0 !important;
+			width: 100px;
+			a {
+				margin: 0 !important;
+				padding: 0 !important;
+				&:hover, &.active {
+					img {
+						border-color: #777a6c;
+					}
+				}
+			}
+			img {
+				//width: 95px;
+				max-width: 95px;
+				border: 1px solid transparent;
+			}
+		}
+		// Prev + Next
+		.item-details-gallery-prev-icon, .item-details-gallery-next-icon {
+			display: none;
+		}
+	}
 }
 
+
+
+
 // Product Details
+
+.item-details-content-header {
+	// Adjust width according to new design
+	@media (min-width: $screen-md-min){
+		width: 44%;
+	}
+}
+.item-details-main {
+	// Adjust width according to new design
+	@media (min-width: $screen-md-min){
+		width: 44%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
 
 .item-details-content {
 	// Product Title
@@ -608,6 +670,7 @@ $product-form-label-size: 0.6rem;
 	font-family: FreightTextProBook-Italic, serif;
 	font-size: $product-form-label-size;
 	font-weight: normal;
+	text-transform: none !important;
 }
 
 .item-views-option-tile-picker {
@@ -715,7 +778,8 @@ $product-form-label-size: 0.6rem;
 			.product-color-swatch-name {
 				width: auto;
 				transform: translateX(0);
-				opacity: 1;
+				-webkit-animation: 300ms ease 0s normal forwards 1 productfadein;
+				animation: 300ms ease 0s normal forwards 1 productfadein;
 			}
 			&::before {
 				height: 0;
@@ -785,7 +849,7 @@ $product-form-label-size: 0.6rem;
     display: inline-block;
 	position: relative;
 	line-height: 1rem;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 // Add to Cart
@@ -832,4 +896,19 @@ $product-form-label-size: 0.6rem;
 		margin-bottom: 15px;
 		font-size: 0.8rem;
 	}
+}
+
+
+
+		
+@keyframes productfadein{
+	0% { opacity:0; }
+	66% { opacity:0; }
+	100% { opacity:1; }
+}
+
+@-webkit-keyframes productfadein{
+	0% { opacity:0; }
+	66% { opacity:0; }
+	100% { opacity:1; }
 }

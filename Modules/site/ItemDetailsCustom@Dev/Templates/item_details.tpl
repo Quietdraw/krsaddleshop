@@ -126,7 +126,7 @@
 								{{#if showSelectOptionMessage}}
 									<p class="item-details-add-to-cart-help">
 										<i class="item-details-add-to-cart-help-icon"></i>
-										<span class="item-details-add-to-cart-help-text">{{translate 'Please select options before adding to cart'}}</span>
+										<span class="item-details-add-to-cart-help-text">{{translate 'Please select from the options above prior to ADDING TO CART'}}</span>
 									</p>
 								{{/if}}
 							{{/unless}}
