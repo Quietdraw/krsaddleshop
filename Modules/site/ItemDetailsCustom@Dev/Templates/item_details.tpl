@@ -154,14 +154,17 @@
 					{{#each details}}
 						{{#if @first}} 
 						<h3 class="item-details-description">
-								{{translate 'Product Description'}}
+								{{translate 'Product Details'}}
 							</h3>
 							<p>{{{content}}}</p>
 						{{/if}}
 					{{/each}}
 				</section>
 
-				<div class="item-details-main-bottom-banner">
+				<div class="item-details-social-wrapper">
+					<h3 class="item-details-social-buttons">
+								{{translate 'Share'}}
+							</h3>
 					<div data-view="SocialSharing.Flyout"></div>
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
 				</div>
@@ -179,48 +182,16 @@
 		</section>
 
 
-
+		<h1 class="heading-marquee">King Ranch<br>Essentials</h1>
 		<section class="item-details-more-info-content">
-			{{#if showDetails}}
-
-				{{#each details}}
-					{{!-- Mobile buttons --}}
-					<button class="item-details-info-pusher" data-target="item-details-info-{{ @index }}" data-type="sc-pusher">
-						{{ name }} <i></i>
-						<p class="item-details-info-hint"> {{{trimHtml content 150}}} </p>
-					</button>
-				{{/each}}
-
-				<div class="item-details-more-info-content-container">
-
-					<div id="banner-content-top" class="content-banner banner-content-top"></div>
-
-					<div role="tabpanel">
-						{{!-- When more than one detail is shown, these are the tab headers  --}}
-						<ul class="item-details-more-info-content-tabs" role="tablist">
-							{{#each details}}
-								<li class="item-details-tab-title {{#if @first}} active {{/if}}" role="presentation">
-									<a href="#" data-target="#item-details-info-tab-{{@index}}" data-toggle="tab">{{name}}</a>
-								</li>
-							{{/each}}
-						</ul>
-						{{!-- Tab Contents --}}
-						<div class="item-details-tab-content" >
-							{{#each details}}
-								<div role="tabpanel" class="item-details-tab-content-panel {{#if @first}}active{{/if}}" id="item-details-info-tab-{{@index}}" itemprop="{{itemprop}}" data-action="pushable" data-id="item-details-info-{{ @index }}">
-									<h2>{{name}}</h2>
-									<div id="item-details-content-container-{{@index}}">{{{content}}}</div>
-								</div>
-							{{/each}}
-							<div class="item-details-action">
-								<a href="#" class="item-details-more" data-action="show-more">{{translate 'See More'}}</a>
-								<a href="#" class="item-details-less" data-action="show-more">{{translate 'See Less'}}</a>
-							</div>
-						</div>
+				{{!-- I think we need to have these empty divs to help EverGage inject their Related Products Javascript - super weird --}}
+				<div>
+					<div></div>
+					<div>
+						<div></div>
 					</div>
-					<div id="banner-content-bottom" class="content-banner banner-content-bottom"></div>
 				</div>
-			{{/if}}
+				{{!-- end Related Products Javascript --}}
 		</section>
 
 		<div class="item-details-divider-desktop"></div>

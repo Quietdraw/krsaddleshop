@@ -73,12 +73,12 @@ define(
 				// @class SocialSharing.Twitter.Plugin @extends Plugin
 				SocialSharing.afterAppendView.install({
 					name: 'twitterPlugin'
-				,	priority: 10
+				,	priority: 5
 				,	execute: function (application) 
 					{
 						var layout = application.getLayout();
 
-						layout.$el.find('[data-type="social-share-icons"]').append('<a href="#" class="social-sharing-flyout-content-social-twitter" data-action="share-in-twitter"><i class="social-sharing-flyout-content-social-twitter-icon"></i> <span>Tweet</span></a>');
+						layout.$el.find('[data-type="social-share-icons"]').append('<a href="#" class="social-sharing-flyout-content-social-twitter" data-action="share-in-twitter"><i class="social-sharing-flyout-content-social-twitter-icon"></i></a>');
 					}
 				});
 			}

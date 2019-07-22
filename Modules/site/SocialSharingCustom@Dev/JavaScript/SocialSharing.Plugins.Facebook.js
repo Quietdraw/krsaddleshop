@@ -64,14 +64,14 @@ define(
 				// SocialSharing.afterAppendView and SocialSharing.afterAppendToDom @extends Plugin
 				var plugin = {
 					name: 'facebookPlugin'
-				,	priority: 10
+				,	priority: 15
 				,	execute: function (application)
 					{
 						var layout = application.getLayout();
 
 						if (!jQuery('[data-type="like-in-facebook"]').size())
 						{
-							layout.$el.find('[data-type="social-share-icons"]').append('<a href="#" class="social-sharing-flyout-content-social-facebook" data-action="share-in-facebook"><i class="social-sharing-flyout-content-social-facebook-icon"></i> <span>Share</span></a>');
+							layout.$el.find('[data-type="social-share-icons"]').append('<a href="#" class="social-sharing-flyout-content-social-facebook" data-action="share-in-facebook"><i class="social-sharing-flyout-content-social-facebook-icon"></i></a>');
 						}
 					}
 				};

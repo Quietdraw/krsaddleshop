@@ -823,6 +823,7 @@ $product-form-label-size: 0.6rem;
 		color: #777a6c;
 		font-weight: normal;
 		transition: background-color 300ms;
+		background-color: white;
 		&:hover {
 			background-color: #e0dece;
 		}
@@ -835,6 +836,7 @@ $product-form-label-size: 0.6rem;
 		font-size: 0.6rem;
 		color: #777a6c;
 		font-weight: normal;
+		text-align: center;
 	}
 }
 
@@ -859,7 +861,7 @@ $product-form-label-size: 0.6rem;
 		text-transform: uppercase;
 		font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
 		font-size: 0.6rem;
-		color: #777a6c;
+		color: black;
 		font-weight: normal;
 		transition: background-color 300ms;
 	}
@@ -880,25 +882,62 @@ $product-form-label-size: 0.6rem;
 
 // Product Description
 .item-details-product-description {
+	margin-top: 40px;
 	.item-details-description {
 		color: #777a6c;
 		font-family: FreightTextProBook-Italic, serif;
 		font-size: $product-form-label-size;
 		font-weight: normal;
 		margin-bottom: 10px;
+		text-transform: unset;
 	}
 	p {
 		font-family: CentSchbookBTWGL4WXX-Roman, serif;
 		font-weight: normal;
 		font-style: normal;
 		color: #777a6c;
-		line-height: 1.2em;
+		line-height: 1.4em;
 		margin-bottom: 15px;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 }
 
+// Sharing
+.item-details-social-buttons {
+	color: #777a6c;
+	font-family: FreightTextProBook-Italic, serif;
+	font-size: $product-form-label-size;
+	font-weight: normal;
+	margin-bottom: 10px;
+	text-transform: unset;
+}
 
+// Related Products
+@media (max-width: $screen-sm-min){
+	#product-detail {
+		.heading-marquee {
+			display: none;
+		}
+	}
+}
+.evergage-tooltip {
+	p:first-of-type {
+		display: none !important;
+	}
+	div[evergage-item-block] {
+		a {
+			img {
+
+			}
+			u {
+				font-size: 0.8rem;
+				font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+				text-transform: uppercase;
+				margin-bottom: unset;
+			}
+		}
+	}
+}
 
 		
 @keyframes productfadein{

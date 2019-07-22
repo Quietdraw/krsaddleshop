@@ -78,7 +78,7 @@ define(
 					{
 						var layout = application.getLayout();
 						
-						layout.$el.find('[data-type="social-share-icons"]').append('<a href="#" class="social-sharing-flyout-content-social-pinterest" data-action="share-in-pinterest"><i class="social-sharing-flyout-content-social-pinterest-icon"></i> <span>Pinit</span></a>');
+						layout.$el.find('[data-type="social-share-icons"]').append('<a href="#" class="social-sharing-flyout-content-social-pinterest" data-action="share-in-pinterest"><i class="social-sharing-flyout-content-social-pinterest-icon"></i></a>');
 					}
 				});
 			}

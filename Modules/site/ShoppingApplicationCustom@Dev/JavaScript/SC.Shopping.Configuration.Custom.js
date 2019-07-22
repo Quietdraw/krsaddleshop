@@ -1007,7 +1007,7 @@ define(
 
 		// @property {Object} googlePlus
 	,	googlePlus: {
-			enable: true
+			enable: false
 		,	popupOptions: {
 				menubar: 'no'
 			,	toolbar: 'no'

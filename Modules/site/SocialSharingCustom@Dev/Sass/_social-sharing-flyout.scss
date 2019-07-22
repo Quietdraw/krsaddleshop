@@ -29,15 +29,18 @@
 .social-sharing-flyout-content-social-twitter,
 .social-sharing-flyout-content-social-google,
 .social-sharing-flyout-content-social-pinterest  {
-	text-align: left;
-	padding: 180px;
-	border: 1px solid $sc-color-theme-border;
-	color: $sc-color-theme;
-	display: block;
-	font-size: 15px;
-	margin-right: $sc-base-margin * 2;
 	display: inline-block;
-	background: #FFFFFF;
+    border: 1px solid #777a6c;
+    padding: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+	text-align: center;
+	margin-right: 12px;
+
+	i {
+		margin-top: 4px;
+	}
 
 	span {
 		display: none;
@@ -51,27 +54,21 @@
 }
 .social-sharing-flyout-content-social-facebook-icon {
 	font-size: 20px; 
-	color: #3b5998;
+	color: #777a6c;
 	@extend .fa;
-	@extend %fa-facebook-square;
+	@extend %fa-facebook;
 }
 .social-sharing-flyout-content-social-twitter-icon {
-	color: #00b6f1;
+	color: #777a6c;
 	font-size: 20px; 
 	@extend .fa;
 	@extend %fa-twitter-square;
 }
-.social-sharing-flyout-content-social-google-icon {
-	color: #dd4b38;
-	font-size: 20px; 
-	@extend .fa;
-	@extend %fa-google-plus-square;
-}
 .social-sharing-flyout-content-social-pinterest-icon {
-	color: #bd071d;
+	color: #777a6c;
 	font-size: 20px;
 	@extend .fa;
-	@extend %fa-pinterest-square;
+	@extend %fa-pinterest;
 }
 
 
