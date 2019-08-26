@@ -13,9 +13,9 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/spring_19/KRSS_MIDCOLUMN_01.jpg" alt="King Ranch women's apparel">
+        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_01.jpg" alt="King Ranch women's apparel">
         <div class="card-body">
-          <p class="card-tagline">Designed for Her</p>
+          <p class="card-tagline">New Fall Favorites</p>
           <h2 class="card-title">WOMEN’S APPAREL</h2>
           <a href="#custitem_websubcat/Womens-Apparel" data-touchpoint="home" data-hashtag="#custitem_websubcat/Womens-Apparel" class="btn btn-primary" title="Click to shop women's apparel">Shop Apparel</a>
         </div>
@@ -23,9 +23,9 @@
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/spring_19/KRSS_MIDCOLUMN_02.jpg" alt="Life on the Ranch">
+        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_02.jpg" alt="Silver Stag Knives">
         <div class="card-body">
-          <p class="card-tagline">Life on the Ranch</p>
+          <p class="card-tagline">Silver Stag Knives</p>
           <h2 class="card-title">EXCLUSIVE ARTICLES</h2>
           <a href="https://blog.krsaddleshop.com/" class="btn btn-primary" title="Click to read exclusive articles from the King Ranch blog">READ MORE</a>
         </div>
@@ -33,11 +33,11 @@
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/spring_19/KRSS_MIDCOLUMN_03.jpg" alt="Durable tooled leather">
+        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_03.jpg" alt="Durable waxed canvas products">
         <div class="card-body">
           <p class="card-tagline">Designed for Durability</p>
-          <h2 class="card-title">TOOLED LEATHER</h2>
-          <a href="/search?keywords=TOOLED" data-touchpoint="home"  class="btn btn-primary" title="Click to shop tooled leather products">SHOP NOW</a>
+          <h2 class="card-title">New Waxed Canvas</h2>
+          <a href="/search?keywords=WAXED" data-touchpoint="home"  class="btn btn-primary" title="Click to shop new waxed canvas products">SHOP NOW</a>
         </div>
       </div>
     </div>
@@ -121,11 +121,11 @@
 
 <section class="home-spotlight__full">
   <div class="wrapper">
-    <img class="home-spotlight__full_photo" src="/img/spring_19/KRSS_MID-FULLWIDTH_01.jpg" alt="NEW CAPED BACK SHIRT">
+    <img class="home-spotlight__full_photo" src="/img/fall_19/KRSS_MID-FULLWIDTH_01.jpg" alt="New silver stag knives">
     <div class="home-spotlight__full_body">
-      <h3>NEW CAPED BACK SHIRT</h3>
-      <p>Vented Performance Wear for Warm Weather</p>
-      <a href="/GAMEGUARD-MICROFIBER-SHORT-SLEEVE" data-touchpoint="home" class="btn btn-primary">Shop Now</a>
+      <h3>NEW SILVER STAG KNIVES</h3>
+      <p>PREPARE FOR THE FIELD WITH NEW KNIFE OPTIONS</p>
+      <a href="/search?keywords=silver%20stag" data-touchpoint="home" class="btn btn-primary">Shop Now</a>
     </div>
   </div>
 </section>
@@ -133,14 +133,14 @@
 <section class="home-spotlight__2-col container">
   <div class="wrapper">
     <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
-      <img src="/img/spring_19/KRSS_NEWS-IMAGE-01.jpg" alt="womens spring jacket">
+      <img src="/img/fall_19/KRSS_NEWS-IMAGE-01.jpg" alt="New womens apparel clothing with classic ranch style for town or country.">
     </div>
     <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
-      <p class="tinytype">New Release</p>
-      <h3>SPRING JACKET</h3>
-      <p class="subheading">Lightweight Dual Tie Layer</p>
-      <p>A perfect way to greet cold spring days and early evening outings.</p>
-      <a href="/Dual-Tie-Spring-Jacket" class="btn btn-primary" title="Click to shop our new womens spring jacket">Shop Now</a>
+      <p class="tinytype">NEW ITEMS FOR HER</p>
+      <h3>VESTS FOR FALL</h3>
+      <p class="subheading">QUILTED COMFORT</p>
+      <p>The perfect town or country addition to her wardrobe.</p>
+      <a href="/custitem_websubcat/Womens-Apparel" data-touchpoint="home" data-hashtag="#custitem_websubcat/Womens-Apparel" class="btn btn-primary" title="Click to shop our new womens fall wardobe for town or country.">Shop Now</a>
     </div>
   </div>
 </section>
@@ -152,33 +152,33 @@
     <div class="row">
       <div class="col col-sm-3">
         <div class="card">
-          <a href="/search?keywords=leather" data-touchpoint="home" title="Click to shop all leather goods">
-            <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_01.jpg" alt="LEATHER GOODS">
+          <a href="#custitem_websubcat/Mens-Boots--AND--Shoes" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Boots--AND--Shoes" title="Click to shop all mens boots and shoes for ranching.">
+            <img class="card-img-top" src="/img/fall_19/KRSS_BOTTOM-ITEMS_01.jpg" alt="Mens boots and shoes for ranching.">
             <div class="card-body">
               <p class="card-tagline">Saddle Shop Specials</p>
-              <h3 class="card-title">Leather Goods</h3>
+              <h3 class="card-title">BOOTS</h3>
             </div>
           </a>
         </div>
       </div>
       <div class="col col-sm-3">
         <div class="card">
-          <a href="/custitem_websubcat/Knives" data-touchpoint="home" data-hashtag="#custitem_websubcat/Knives">
-            <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
+          <a href="/Leather-Conditioner">
+            <img class="card-img-top" src="/img/fall_19/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
             <div class="card-body">
-              <p class="card-tagline">Everyday Companions</p>
-              <h3 class="card-title">Knives</h3>
+              <p class="card-tagline">Protect your Investment</p>
+              <h3 class="card-title">LEATHER CARE</h3>
             </div>
           </a>
         </div>
       </div>
       <div class="col col-sm-3">
         <div class="card">
-          <a href="/search?keywords=mercado" data-touchpoint="home">
-            <img class="card-img-top" src="/img/spring_19/KRSS_BOTTOM-ITEMS_03.jpg" alt="EL MERCADO TOTE">
+          <a href="#custitem_websubcat/Handbags--AND--Wallets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Handbags--AND--Wallets" >
+            <img class="card-img-top" src="/img/fall_19/KRSS_BOTTOM-ITEMS_03.jpg" alt="King Ranch expert crafted leather purses, hand bags and luggage.">
             <div class="card-body">
               <p class="card-tagline">A Classic Continues</p>
-              <h3 class="card-title">EL MERCADO TOTE</h3>
+              <h3 class="card-title">WE KNOW LEATHER</h3>
             </div>
           </a>
         </div>
