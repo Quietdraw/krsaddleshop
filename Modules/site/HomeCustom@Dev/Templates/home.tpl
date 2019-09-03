@@ -13,21 +13,21 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_01.jpg" alt="King Ranch women's apparel">
+        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_01B.jpg" alt="New King Ranch jackets and vests and more men's ranch outerwear apparel">
         <div class="card-body">
-          <p class="card-tagline">New Fall Favorites</p>
-          <h2 class="card-title">WOMEN’S APPAREL</h2>
-          <a href="#custitem_websubcat/Womens-Apparel" data-touchpoint="home" data-hashtag="#custitem_websubcat/Womens-Apparel" class="btn btn-primary" title="Click to shop women's apparel">Shop Apparel</a>
+          <p class="card-tagline">New Jackets & Vests</p>
+          <h2 class="card-title">MEN’S OUTERWEAR</h2>
+          <a href="#custitem_websubcat/Mens-Vests--AND--Jackets" data-touchpoint="home" data-hashtag="#custitem_websubcat/Mens-Vests--AND--Jackets" class="btn btn-primary" title="Click to shop men's ranch outerwear and apparel">Shop Apparel</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_02.jpg" alt="Silver Stag Knives">
+        <img class="card-img-top" src="/img/fall_19/KRSS_MIDCOLUMN_01.jpg" alt="King Ranch women's apparel">
         <div class="card-body">
-          <p class="card-tagline">Silver Stag Knives</p>
-          <h2 class="card-title">EXCLUSIVE ARTICLES</h2>
-          <a href="https://blog.krsaddleshop.com/" class="btn btn-primary" title="Click to read exclusive articles from the King Ranch blog">READ MORE</a>
+          <p class="card-tagline">New Fall Favorites</p>
+          <h2 class="card-title">WOMEN’S APPAREL</h2>
+          <a href="#custitem_websubcat/Womens-Apparel" data-touchpoint="home" data-hashtag="#custitem_websubcat/Womens-Apparel" class="btn btn-primary" title="Click to shop women's apparel">Shop Apparel</a>
         </div>
       </div>
     </div>
@@ -56,41 +56,10 @@
     <div class="row">
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/CANVAS-WORK-JACKET">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222547_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <a href="https://www.krsaddleshop.com/KINENO-JACKET">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/215873_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Kineno jacket is rugged cotton canvas inspired by the original fabric that sheltered westward bound wagon trains">
             <div class="card-body">
-              <h5 class="card-title">CANVAS WORK JACKET</h5>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">SPORTSMAN SERIES TRAPPER</h5>
-            </div>
-            
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/MENS-OILSKIN-LIGHTWEIGHT-CANVAS-JACKET">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222749_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">MEN'S OILSKIN LIGHTWEIGHT CANVAS JACKET</h5>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/LEATHER-GAME-CARRIER">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222582_main-image[1].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">LEATHER GAME CARRIER</h5>
+              <h5 class="card-title">KINENO JACKET</h5>
             </div>
           </a>
         </div>
@@ -98,7 +67,7 @@
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
           <a href="https://www.krsaddleshop.com/KING-RANCH-BOS-MENS-BARN-BOOT">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222595_Rust-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222595_Rust-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="King Ranch Men's Barn Boot">
             <div class="card-body">
               <h5 class="card-title">KING RANCH "BOS" MEN'S BARN BOOT</h5>
             </div>
@@ -107,14 +76,66 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/BOOT-BAG_2">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222588_Black%20Cherry-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Card image cap">
+          <a href="https://www.krsaddleshop.com/Mens-Bonded-Poly-Vest">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/218939_Olive-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Men's Bonded Poly Vest features three front zippered pockets">
             <div class="card-body">
-              <h5 class="card-title">BOOT BAG</h5>
+              <h5 class="card-title">MEN'S BONDED POLY VEST</h5>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/ANTLER-HANDLE-GUT-HOOK-KNIFE">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222554_main-image[2].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Antler handle gut hook knife">
+            <div class="card-body">
+              <h5 class="card-title">ANTLER HANDLE GUT HOOK KNIFE</h5>
             </div>
           </a>
         </div>
       </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Saddle-Stitch-Front-Pocket-Wallet">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221362_Cognac-Color[3].png?resizeid=6&resizeh=1200&resizew=1200" alt="Saddle stich leather wallet">
+            <div class="card-body">
+              <h5 class="card-title">SADDLE STITCH FRONT POCKET LEATHER WALLET</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/LADIES-LONG-SLEEVE-SHOOTING-SHIRT-KING-RANCH-SADDLE-SHOP">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223104_Blue-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Ladies long sleeve western shirt">
+            <div class="card-body">
+              <h5 class="card-title">LADIES LONG SLEEVE SHOOTING SHIRT</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/BRAIDED-TOTE-BAG">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221348_main-image[3].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="hand-brushed leather tote with its hand-braided leather and tassel fringe represents Western elegance at its best">
+            <div class="card-body">
+              <h5 class="card-title">LEATHER BRAIDED TOTE BAG</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Tooled-Bi-fold-Wallet">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222754_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Hand tooled bi-fold leather wallet featuring four card pockets, transparent ID slot, and main pouch for plenty of cash">
+            <div class="card-body">
+              <h5 class="card-title">TOOLED BI-FOLD LEATHER WALLET</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
