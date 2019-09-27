@@ -194,19 +194,6 @@
 				{{!-- end Related Products Javascript --}}
 		</section>
 
-		<div class="item-details-divider-desktop"></div>
-
-		<section class="item-details-product-review-content" >
-			{{#if showReviews}}
-				<button class="item-details-product-review-pusher" data-target="item-details-review" data-type="sc-pusher">{{ translate 'Reviews' }}
-					<div class="item-details-product-review-pusher-rating" data-view="Global.StarRating"></div><i></i>
-				</button>
-				<div class="item-details-more-info-content-container" data-action="pushable" data-id="item-details-review">
-					<div data-view="ProductReviews.Center"></div>
-				</div>
-			{{/if}}
-		</section>
-
 		<div class="item-details-content-related-items">
 			<div data-view="Related.Items"></div>
 		</div>

@@ -533,7 +533,7 @@
 
 // Added by Quietdraw
 
-$product-form-label-size: 0.6rem;
+$product-form-label-size: 0.8rem;
 
 #product-detail {
 	padding-top: 20px;
@@ -622,7 +622,7 @@ $product-form-label-size: 0.6rem;
 	.item-details-sku-container {
 		color: #777a6c;
 		font-family: FreightTextProBook-Italic, serif;
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 		font-weight: normal;
 		float: left;
 		display: inline-block;
@@ -631,13 +631,18 @@ $product-form-label-size: 0.6rem;
 	.item-views-price {
 		display: inline-block;
 		float: right;
+		line-height: 0.9rem;
 		span {
 			color: #777a6c;
 			font-family: FreightTextProBook-Italic, serif;
-			font-size: 0.7rem !important;
+			font-size: 0.9rem !important;
 			font-weight: normal;
 			text-align: right;
 		}
+	}
+	// Old Price 
+	.item-views-price-old {
+		font-size: 0.9rem;
 	}
 }
 
@@ -887,9 +892,10 @@ $product-form-label-size: 0.6rem;
 		color: #777a6c;
 		font-family: FreightTextProBook-Italic, serif;
 		font-size: $product-form-label-size;
-		font-weight: normal;
+		font-weight: bold;
 		margin-bottom: 10px;
 		text-transform: unset;
+		letter-spacing: 0px;
 	}
 	p {
 		font-family: CentSchbookBTWGL4WXX-Roman, serif;
@@ -898,7 +904,8 @@ $product-form-label-size: 0.6rem;
 		color: #777a6c;
 		line-height: 1.4em;
 		margin-bottom: 15px;
-		font-size: 0.9rem;
+		font-size: 14px;
+		letter-spacing: 0.01rem;
 	}
 }
 
