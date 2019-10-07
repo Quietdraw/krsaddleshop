@@ -627,7 +627,7 @@ $product-form-label-size: 0.8rem;
 	.item-details-sku-container {
 		color: #777a6c;
 		font-family: FreightTextProBook-Italic, serif;
-		font-size: 0.9rem;
+		font-size: 1rem;
 		font-weight: normal;
 		float: left;
 		display: inline-block;
@@ -636,18 +636,18 @@ $product-form-label-size: 0.8rem;
 	.item-views-price {
 		display: inline-block;
 		float: right;
-		line-height: 0.9rem;
+		line-height: 1rem;
 		span {
 			color: #777a6c;
 			font-family: FreightTextProBook-Italic, serif;
-			font-size: 0.9rem !important;
+			font-size: 1rem !important;
 			font-weight: normal;
 			text-align: right;
 		}
 	}
 	// Old Price 
 	.item-views-price-old {
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 }
 
