@@ -98,7 +98,7 @@
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
           <a href="https://www.krsaddleshop.com/Saddle-Stitch-Front-Pocket-Wallet">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221362_Cognac-Color[3].png?resizeid=6&resizeh=1200&resizew=1200" alt="Saddle stich leather wallet">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221362_Brown-Color[5].png?resizeid=6&resizeh=1200&resizew=1200" alt="Saddle stich leather wallet">
             <div class="card-body">
               <h5 class="card-title">SADDLE STITCH FRONT POCKET LEATHER WALLET</h5>
             </div>
