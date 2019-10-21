@@ -184,7 +184,7 @@
       </div>
       <div class="col col-sm-3">
         <div class="card">
-          <a href="/Leather-Conditioner">
+          <a href="/search?keywords=leather%20cleaner">
             <img class="card-img-top" src="/img/fall_19/KRSS_BOTTOM-ITEMS_02.jpg" alt="KNIVES">
             <div class="card-body">
               <p class="card-tagline">Protect your Investment</p>
