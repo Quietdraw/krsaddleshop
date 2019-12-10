@@ -48,7 +48,7 @@ define('AcuityPlatform'
 			return this;
 		}
 	,	trackHomeView: function(){
-			debugger;
+			// debugger;
 			if(jQuery("#trackViewHome").length>0){
 				jQuery("#trackViewHome").remove();
 			}
