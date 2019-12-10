@@ -5,6 +5,8 @@
 	may use this code subject to the terms that govern your access and use.
 */
 
+/* Styles have been moved to ../../quietdraw/Sass/ */
+
 .cms-landing-page {
   @extend .container;
   max-width: 100%;
@@ -40,5 +42,5 @@
 // QUIET DRAW
 .cms-landing-page.quietdraw-style {
 	max-width: 100%;
-	background-color: yellow;
+	//background-color: yellow;
 }

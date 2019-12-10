@@ -685,7 +685,8 @@
                         {
                             "module": "QuietDrawCustom",
                             "include": [
-                                "webfonts"
+                                "webfonts",
+                                "cms-pages"
                             ]
                         },
                         {

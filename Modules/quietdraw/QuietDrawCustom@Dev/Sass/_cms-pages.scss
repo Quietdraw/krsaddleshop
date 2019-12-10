@@ -1,0 +1,114 @@
+/*
+    CMS Landing Pages - overridden by Quiet Draw - originals found:
+    ../Modules/site/CMSadapterCustom@Dev/Sass/_cms-landing-page.scss
+*/
+
+
+.cms-landing-page {
+    // nothing needed here
+    p {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: normal;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+        font-size: 14px;
+        letter-spacing: 0.01rem;
+    }
+}
+
+// General Styles
+
+.classic-padding {
+    background-color: #e0dece;
+    padding: 40px 15px;
+    margin: 0 -15px;
+    @media (min-width: $screen-md-min){
+        padding: 80px 15px;
+    }
+    h1 {
+        color: #777a6c;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+		font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+// Terms of Use
+
+.cms-page-terms__disclaimer {
+    padding-top: 40px;
+    .col-lg-4 {
+        margin-bottom: 40px;
+        @media (min-width: $screen-md-min){
+            min-height: 420px;
+        }
+        @media (min-width: $screen-lg-min){
+            min-height: 530px;
+        }
+        &:nth-of-type(4) {
+            @media (min-width: $screen-lg-min){
+                min-height: 280px;
+            }
+        }
+        &:nth-of-type(5) {
+            @media (min-width: $screen-md-min){
+                min-height: 230px;
+            }
+            @media (min-width: $screen-lg-min){
+                min-height: 280px;
+            }
+        }
+        &:nth-of-type(6) {
+            @media (min-width: $screen-md-min){
+                min-height: 230px;
+            }
+            @media (min-width: $screen-lg-min){
+                min-height: 280px;
+            }
+        }
+    }
+    h3 {
+        color: #777a6c;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+		font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+}
+
+.borders {
+    border-top: 1px solid #777a6c;
+    padding-top: 15px;
+}  
+
+.cms-page-terms__ranch {
+    background-image: url('https://4031305-sb1.app.netsuite.com/c.4031305_SB1/img/landing_page_assets/cms-page__terms-ranch.jpg');
+    background-size: cover;
+    margin: 0 -15px;
+    padding: 150px;
+    background-position: center;
+    @media (min-width: $screen-md-min){
+        padding: 250px;
+    }
+    @media (min-width: $screen-lg-min){
+        padding: 250px;
+    }
+    blockquote {
+        max-width: 600px;
+        margin: 0 auto;
+        color: #e0dece;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+}
