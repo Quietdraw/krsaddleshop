@@ -33,13 +33,21 @@ define(
 
 	,	attributes: {
 			'id': 'cms-landing-page'
-		,	'class': 'cms-landing-page quietdraw-style'
+		,	'class': 'cms-landing-page quietdraw-style-gonz'
 		}
 
 	,	initialize: function(options)
 		{
+			// Inside of Application Skeleton
+			var layout = this.options.application.getLayout();
+			
 			Backbone.View.prototype.initialize.apply(this, arguments);
 			this.model = options.model;
+			// afterViewRender, afterAppendToDom, afterAppendView, beforeAppendView
+			layout.on('afterAppendToDom', function () {
+				//debugger
+				console.log('This CMS Page is loaded');
+			}, this);
 		}
 
 	,	getBreadcrumbPages: function ()

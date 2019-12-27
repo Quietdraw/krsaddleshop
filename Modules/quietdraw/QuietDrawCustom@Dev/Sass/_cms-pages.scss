@@ -3,8 +3,18 @@
     ../Modules/site/CMSadapterCustom@Dev/Sass/_cms-landing-page.scss
 */
 
+$centered_width: 650px;
+
 
 .cms-landing-page {
+    font-family: CentSchbookBTWGL4WXX-Roman, serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #777a6c;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 0.01rem;
     // nothing needed here
     p {
         font-family: CentSchbookBTWGL4WXX-Roman, serif;
@@ -15,6 +25,12 @@
         margin-bottom: 15px;
         font-size: 14px;
         letter-spacing: 0.01rem;
+    }
+    a {
+        color: #777a6c;
+    }
+    .text-center {
+        text-align: center;
     }
 }
 
@@ -39,7 +55,9 @@
     }
 }
 
-// Terms of Use
+/*
+    Statis Page: Terms of Use
+*/
 
 .cms-page-terms__disclaimer {
     padding-top: 40px;
@@ -112,3 +130,189 @@
         text-transform: uppercase;
     }
 }
+
+/*
+    Statis Page: FAQ
+*/
+
+.cms-page-faq {
+    header {
+        background-image: url('https://4031305-sb1.app.netsuite.com/c.4031305_SB1/img/landing_page_assets/cms-page__faq-intro.jpg');
+        background-size: cover;
+        margin: 0 -15px;
+        padding: 0;
+        background-position: left top;
+        min-height: 300px;
+        // Heading
+        h1 {
+            color: white;
+            font-family: $font-family-syncopate;
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            padding-top: 30px;
+        }
+    }
+}
+
+// Intro 
+.cms-page-faq__introduction {
+    max-width: $centered_width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    p {
+        text-transform: uppercase;
+        font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        padding-bottom: 0;
+        text-align: center;
+        @media (min-width: $screen-md-min){
+            font-size: 1.1rem;
+        }
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+
+  // Store Info
+
+  .cms-page-faq__store-info {
+    padding: 30px;
+    margin: 0px 0 30px;
+    border-top: 1px solid #777a6c;
+    border-bottom: 1px solid #777a6c;
+    h4 {
+      font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+      color: #777a6c;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.2em;
+      letter-spacing: 0.1rem;
+      margin-bottom: 12px;
+    }
+    h5 {
+      color: #777a6c;
+      margin: 12px 0;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+// FAQ Section
+
+.cms-page-faq__questions {
+    max-width: $centered_width;
+    margin-left: auto;
+    margin-right: auto;
+
+    h2 {
+        text-transform: uppercase;
+        font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        display: block;
+        color: #777a6c;
+        margin-bottom: 30px;
+    }
+}
+
+.faq-container {
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    @media (min-width: $screen-md-min){
+        padding: 10px 10px 30px;
+    }
+}
+
+// Collapsable Menus
+
+.collapsible__menu {
+    padding: 0;
+    margin: 0;
+    > li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #777a6c;
+    }
+}
+
+.collapsible__menu-item:last-of-type {
+    border-bottom: 1px solid #777a6c;
+}
+
+.collapsible {
+    font-size: 0.7rem;
+    padding: 1rem 1.6rem 1rem 0;
+        text-transform: uppercase;
+        font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: lighter;
+        font-size: 0.9rem;
+    display: block;
+    color: #777a6c;
+    font-style: normal;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    &::after {
+      content: url(../img/icon-opener-plus.svg);
+      display: block;
+      font: normal normal normal 14px/1 FontAwesome;
+      position: absolute;
+      right: 1.04em;
+      width: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &.active {
+        outline: none;
+        &::after {
+            content: url(../img/icon-opener-minus.svg);
+        }
+    }
+  }
+  
+  .active, .collapsible:hover {
+  }
+  
+  .collapsible__content-wrapper {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .collapsible__content {
+      padding: 1rem 10;
+      h5 {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: bold;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+        font-size: 16px;
+        letter-spacing: 0.01rem;
+      }
+      h6 {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: bold;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+        font-size: 15px;
+        letter-spacing: 0.01rem;
+      }
+  }

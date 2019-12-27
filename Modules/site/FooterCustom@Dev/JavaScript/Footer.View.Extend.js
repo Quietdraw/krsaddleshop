@@ -29,7 +29,8 @@ define(
 			}),
 			events: {
 				'click .footer .menu li  > a': 'toggleFunction',
-				'click #newsletterSubmit': 'newsletterFormAction' 
+				'click #newsletterSubmit': 'newsletterFormAction',
+				'click .classic-padding h1': 'sampleFunction'
 			},
 			// Onload
 			initialize: function () {
@@ -51,6 +52,14 @@ define(
 				e.preventDefault();
 				//debugger
 				this.$(e.target).parent().toggleClass("open");
+			},
+
+			// Sample
+			sampleFunction: function (e) {
+				console.log(e);
+				e.preventDefault();
+				//debugger
+				//this.$(e.target).parent().toggleClass("open");
 			},
 			// Mobile style menu
 			newsletterFormAction: function (e) {
