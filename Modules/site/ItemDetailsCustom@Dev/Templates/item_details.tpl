@@ -17,12 +17,11 @@
 
 		<section class="item-details-main-content">
 			<div class="item-details-content-header">
+				
+				<div class="item-details-breadcrumb"> {{ model.custitem_websubcat }} / <span class="item-details-breadcrumb__product-name">{{model._pageHeader}}</span></div>
 				<h1 class="item-details-content-header-title" itemprop="name">{{model._pageHeader}}</h1>
-				{{#if showReviews}}
-				<div class="item-details-rating-header" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-					<div class="item-details-rating-header-rating" data-view="Global.StarRating"></div>
-				</div>
-				{{/if}}
+				
+				
 				<div data-cms-area="item_info" data-cms-area-filters="path"></div>
 			</div>
 
@@ -40,17 +39,22 @@
 
 				<section class="item-details-info">
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
+						
+						<div class="item-details-product-info-group lockup__price">
+							<div class="item-details-sku-container">
+								<span class="item-details-sku">
+									{{translate 'PRODUCT NUMBER: #'}}
+								</span>
+								<span class="item-details-sku-value" itemprop="sku">
+									{{sku}}
+								</span>
+								
+							</div>
 
-						<div data-view="Item.Price"></div>
+							<div data-view="Item.Price"></div>
+						</div>
 
-					<div class="item-details-sku-container">
-						<span class="item-details-sku">
-							{{translate 'SKU: #'}}
-						</span>
-						<span class="item-details-sku-value" itemprop="sku">
-							{{sku}}
-						</span>
-					</div>
+					
 					<div data-view="Item.Stock"></div>
 				</section>
 
@@ -80,6 +84,7 @@
 
 							<div class="item-details-options-content-stock"  data-view="Item.Stock"></div>
 
+							
 							<div data-view="ItemDetails.Options"></div>
 						</div>
 					{{else}}
@@ -103,9 +108,11 @@
 										{{translate 'Quantity'}}
 									</label>
 
-									<button class="item-details-quantity-remove" data-action="minus" {{#if isMinusButtonDisabled}}disabled{{/if}}>-</button>
-									<input type="number" name="quantity" id="quantity" class="item-details-quantity-value" value="{{quantity}}" min="1">
-									<button class="item-details-quantity-add" data-action="plus">+</button>
+									<div class="item-details-quantity-wrapper">
+										<button class="item-details-quantity-remove" data-action="minus" {{#if isMinusButtonDisabled}}disabled{{/if}}>-</button>
+										<input type="number" name="quantity" id="quantity" class="item-details-quantity-value" value="{{quantity}}" min="1">
+										<button class="item-details-quantity-add" data-action="plus">+</button>
+									</div>
 
 									{{#if showMinimumQuantity}}
 										<small class="item-details-options-quantity-title-help">
@@ -119,7 +126,7 @@
 								{{#if showSelectOptionMessage}}
 									<p class="item-details-add-to-cart-help">
 										<i class="item-details-add-to-cart-help-icon"></i>
-										<span class="item-details-add-to-cart-help-text">{{translate 'Please select options before adding to cart'}}</span>
+										<span class="item-details-add-to-cart-help-text">{{translate 'Please select from the options above prior to ADDING TO CART'}}</span>
 									</p>
 								{{/if}}
 							{{/unless}}
@@ -143,68 +150,48 @@
 				{{/if}}
 				{{/if}}
 
-				<div class="item-details-main-bottom-banner">
+				<section class="item-details-product-description">
+					{{#each details}}
+						{{#if @first}} 
+						<h3 class="item-details-description">
+								{{translate 'Product Details'}}
+							</h3>
+							<p>{{{content}}}</p>
+						{{/if}}
+					{{/each}}
+				</section>
+
+				<div class="item-details-social-wrapper">
+					<h3 class="item-details-social-buttons">
+								{{translate 'Share'}}
+							</h3>
 					<div data-view="SocialSharing.Flyout"></div>
 					<div id="banner-summary-bottom" class="item-details-banner-summary-bottom"></div>
 				</div>
+				
+				<!-- Customer Ratings -->
+				{{#if showReviews}}
+				<div class="item-details-rating-header" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+					<div class="item-details-rating-header-rating" data-view="Global.StarRating"></div>
+				</div>
+				{{/if}}
+
+
 			<div id="banner-details-bottom" class="item-details-banner-details-bottom" data-cms-area="item_info_bottom" data-cms-area-filters="page_type"></div>
 			</div>
 		</section>
 
+
+		<h1 class="heading-marquee">King Ranch<br>Essentials</h1>
 		<section class="item-details-more-info-content">
-			{{#if showDetails}}
-
-				{{#each details}}
-					{{!-- Mobile buttons --}}
-					<button class="item-details-info-pusher" data-target="item-details-info-{{ @index }}" data-type="sc-pusher">
-						{{ name }} <i></i>
-						<p class="item-details-info-hint"> {{{trimHtml content 150}}} </p>
-					</button>
-				{{/each}}
-
-				<div class="item-details-more-info-content-container">
-
-					<div id="banner-content-top" class="content-banner banner-content-top"></div>
-
-					<div role="tabpanel">
-						{{!-- When more than one detail is shown, these are the tab headers  --}}
-						<ul class="item-details-more-info-content-tabs" role="tablist">
-							{{#each details}}
-								<li class="item-details-tab-title {{#if @first}} active {{/if}}" role="presentation">
-									<a href="#" data-target="#item-details-info-tab-{{@index}}" data-toggle="tab">{{name}}</a>
-								</li>
-							{{/each}}
-						</ul>
-						{{!-- Tab Contents --}}
-						<div class="item-details-tab-content" >
-							{{#each details}}
-								<div role="tabpanel" class="item-details-tab-content-panel {{#if @first}}active{{/if}}" id="item-details-info-tab-{{@index}}" itemprop="{{itemprop}}" data-action="pushable" data-id="item-details-info-{{ @index }}">
-									<h2>{{name}}</h2>
-									<div id="item-details-content-container-{{@index}}">{{{content}}}</div>
-								</div>
-							{{/each}}
-							<div class="item-details-action">
-								<a href="#" class="item-details-more" data-action="show-more">{{translate 'See More'}}</a>
-								<a href="#" class="item-details-less" data-action="show-more">{{translate 'See Less'}}</a>
-							</div>
-						</div>
+				{{!-- I think we need to have these empty divs to help EverGage inject their Related Products Javascript - super weird --}}
+				<div>
+					<div></div>
+					<div>
+						<div></div>
 					</div>
-					<div id="banner-content-bottom" class="content-banner banner-content-bottom"></div>
 				</div>
-			{{/if}}
-		</section>
-
-		<div class="item-details-divider-desktop"></div>
-
-		<section class="item-details-product-review-content" >
-			{{#if showReviews}}
-				<button class="item-details-product-review-pusher" data-target="item-details-review" data-type="sc-pusher">{{ translate 'Reviews' }}
-					<div class="item-details-product-review-pusher-rating" data-view="Global.StarRating"></div><i></i>
-				</button>
-				<div class="item-details-more-info-content-container" data-action="pushable" data-id="item-details-review">
-					<div data-view="ProductReviews.Center"></div>
-				</div>
-			{{/if}}
+				{{!-- end Related Products Javascript --}}
 		</section>
 
 		<div class="item-details-content-related-items">

@@ -10,6 +10,7 @@
 	width: 75px;
 }
 </style>
+
 <div class="item-views-option-color" data-id="{{itemOptionId}}" data-type="option" data-cart-option-id="{{cartOptionId}}">
 	<p class="item-views-option-color-label">
 		{{label}}

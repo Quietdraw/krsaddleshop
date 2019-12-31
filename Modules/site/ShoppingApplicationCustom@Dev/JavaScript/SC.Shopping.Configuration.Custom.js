@@ -17,12 +17,12 @@ define(
 	,	'SC.Configuration'
 	,	'Session'
 
+	,	'item_views_option_color.tpl'
 	,	'item_views_option_tile.tpl'
 	,	'item_views_option_initials.tpl'
 	,	'item_views_option_dropdown.tpl'
 	,	'item_views_option_radio.tpl'
 	,	'item_views_option_text.tpl'
-	,	'item_views_option_color.tpl'
 	,	'item_views_option_leather.tpl'
 	,	'item_views_option_style.tpl'
 	,	'item_views_selected_option.tpl'
@@ -45,12 +45,12 @@ define(
 	,	BaseConfiguration
 	,	Session
 
+	,	item_views_option_color_tpl
 	,	item_views_option_tile_tpl
 	,	item_views_option_initials_tpl
 	,	item_views_option_dropdown_tpl
 	,	item_views_option_radio_tpl
 	,	item_views_option_text_tpl
-	,	item_views_option_color_tpl
 	,	item_views_option_leather_tpl
 	,	item_views_option_style_tpl
 	,	item_views_selected_option_tpl
@@ -1007,7 +1007,7 @@ define(
 
 		// @property {Object} googlePlus
 	,	googlePlus: {
-			enable: true
+			enable: false
 		,	popupOptions: {
 				menubar: 'no'
 			,	toolbar: 'no'

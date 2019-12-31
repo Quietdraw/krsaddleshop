@@ -8,7 +8,7 @@
 <section class="footer-newsletter-signup">
 	<div class="wrapper">
 		<h5>Join Our Newsletter</h5>
-		<p>Subscribe to kingranchsaddleshop.com to receive exclusive offers, first looks, event information, and more.</p>
+		<p>Subscribe to krsaddleshop.com to receive exclusive offers, first looks, event information, and more.</p>
 		<h4>Subscribe</h4>
 		<form id="newsletterSignup" action="https://bm5150.com/public/webform/process/" method="post" target="_blank" _lpchecked="1">
 			<input type="hidden" name="fid" value="gglu2ndubpy9709aidn778unjwukp" />
@@ -35,6 +35,9 @@
 					<li id="menu-item-company" class="menu-item menu-item-has-children"><a
 						href="#">Company</a>
 						<ul class="sub-menu">
+							<li id="menu-item-blog" class="menu-item">
+								<a href="https://blog.krsaddleshop.com/" target="_blank">King Ranch Blog</a>
+							</li>
 							<li id="menu-item-about" class="menu-item">
 								<a href="/about-us" data-touchpoint="home" data-hashtag="#about-us">Our Heritage</a>
 							</li>

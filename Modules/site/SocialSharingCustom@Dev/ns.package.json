@@ -1,0 +1,25 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ],
+        "images": [
+            "Images/*"
+        ]
+    },
+    "overrides":{
+      "suitecommerce/SocialSharing@2.0.1/Templates/social_sharing_flyout_hover.tpl":"Templates/social_sharing_flyout_hover.tpl",
+      "suitecommerce/SocialSharing@2.0.1/Templates/social_sharing_flyout.tpl":"Templates/social_sharing_flyout.tpl",
+      "suitecommerce/SocialSharing@2.0.1/JavaScript/SocialSharing.Plugins.Facebook.js":"JavaScript/SocialSharing.Plugins.Facebook.js",
+      "suitecommerce/SocialSharing@2.0.1/JavaScript/SocialSharing.Plugins.Twitter.js":"JavaScript/SocialSharing.Plugins.Twitter.js",
+      "suitecommerce/SocialSharing@2.0.1/JavaScript/SocialSharing.Plugins.Pinterest.js":"JavaScript/SocialSharing.Plugins.Pinterest.js",
+      "suitecommerce/SocialSharing@2.0.1/Sass/_social-sharing-flyout-hover.scss":"Sass/_social-sharing-flyout-hover.scss",
+      "suitecommerce/SocialSharing@2.0.1/Sass/_social-sharing-flyout.scss":"Sass/_social-sharing-flyout.scss"
+    }
+}

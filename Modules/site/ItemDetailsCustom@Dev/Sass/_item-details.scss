@@ -232,6 +232,7 @@
 	margin-right: $sc-base-margin;
 }
 
+/*
 .item-details-quantity-add, .item-details-quantity-remove{
 	@extend .button-secondary;
 	background-color:lighten($sc-color-theme, 20%);
@@ -239,6 +240,7 @@
 	width: $sc-target-size-mobile;
 	height: $sc-target-size-mobile;
 
+	
 	@media (min-width: $screen-md-min) {
 		display: none;
 	}
@@ -255,6 +257,8 @@
 	border-radius: 0 0 0 0;
 	font-weight:$sc-font-weight-normal;
 }
+
+*/
 
 .item-details-actions-container {
 	margin-left: -$sc-base-margin * 2;
@@ -526,3 +530,436 @@
 .item-details-add-to-cart-help-text{}
 .item-details-add-to-cart-form{}
 .item-details-rating-header-rating{}
+
+// Added by Quietdraw
+
+$product-form-label-size: 0.8rem;
+
+#product-detail {
+	padding-top: 20px;
+}
+
+// Product Photos
+.item-details-image-gallery-container {
+	padding-top: 25px;
+	// Adjust width according to new design
+	@media (min-width: $screen-md-min){
+		width: 56%;
+		// Make room for the thumbnails
+		.item-details-image-gallery {
+			padding-left: 105px;
+		}
+		// Social Sharing -- when Hover
+		.social-sharing-flyout-hover-icons {
+			top: 20px;
+    		left: 120px;
+		}
+		// Fade it in
+		.bxslider, .item-details-image-gallery-detailed-image {
+			-webkit-animation: 1s ease 0s normal forwards 1 productfadein;
+			animation: 1s ease 0s normal forwards 1 productfadein;
+		}
+		// Product Thumbnails
+		.bx-pager {
+			/*
+			position: absolute !important;
+			top: 0;
+			left: 0;
+			margin: 0 !important;
+			width: 100px;
+			*/
+			.bx-pager-item {
+				margin: 2px;
+			}
+			a {
+				margin: 0 !important;
+				padding: 0 !important;
+				&:hover, &.active {
+					img {
+						border-color: #777a6c;
+					}
+				}
+			}
+			img {
+				//width: 95px;
+				max-width: 95px;
+				border: 1px solid transparent;
+			}
+		}
+		// Prev + Next
+		.item-details-gallery-prev-icon, .item-details-gallery-next-icon {
+			display: none;
+		}
+	}
+}
+
+
+
+
+// Product Details
+
+.item-details-content-header {
+	// Adjust width according to new design
+	@media (min-width: $screen-md-min){
+		width: 44%;
+	}
+}
+.item-details-main {
+	// Adjust width according to new design
+	@media (min-width: $screen-md-min){
+		width: 44%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.item-details-content {
+	// Product Title
+	&-header-title {
+		color: #777a6c;
+		font-family: $font-family-syncopate;
+		font-size: 1.1rem;
+		line-height: 1.1rem;
+		font-weight: normal;
+		margin-bottom: 4px !important;
+	}
+	// Product SKU
+	.item-details-sku-container {
+		color: #777a6c;
+		font-family: FreightTextProBook-Italic, serif;
+		font-size: 1rem;
+		font-weight: normal;
+		float: left;
+		display: inline-block;
+	}
+	// Product Price
+	.item-views-price {
+		display: inline-block;
+		float: right;
+		line-height: 1rem;
+		span {
+			color: #777a6c;
+			font-family: FreightTextProBook-Italic, serif;
+			font-size: 1rem !important;
+			font-weight: normal;
+			text-align: right;
+		}
+	}
+	// Old Price 
+	.item-views-price-old {
+		font-size: 1rem;
+	}
+}
+
+// Utility Class
+.item-details-product-info-group {
+	@include clearfix;
+}
+
+// Lockup - Price & SKU
+.lockup__price {
+	margin-bottom: 30px;
+}
+
+// Product Beadcrumbs
+.item-details-breadcrumb {
+	font-size: 0.5rem;
+    font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+	color: #777a6c;
+	&__product-name {
+		font-weight: normal;
+	}
+}
+
+// Sizes + Options
+.item-views-option-tile-title, .item-details-options-quantity-title, .item-views-option-color-label {
+	color: #777a6c;
+	font-family: FreightTextProBook-Italic, serif;
+	font-size: $product-form-label-size;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+.item-views-option-tile-picker {
+    margin-bottom: 10px;
+    display: table;
+    border: 1px solid #e0dece;
+	border-collapse: collapse;
+	li {
+		display: table-cell;
+		border: 1px solid #e0dece;
+		a {
+			display: block;
+			transition: background-color 300ms;
+			padding: 0;
+			margin: 0;
+			&:hover { 
+				background-color: #e0dece;
+				border: none;
+				color: unset;
+			}
+			&.active {
+				span {
+					border: none;
+					color: unset;
+					padding: 1rem 1rem;
+					background-color: #e0dece;
+					color: #702b25;
+				}
+			}
+			span {
+				text-transform: uppercase;
+				font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+				font-size: 0.6rem;
+				color: #777a6c;
+				// SCA Overrides
+				padding: 0;
+				border: none;
+				text-align: center;
+				line-height: 0.6rem;
+				font-weight: normal;
+				min-width: unset;
+				padding: 1rem 1rem;
+				&:hover { 
+					border: none;
+					color: #777a6c;
+				}
+			}
+		}
+	}
+}
+
+// Color Options
+.item-views-option-color-tiles-container {
+	// Clean up the First and Last Item
+	li {
+		margin-bottom: 20px;
+		&:first-child {
+			a.item-views-option-color-tile {
+				// padding-left: 0;
+			}
+		}
+		&:last-child {
+			a.item-views-option-color-tile {
+				padding-right: 0;
+				&::after {
+					display: none;
+				}
+			}
+		}
+	}
+	a.item-views-option-color-tile {
+		padding: 0 14px;
+		.product-color-swatch-name {
+			color: #777a6c;
+			font-size: 0.5rem;
+			text-transform: uppercase;
+			line-height: 1.25rem;
+			width: 0;
+			transition: all 300ms;
+			display: block;
+			overflow: hidden;
+			transform: translateX(-100%);
+			opacity: 0;
+			white-space: nowrap;
+		}
+		// Style
+		&::after {
+			content: ' ';
+			height: 40px;
+			width: 1px;
+			top: 0;
+			right: 0;
+			background-color: #e0dece;
+			position: absolute;
+			display: block;
+			transform: skewX(-25deg);
+			transform: skewX(-25deg) translateY(-8px);
+		}
+		// Hover and Active States
+		&:hover, &.active {
+			span.product-color-swatch {
+				box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+				border: 3px solid white;
+			}
+			.product-color-swatch-name {
+				width: auto;
+				transform: translateX(0);
+				-webkit-animation: 300ms ease 0s normal forwards 1 productfadein;
+				animation: 300ms ease 0s normal forwards 1 productfadein;
+			}
+			&::before {
+				height: 0;
+				width: 0;
+				top: 0;
+				left: 0;
+				content: ' ';
+				display: none;
+				position: unset;
+				border: none;
+				z-index: 10;
+			}
+		}
+	}
+	span.product-color-swatch {
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		border: 3px solid white;
+		transition: box-shadow 300ms;
+		display: block;
+		float: left;
+		margin-right: 4px;
+		overflow: hidden;
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75) inset;
+	}
+}
+
+// Product Quantity
+.item-details-options-quantity {
+	display: block;
+	.item-details-quantity-wrapper {
+		display: inline-block;
+		border: 1px solid #e0dece;
+	}
+	.item-details-quantity-remove, .item-details-quantity-add {
+		padding: 1rem 1.2rem;
+		text-transform: uppercase;
+		font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+		font-size: 0.6rem;
+		color: #777a6c;
+		font-weight: normal;
+		transition: background-color 300ms;
+		background-color: white;
+		&:hover {
+			background-color: #e0dece;
+		}
+	}
+	#quantity {
+		width: 40px;
+		text-align: right;
+		text-transform: uppercase;
+		font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+		font-size: 0.6rem;
+		color: #777a6c;
+		font-weight: normal;
+		text-align: center;
+	}
+}
+
+// Product Help
+.item-details-add-to-cart-help {
+	color: #777a6c;
+	font-family: FreightTextProBook-Italic, serif;
+	font-size: $product-form-label-size;
+	font-weight: normal;
+	background-color: unset;
+	padding: 0px;
+    display: inline-block;
+	position: relative;
+	line-height: 1rem;
+	text-transform: none;
+}
+
+// Add to Cart
+.item-details-actions-container {
+	button {
+		border: 1px solid #e0dece;
+		text-transform: uppercase;
+		font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+		font-size: 0.6rem;
+		color: black;
+		font-weight: normal;
+		transition: background-color 300ms;
+	}
+	.item-details-add-to-cart-button {
+		background-color: #e0dece;
+		&:hover {
+			color: #e0dece;
+			background-color: #777a6c;
+		}
+	}
+	.product-list-control-button-wishlist {
+		&:hover {
+			color: #e0dece;
+			background-color: #777a6c;
+		}
+	}
+}
+
+// Product Description
+.item-details-product-description {
+	margin-top: 40px;
+	.item-details-description {
+		color: #777a6c;
+		font-family: FreightTextProBook-Italic, serif;
+		font-size: $product-form-label-size;
+		font-weight: bold;
+		margin-bottom: 10px;
+		text-transform: unset;
+		letter-spacing: 0px;
+	}
+	p {
+		font-family: CentSchbookBTWGL4WXX-Roman, serif;
+		font-weight: normal;
+		font-style: normal;
+		color: #777a6c;
+		line-height: 1.4em;
+		margin-bottom: 15px;
+		font-size: 14px;
+		letter-spacing: 0.01rem;
+	}
+}
+
+// Sharing
+.item-details-social-buttons {
+	color: #777a6c;
+	font-family: FreightTextProBook-Italic, serif;
+	font-size: $product-form-label-size;
+	font-weight: normal;
+	margin-bottom: 10px;
+	text-transform: unset;
+}
+
+// Related Products
+@media (max-width: $screen-sm-min){
+	#product-detail {
+		.heading-marquee {
+			display: none;
+		}
+	}
+}
+.evergage-tooltip {
+	p:first-of-type {
+		display: none !important;
+	}
+	div[evergage-item-block] {
+		a {
+			img {
+
+			}
+			u {
+				font-size: 0.8rem;
+				font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+				text-transform: uppercase;
+				margin-bottom: unset;
+			}
+		}
+	}
+}
+
+		
+@keyframes productfadein{
+	0% { opacity:0; }
+	66% { opacity:0; }
+	100% { opacity:1; }
+}
+
+@-webkit-keyframes productfadein{
+	0% { opacity:0; }
+	66% { opacity:0; }
+	100% { opacity:1; }
+}
