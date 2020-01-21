@@ -131,13 +131,10 @@ $centered_width: 650px;
         color: #e0dece;
 		font-family: $font-family-syncopate;
 		font-size: 1.2rem;
-		line-height: 1.2rem;
+		line-height: 1.4rem;
         font-weight: normal;
         text-transform: uppercase;
-        @media (min-width: $screen-md-min){
-            font-size: 1rem;
-            line-height: 1rem;
-        }
+        text-align: center;
     }
 }
 
@@ -395,14 +392,10 @@ $centered_width: 650px;
         color: #e0dece;
 		font-family: $font-family-syncopate;
 		font-size: 1.2rem;
-		line-height: 1.2rem;
+		line-height: 1.4rem;
         font-weight: normal;
         text-transform: uppercase;
         text-align: center;
-        @media (min-width: $screen-md-min){
-            font-size: 1rem;
-            line-height: 1rem;
-        }
     }
 }
 
@@ -433,7 +426,7 @@ $centered_width: 650px;
     blockquote {
         max-width: 340px;
         margin: 0 auto;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 1.6rem;
         text-align: center;
     }

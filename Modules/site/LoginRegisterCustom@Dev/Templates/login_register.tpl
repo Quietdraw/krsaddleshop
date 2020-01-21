@@ -9,9 +9,9 @@
 
 	<header class="login-register-header">
 		{{#if showRegister}}
-		<h1 class="login-register-title"> {{translate 'Log in | Register'}} QUIET DRAW Gonzo</h1>
+		<h1 class="login-register-title">{{!-- {{translate 'Log in | Register'}} --}}Sign Into Your Account</h1>
 		{{else}}
-		<h1 class="login-register-title"> {{translate 'Log in'}}</h1>
+		<h1 class="login-register-title">{{!--{{translate 'Log in'}} --}}Sign Into Your Account</h1>
 		{{/if}}
 	</header>
 

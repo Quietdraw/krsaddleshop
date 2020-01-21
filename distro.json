@@ -1042,6 +1042,12 @@
                                 "header-logo"
                             ]
                         },
+                        {
+                            "module": "LoginRegisterCustom",
+                            "include": [
+                                "login-register-register"
+                            ]
+                        },
                         "Footer"
                     ]
                 }
