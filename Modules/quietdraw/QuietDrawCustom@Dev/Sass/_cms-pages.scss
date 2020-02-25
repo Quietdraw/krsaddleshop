@@ -1,0 +1,486 @@
+/*
+    CMS Landing Pages - overridden by Quiet Draw - originals found:
+    ../Modules/site/CMSadapterCustom@Dev/Sass/_cms-landing-page.scss
+*/
+
+$centered_width: 650px;
+
+
+.cms-landing-page {
+    font-family: CentSchbookBTWGL4WXX-Roman, serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #777a6c;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 0.01rem;
+    // nothing needed here
+    p {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: normal;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+        font-size: 14px;
+        letter-spacing: 0.01rem;
+    }
+    a {
+        color: #777a6c;
+    }
+    .text-center {
+        text-align: center;
+    }
+}
+
+// General Styles
+
+// Remove Margin from All Static Pages
+
+.cms-page-about, .cms-page-faq, .cms-page-terms {
+    margin: 0 -15px;
+}
+
+.classic-padding {
+    background-color: #e0dece;
+    padding: 40px 15px;
+    margin: 0 -15px;
+    @media (min-width: $screen-md-min){
+        padding: 80px 15px;
+    }
+    h1 {
+        color: #777a6c;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+		font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+/*
+    Statis Page: Terms of Use
+*/
+
+.cms-page-terms__disclaimer {
+    padding-top: 40px;
+    .col-lg-4 {
+        margin-bottom: 40px;
+        @media (min-width: $screen-md-min){
+            min-height: 420px;
+        }
+        @media (min-width: $screen-lg-min){
+            min-height: 530px;
+        }
+        &:nth-of-type(4) {
+            @media (min-width: $screen-lg-min){
+                min-height: 280px;
+            }
+        }
+        &:nth-of-type(5) {
+            @media (min-width: $screen-md-min){
+                min-height: 230px;
+            }
+            @media (min-width: $screen-lg-min){
+                min-height: 280px;
+            }
+        }
+        &:nth-of-type(6) {
+            @media (min-width: $screen-md-min){
+                min-height: 230px;
+            }
+            @media (min-width: $screen-lg-min){
+                min-height: 280px;
+            }
+        }
+    }
+    h3 {
+        color: #777a6c;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+		font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+}
+
+.borders {
+    border-top: 1px solid #777a6c;
+    padding-top: 15px;
+}  
+
+.cms-page-terms__ranch {
+    background-image: url('/img/landing_page_assets/cms-page__terms-ranch.jpg');
+    background-size: cover;
+    //margin: 0 -15px;
+    padding: 150px 40px;
+    background-position: center;
+    @media (min-width: $screen-md-min){
+        padding: 250px;
+    }
+    @media (min-width: $screen-lg-min){
+        padding: 250px;
+    }
+    blockquote {
+        max-width: 600px;
+        margin: 0 auto;
+        color: #e0dece;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.4rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+/*
+    Statis Page: FAQ
+*/
+
+.cms-page-faq {
+    header {
+        background-image: url('/img/landing_page_assets/cms-page__faq-intro.jpg');
+        background-size: cover;
+        //margin: 0 -15px;
+        padding: 0;
+        background-position: left top;
+        min-height: 300px;
+        // Heading
+        h1 {
+            color: white;
+            font-family: $font-family-syncopate;
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            padding-top: 30px;
+        }
+    }
+}
+
+// Intro 
+.cms-page-faq__introduction {
+    max-width: $centered_width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    p {
+        text-transform: uppercase;
+        font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        padding-bottom: 0;
+        text-align: center;
+        @media (min-width: $screen-md-min){
+            font-size: 1.1rem;
+        }
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+
+  // Store Info
+
+  .cms-page-faq__store-info {
+    padding: 30px;
+    margin: 0px 0 30px;
+    border-top: 1px solid #777a6c;
+    border-bottom: 1px solid #777a6c;
+    h4 {
+      font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+      color: #777a6c;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.2em;
+      letter-spacing: 0.1rem;
+      margin-bottom: 12px;
+    }
+    h5 {
+      color: #777a6c;
+      margin: 12px 0;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+// FAQ Section
+
+.cms-page-faq__questions {
+    max-width: $centered_width;
+    margin-left: auto;
+    margin-right: auto;
+
+    h2 {
+        text-transform: uppercase;
+        font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        display: block;
+        color: #777a6c;
+        margin-bottom: 30px;
+    }
+}
+
+.faq-container {
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    @media (min-width: $screen-md-min){
+        padding: 10px 10px 30px;
+    }
+}
+
+// Collapsable Menus
+
+.collapsible__menu {
+    padding: 0;
+    margin: 0;
+    > li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #777a6c;
+    }
+}
+
+.collapsible__menu-item:last-of-type {
+    border-bottom: 1px solid #777a6c;
+}
+
+.collapsible {
+    font-size: 0.7rem;
+    padding: 1rem 1.6rem 1rem 0;
+        text-transform: uppercase;
+        font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: lighter;
+        font-size: 0.9rem;
+    display: block;
+    color: #777a6c;
+    font-style: normal;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    &::after {
+      content: url(../img/icon-opener-plus.svg);
+      display: block;
+      font: normal normal normal 14px/1 FontAwesome;
+      position: absolute;
+      right: 1.04em;
+      width: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &.active {
+        outline: none;
+        &::after {
+            content: url(../img/icon-opener-minus.svg);
+        }
+    }
+  }
+  
+  .active, .collapsible:hover {
+  }
+  
+  .collapsible__content-wrapper {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .collapsible__content {
+      padding: 1rem 10;
+      h5 {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: bold;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+        font-size: 16px;
+        letter-spacing: 0.01rem;
+      }
+      h6 {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: bold;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+        font-size: 15px;
+        letter-spacing: 0.01rem;
+      }
+  }
+
+/*
+    Statis Page: About
+*/
+
+.cms-page-about__intro {
+    background-color: #e0dece;
+    // Text
+    .col:nth-of-type(1) {
+        position: relative;
+        .content-wrapper {
+            padding: 60px 30px 40px;
+            @media (min-width: $screen-md-min){
+                position: absolute;
+                padding: 80px 80px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        h1 {
+            color: #777a6c;
+            font-family: $font-family-syncopate;
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: left;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: none;
+            width: 100%;
+            @media (min-width: $screen-md-min){
+                display: block;
+            }
+        }
+    }
+    // Image
+    .col:nth-of-type(2) {
+        padding: 0;
+        line-height: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.cms-page-about__quote {
+    background-image: url('/img/landing_page_assets/cms-page__about-blockquote-compressor.jpg');
+    background-size: cover;
+    //margin: 0 -15px;
+    padding: 150px 40px;
+    background-position: center;
+    @media (min-width: $screen-md-min){
+        padding: 250px;
+    }
+    @media (min-width: $screen-lg-min){
+        padding: 250px;
+    }
+    blockquote {
+        max-width: 600px;
+        margin: 0 auto;
+        color: #e0dece;
+		font-family: $font-family-syncopate;
+		font-size: 1.2rem;
+		line-height: 1.4rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.cms-page-about__grid {
+    .col-md-5 {
+        padding-top: 30px;
+        padding-right: 60px;
+        padding-left: 30px;
+        p {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.grid__lifestyle {
+    .col {
+        padding: 15px;
+    }
+}
+
+// Banded Blockquote
+
+.cms-page-about__banded-quote {
+    border-top: 1px solid #777a6c;
+    border-bottom: 1px solid #777a6c;
+    padding: 30px 0;
+    margin: 40px 0;
+    blockquote {
+        max-width: 340px;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        text-align: center;
+    }
+}
+
+// Our Locations
+.cms-page-about__locations {
+    h2 {
+        color: #777a6c;
+        font-family: $font-family-syncopate;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    .col-md-7 {
+        text-align: center;
+    }
+    // Address Info
+    .col-md-5 {
+        padding-top: 30px;
+        padding-right: 60px;
+        padding-left: 110px;
+        text-align: center;
+
+        h4 {
+            font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+            color: #777a6c;
+            text-transform: uppercase;
+            font-weight: normal;
+            font-size: 1.2em;
+            letter-spacing: 0.1rem;
+            margin-bottom: 12px;
+        }
+        h5 {
+            color: #777a6c;
+            margin: 12px 0;
+        }
+    }
+    span[itemprop="description"] {
+        position: relative;
+        padding: 40px 0;
+        display: block;
+        &::before {
+            content: '';
+            width: 60px;
+            height: 2px;
+            background-color: #777a6c;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

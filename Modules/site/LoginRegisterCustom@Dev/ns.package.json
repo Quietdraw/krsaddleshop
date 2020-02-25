@@ -2,13 +2,19 @@
     "gulp": {
         "sass": [
             "Sass/**/*.scss"
+        ],
+        "templates": [
+            "Templates/*"
         ]
     },
     "override":{
         "suitecommerce/LoginRegister@2.1.0/Sass/_login-register-checkout-as-guest.scss":"Sass/_login-register-checkout-as-guest.scss",
         "suitecommerce/LoginRegister@2.1.0/Sass/_login-register-forgot-password.scss":"Sass/_login-register-forgot-password.scss",
         "suitecommerce/LoginRegister@2.1.0/Sass/_login-register-login.scss":"Sass/_login-register-login.scss",
-        "suitecommerce/LoginRegister@2.1.0/Sass/_login-register-register.scss":"Sass/_login-register-register.scss"
+        "suitecommerce/LoginRegister@2.1.0/Sass/_login-register-register.scss":"Sass/_login-register-register.scss",
+        
+        "suitecommerce/LoginRegister@2.1.0/Tempaltes/login_register.tpl":"Templates/login_register.tpl",
+        "suitecommerce/LoginRegister@2.1.0/Tempaltes/login_register_register.tpl":"Templates/login_register_register.tpl"
     }
 
 }

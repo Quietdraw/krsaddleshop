@@ -685,7 +685,8 @@
                         {
                             "module": "QuietDrawCustom",
                             "include": [
-                                "webfonts"
+                                "webfonts",
+                                "cms-pages"
                             ]
                         },
                         {
@@ -1039,6 +1040,12 @@
                                 "header-mini-cart-item-cell",
                                 "header-profile",
                                 "header-logo"
+                            ]
+                        },
+                        {
+                            "module": "LoginRegisterCustom",
+                            "include": [
+                                "login-register-register"
                             ]
                         },
                         "Footer"
