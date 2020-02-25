@@ -20,10 +20,41 @@
     <div class="row">
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/King-Ranch-Leather-Care-Set">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223627_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="Protect your investment with our Leather Cleaner and Conditioner set.">
+          <a href="https://www.krsaddleshop.com/Saddle-Stitch-Backpack">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221337_Tan-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="SADDLE STITCH LEATHER BACKPACK">
             <div class="card-body">
-              <h5 class="card-title">KING RANCH LEATHER CARE SET</h5>
+              <h5 class="card-title">SADDLE STITCH LEATHER BACKPACK</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Western-Jacket-w-Conceal-Carry-King-Ranch-Saddle-Shop">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223297_Tan-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="WESTERN JACKET W/ CONCEAL CARRY">
+            <div class="card-body">
+              <h5 class="card-title">WESTERN JACKET W/ CONCEAL CARRY</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Ladies-Long-Sleeve-Western-Shirt">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223271_Coral-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES LONG SLEEVE WESTERN SHIRT">
+            <div class="card-body">
+              <h5 class="card-title">LADIES LONG SLEEVE WESTERN SHIRT</h5>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Canvas-Wax-4oz">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223648_main-image[2].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="CANVAS WAX 4OZ">
+            <div class="card-body">
+              <h5 class="card-title">CANVAS WAX 4OZ</h5>
             </div>
           </a>
         </div>
@@ -31,7 +62,7 @@
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
           <a href="https://www.krsaddleshop.com/RANCH-TOTE">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223575_Chaparral%20Docil-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="This handbag has the perfect blend of convenience, capacity and, of course classic style.">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223575_Chaparral%20Docil-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="RANCH TOTE">
             <div class="card-body">
               <h5 class="card-title">RANCH TOTE</h5>
             </div>
@@ -40,41 +71,10 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Western-Jacket-w-Conceal-Carry-King-Ranch-Saddle-Shop">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223297_Tan-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="This men's jacket is built with light weight insulation that will keep you warm without weighing you down.">
+          <a href="https://www.krsaddleshop.com/Mens-Bonded-Poly-Vest">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/218939_Olive-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="MEN'S BONDED POLY VEST">
             <div class="card-body">
-              <h5 class="card-title">WESTERN JACKET W/ CONCEAL CARRY</h5>
-            </div>
-            
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Ladies-Long-Sleeve-Western-Shirt">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223271_Coral-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Lightweight rugged looking and beautifully tailored. Shaping seams for a comfortable fit.">
-            <div class="card-body">
-              <h5 class="card-title">LADIES LONG SLEEVE WESTERN SHIRT</h5>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Mens-Elite-Vented-Short-Sleeve-Shirt">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223275_Olive-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="Designed to meet the needs of the hunter or angler. these cool, protective shirts are constructed of a soft, lightweight fabric with a relaxed fit.">
-            <div class="card-body">
-              <h5 class="card-title">MEN'S ELITE VENTED SHORT SLEEVE SHIRT</h5>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Don-Robertos-Dowel-Case">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/216348_Chaparral%20Latigo-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="DON ROBERTO'S DOWEL LEATHER CASE">
-            <div class="card-body">
-              <h5 class="card-title">DON ROBERTO'S DOWEL LEATHER CASE</h5>
+              <h5 class="card-title">MEN'S BONDED POLY VEST</h5>
             </div>
           </a>
         </div>
