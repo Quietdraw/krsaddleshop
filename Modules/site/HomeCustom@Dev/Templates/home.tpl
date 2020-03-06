@@ -20,41 +20,20 @@
     <div class="row">
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Saddle-Stitch-Backpack">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221337_Tan-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="SADDLE STITCH LEATHER BACKPACK">
+          <a href="https://www.krsaddleshop.com/Elite-Vented-Long-Sleeve-Shirt?color=237">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223276_Coyote-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="ELITE VENTED LONG SLEEVE SHIRT">
             <div class="card-body">
-              <h5 class="card-title">SADDLE STITCH LEATHER BACKPACK</h5>
+              <h5 class="card-title">ELITE VENTED LONG SLEEVE SHIRT</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Western-Jacket-w-Conceal-Carry-King-Ranch-Saddle-Shop">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223297_Tan-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="WESTERN JACKET W/ CONCEAL CARRY">
+          <a href="https://www.krsaddleshop.com/Ladies-Short-Sleeve-Shooting-Shirt?color=20">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223759_Denim-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES SHORT SLEEVE SHOOTING SHIRT">
             <div class="card-body">
-              <h5 class="card-title">WESTERN JACKET W/ CONCEAL CARRY</h5>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Ladies-Long-Sleeve-Western-Shirt">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223271_Coral-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES LONG SLEEVE WESTERN SHIRT">
-            <div class="card-body">
-              <h5 class="card-title">LADIES LONG SLEEVE WESTERN SHIRT</h5>
-            </div>
-            
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Canvas-Wax-4oz">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223648_main-image[2].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="CANVAS WAX 4OZ">
-            <div class="card-body">
-              <h5 class="card-title">CANVAS WAX 4OZ</h5>
+              <h5 class="card-title">LADIES SHORT SLEEVE SHOOTING SHIRT</h5>
             </div>
           </a>
         </div>
@@ -66,15 +45,36 @@
             <div class="card-body">
               <h5 class="card-title">RANCH TOTE</h5>
             </div>
+            
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Mens-Bonded-Poly-Vest">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/218939_Olive-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="MEN'S BONDED POLY VEST">
+          <a href="https://www.krsaddleshop.com/Four-Box-Shell-Carrier?custcol_canvcolor=1">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/1076_Canvas-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="FOUR BOX SHELL CARRIER">
             <div class="card-body">
-              <h5 class="card-title">MEN'S BONDED POLY VEST</h5>
+              <h5 class="card-title">FOUR BOX SHELL CARRIER</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/ARMSTRONG-RIFLE-CASE?color=220">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222256_front_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="ARMSTRONG RIFLE CASE">
+            <div class="card-body">
+              <h5 class="card-title">ARMSTRONG RIFLE CASE</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221071_main-image[5].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="CANVAS QUAD JOURNEYMAN">
+            <div class="card-body">
+              <h5 class="card-title">CANVAS QUAD JOURNEYMAN</h5>
             </div>
           </a>
         </div>
