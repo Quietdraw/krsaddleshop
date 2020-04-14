@@ -25,6 +25,10 @@
 	</div>
 </section>
 
+<!--BE IXF: For your website, the location is after newsletter footer, before nav footer -->
+<div class="be-ix-link-block"><!--Link Block Target Div--></div>
+<!--BE IXF: end --> 
+
 <footer>
 	<nav id="footer-nav" class="footer">
 		<div class="menu-footer-container">
@@ -63,6 +67,9 @@
 							</li>
 							<li id="menu-item-shipping-returns" class="menu-item">
 								<a href="/terms-of-use" data-touchpoint="home" data-hashtag="#terms-of-use">Shipping &amp; Returns</a>
+							</li>
+							<li id="menu-item-catalog-request" class="menu-item">
+								<a href="/catalog-request" data-touchpoint="home" data-hashtag="#catalog-request">Catalog Request</a>
 							</li>
 						</ul>
 					</li>

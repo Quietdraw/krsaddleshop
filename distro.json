@@ -171,7 +171,9 @@
         "suitecommerce/UrlHelper": "2.1.0",
         "suitecommerce/Utilities": "2.1.0",
         "suitecommerce/Wizard": "2.1.0",
+
         "third_parties/almond": "0.3.0",
+        "third_parties/autopilot": "1.0.0",
         "third_parties/backbone.js": "1.1.2-custom",
         "third_parties/backbone.validation": "0.9.1-custom",
         "third_parties/backbone.stickit": "0.8.0",
@@ -253,6 +255,7 @@
                     "ItemDetails.View.Custom",
                     "FacebookTracking",
                     "QuietDrawCustom",
+                    "autopilot",
                     "Cart.Detailed.View.Extend",
                     "AcuityPlatform"
 				,	"ItemViews.Option.View.CustomImage"

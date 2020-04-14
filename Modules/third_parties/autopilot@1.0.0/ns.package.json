@@ -1,0 +1,8 @@
+{
+	"gulp": {
+		"javascript": [
+			"assets/autopilot.js"
+		]
+	}
+,	"jshint": "false"
+}
