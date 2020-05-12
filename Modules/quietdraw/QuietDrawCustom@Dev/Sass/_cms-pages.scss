@@ -38,7 +38,7 @@ $centered_width: 650px;
 
 // Remove Margin from All Static Pages
 
-.cms-page-about, .cms-page-faq, .cms-page-terms {
+.cms-page-about, .cms-page-faq, .cms-page-terms, .cms-page-corp {
     margin: 0 -15px;
 }
 
@@ -58,6 +58,205 @@ $centered_width: 650px;
         text-transform: uppercase;
         text-align: center;
         font-weight: 700;
+    }
+}
+
+// Global Buttons
+.btn {
+    font-family: "Gotham Light", sans-serif;
+    text-transform: uppercase;
+    color: #777a6c;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    border: 1px solid #777a6c;
+    border-radius: 6px;
+    display: inline-block;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    &:hover {
+        background-color: #702b25;
+        color: white;
+        border-color: #702b25;
+    }
+}
+
+// Global Headings
+.title {
+    font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif,sans-serif;
+    color: #777a6c;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 12px;
+    &--bold {
+        font-weight: 700;
+    }
+    &--medium {
+        font-size: 1.2em;
+    }
+}
+
+// Marquee Heading - Alternative verision
+.heading-marquee.v2 {
+    color: #777a6c;
+}
+
+// Images
+img.img-responsive {
+    width: 100%;
+    max-width: 100%;
+}
+
+// Section Copy Text with Alignment
+.section-copy {
+    &--center {
+        text-align: center;
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        //padding-top: 30px;
+        padding-bottom: 0px;
+    }
+}
+
+// Global Container - Inset
+.container.inset {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// Global Section with Padding
+.section-padding {
+    padding: 40px 15px;
+}
+
+.section-breaker {
+    display: block;
+    height: 0px;
+    line-height: 0;
+    width: 100%;
+    &::after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #777a6c;
+        display: block;
+    }
+}
+
+// Section Banner with Full Bleed Image Background and Text Overlay
+.section-banner--full-background {
+    .section-banner__content {
+        position: relative;
+        height: 100vw;
+        overflow: hidden;
+        @media (min-width: $screen-sm-min){
+            height: auto;
+        }
+    }
+    // The Background Image
+    .section-banner__content--image {
+        width: auto;
+        max-width: unset;
+        height: 100vw;
+        transform: translateX(-50%);
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        @media (min-width: $screen-sm-min){
+            height: auto;
+            width: 100%;
+            transform: translateX(0);
+        }
+    }
+    // The Copy Content
+    .section-banner__content--copy {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        letter-spacing: 1px;
+        &.align-top {
+            padding-top: 3%;
+            height: 100%;
+            top: 0%;
+        }
+        &.align-bottom {
+            padding-bottom: 3%;
+            height: unset;
+            bottom: 0;
+        }
+        // The Section  Header
+        h1 {
+            display: block;
+            text-align: center;
+            font-family: CentSchbookBTWGL4WXX-Roman, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2.2rem;
+            line-height: 1em;
+            color: #e4e2d2;
+            margin-bottom: 15px;
+        }
+        // Subheadings
+        .subheading {
+            display: block;
+            text-align: center;
+            font-size: 15px;
+            font-family: "Syncopate",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+            text-transform: capitalize;
+            color: #e4e2d2;
+        }
+        // Text Modifiers
+        .text-- {
+            &capitalize {
+                text-transform: capitalize;
+            }
+            &uppercase {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+// Global BX Product Slider
+.the-product-slider {
+    .bx-wrapper {
+        position: relative;
+    }
+    .btn-arrow.btn-arrow-prev {
+        position: absolute;
+        top: 40%;
+        left: -20px;
+        transform: translateY(-50%);
+    }
+    .btn-arrow.btn-arrow-next {
+        position: absolute;
+        top: 40%;
+        right: -20px;
+        transform: translateY(-50%);
+        span::after {
+            content: url(../img/arrow-right-brown.svg);
+        }
+    }
+    .btn-arrow span {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background-color: #f0e9e9;
+        display: inline-block;
+        border-radius: 100%;
+        &::after {
+            content: url(../img/arrow-left-brown.svg);
+            width: 10px;
+            height: auto;
+            display: block;
+            top: 50%;
+            left: 50%;
+            line-height: 0;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
     }
 }
 
@@ -482,5 +681,15 @@ $centered_width: 650px;
             left: 50%;
             transform: translateX(-50%);
         }
+    }
+}
+
+/*
+    Statis Page: Corporate Gifts
+*/
+
+.cms-page-corp__context--01 {
+    h3 {
+        margin-top: 10px;
     }
 }
