@@ -46,7 +46,7 @@
 								<a href="/about-us" data-touchpoint="home" data-hashtag="#about-us">Our Heritage</a>
 							</li>
 							<li id="menu-item-corporate-gits" class="menu-item">
-								<a href="/corporate-gifts" data-touchpoint="home" data-hashtag="#corporate-gifts">Corporate Sales</a>
+								<a href="/corporate-gifts" data-touchpoint="home" data-hashtag="#corporate-gifts">Corporate Gifts</a>
 							</li>
 							<li id="menu-item-corporate-gits" class="menu-item">
 								<a href="https://www.king-ranch.com/" target="_blank">A Look At King Ranch</a>
@@ -79,6 +79,7 @@
 						<ul class="sub-menu">
 							<li id="menu-item-contact" class="menu-item">
 								<a href="/contact" data-touchpoint="home" data-hashtag="#contact">How To Reach Us</a>
+								<a href="mailto:corporatesales@king-ranch.com" target="_blank">Corporate Gifts Contact</a>
 							</li>
 						</ul>
 					</li>
