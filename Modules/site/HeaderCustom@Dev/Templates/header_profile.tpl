@@ -22,6 +22,13 @@
 
 	{{#if showLoginMenu}}
 		{{#if showLogin}}
+		
+				
+			<div class="header-profile-menu-corpgifts-container">
+				<a class="header-profile-login-link" href="/corporate-gifts">
+					Corporate Gifts
+				</a>
+			</div>	
 
 			<div class="header-profile-menu-login-container">
 				<a class="header-profile-login-link" data-touchpoint="login" data-hashtag="login-register" href="#">
