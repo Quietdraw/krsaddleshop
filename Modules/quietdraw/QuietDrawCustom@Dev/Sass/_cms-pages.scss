@@ -784,7 +784,7 @@ img.img-responsive {
 
 // Static Page: Header 
 .cms-header {
-    background-image: url('http://kingranch.production.netsuitestaging.com/img/landing_page_assets/cms-page__header-bg_01.jpg');
+    background-image: url('/img/landing_page_assets/cms-page__header-bg_01.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -841,23 +841,34 @@ img.img-responsive {
 
     .button-style {
         @include button-outlined;
-        width: 200px;
+        width: 240px;
         background-color: rgba(228, 226, 210, 0.2);
         text-transform: uppercase;
         margin: 0 5px;
 
+
+        @media (max-width: $screen-lg-min - 1) {
+            font-size: 0.8rem;
+            width: 20%;
+        }
+
+        @media (max-width: $screen-md-min - 1) {
+            margin-bottom: 10px;
+            width: 40%;
+        }
+
         @media (max-width: $screen-sm-min - 1) {
-            padding: 6px 15px;
             font-size: 0.7rem;
-            width: 160px;
         }
     }
 }
 
 // Static Page: Featured Collections
 .cms__3up-feature-columns {
+    padding-top: 20px;
+
     @media (max-width: $screen-sm-min) {
-        padding: 0 5%;
+        padding: 20px 5% 0 5%;
     }
 
     // Featurette Cards
@@ -883,12 +894,11 @@ img.img-responsive {
         }
 
         .card-title {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-family: $font-family-syncopate;
             text-transform: uppercase;
 
             @media (min-width: $screen-sm-min) {
-                font-size: 1.3rem;
                 height: 40px;
             }
 
@@ -898,14 +908,14 @@ img.img-responsive {
             }
 
             @media (min-width: $screen-lg-min) {
-                font-size: 1.3rem;
+                font-size: 1.2rem;
             }
         }
     }
 
 }
 
-.cms__2-col {
+.cms-spotlight__2-col {
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -920,9 +930,9 @@ img.img-responsive {
         }
     }
 
-    .cms__2-col_photo {
+    .cms-spotlight__2-col_photo {
         @media (max-width: $screen-md-min) {
-            padding: 0;
+            padding: 30px 0 0 0;
         }
 
         img {
@@ -932,7 +942,7 @@ img.img-responsive {
     }
 
     //
-    .cms__2-col_body {
+    .cms-spotlight__2-col_body {
         padding: 20px;
         text-align: center;
 
@@ -1070,7 +1080,7 @@ img.img-responsive {
     }
 
     .cms-spotlight__full_body {
-        padding: 30px 50px;
+        padding: 40px 50px;
         text-align: center;
         width: 100%;
 
@@ -1086,6 +1096,7 @@ img.img-responsive {
         font-family: CentSchbookBTWGL4WXX-Roman, serif;
         font-weight: normal;
         font-style: normal;
+        text-transform: inherit;
         font-size: 2.2rem;
         color: #777a6c;
         line-height: 1em;
@@ -1103,7 +1114,7 @@ img.img-responsive {
         font-family: $font-family-syncopate;
         text-transform: uppercase;
         font-size: 1rem;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
 
         @media (min-width: $screen-md-min) {
             color: #e4e2d2;
@@ -1113,12 +1124,13 @@ img.img-responsive {
 
     .btn {
         @include button-outlined;
+        min-width: 200px;
 
         background-color: rgba(228, 226, 210, 0.2);
 
         @media (min-width: $screen-md-min) {
             @include button-outlined(#e4e2d2);
-            margin-top: 30px;
+            margin-top: 20px;
         }
     }
 }
@@ -1185,6 +1197,16 @@ img.img-responsive {
         color: #e4e2d2 !important;
         margin-bottom: 6px;
         font-size: 0.6rem;
+    }
+
+    h5 {
+        margin: 20px auto;
+        text-align: center;
+        font-family: $font-family-syncopate, sans-serif;
+		color: #777a6c;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.2em;
     }
 }
 
