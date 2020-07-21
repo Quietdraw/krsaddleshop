@@ -784,7 +784,7 @@ img.img-responsive {
 
 // Static Page: Header 
 .cms-header {
-    background-image: url('/img/landing_page_assets/cms-page__header-bg_01.jpg');
+    background-image: url('http://kingranch.production.netsuitestaging.com/img/landing_page_assets/cms-page__header-bg_01.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -890,13 +890,13 @@ img.img-responsive {
         .card-tagline {
             font-family: FreightTextProBook-Italic, serif;
             font-size: 0.8rem;
-            padding-bottom: 20px;
         }
 
         .card-title {
             font-size: 1.2rem;
             font-family: $font-family-syncopate;
             text-transform: uppercase;
+            margin-bottom: 40px;
 
             @media (min-width: $screen-sm-min) {
                 height: 40px;

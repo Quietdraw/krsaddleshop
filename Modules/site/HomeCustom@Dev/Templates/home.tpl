@@ -138,7 +138,6 @@
           <a href="#" class="button-style" title="Click for Men's Gear from King Ranch">Wallets &amp; Money Clips</a>
           <a href="#" class="button-style" title="Click for Men's Gear from King Ranch">Hats &amp; Caps</a>
         </div>
-
       </div>
     </div>
   </div>
@@ -467,6 +466,128 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<!--//  Begin Women's Page  //-->
+
+
+<div class="cms-page-women">
+
+  <div class="cms-header container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="heading-group">
+          <span class="heading-title">Women’s Gear</span>
+          <p>Quality and Style for Everyday Occasions.</p>
+          <a href="#" class="button-style" title="Click for Women's Gear from King Ranch">PALOMA COLLECTION</a>
+          <a href="#" class="button-style" title="Click for Women's Gear from King Ranch">Vests &amp; Jackets</a>
+          <a href="#" class="button-style" title="Click for Women's Gear from King Ranch">HANDBAGS &amp; TOTES</a>
+          <a href="#" class="button-style" title="Click for Women's Gear from King Ranch">Boots</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cms-spotlight__2-col container-fluid dark-bg">
+    <div class="wrapper">
+      <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 cms-spotlight__2-col_photo">
+        <img src="/img/landing_page_assets/cms-page__womens-western_ls.jpg" alt="Ladies Long Sleeve Western Shirt">
+      </div>
+      <div class="col-lg-5 col-lg-pull-5 cms-spotlight__2-col_body">
+        <p class="tinytype">PRODUCT NUMBER: #223271</p>
+        <h3>Beautifully Tailored</h3>
+        <p class="subheading">Ladies Long Sleeve Western Shirt</p>
+        <p>Our newest women’s shirt is lightweight rugged looking and beautifully
+          tailored. Shaping seams for a comfortable fit. Western pockets for a
+          unique look and roll up tabs to let you wear your sleeves up or down.</p>
+        <a href="https://blog.krsaddleshop.com/2020/05/conservation-baptism-by-fire/" class="btn btn-primary"
+          title="Click to read this article from the King Ranch blog">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cms__3up-feature-columns container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__womens-cat_handbags.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">We Know Leather</p>
+            <h2 class="card-title">Handbags &amp; Wallets</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__womens-cat_apparel.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Town and Country</p>
+            <h2 class="card-title">Women's Apparel</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__womens-cat_boots.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Stylish Footwear for any Environment</p>
+            <h2 class="card-title">Women's Boots</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__womens-cat_jewelry.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">A Reminder of the Ranch</p>
+            <h2 class="card-title">Jewelry</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__womens-cat_accessories.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">To Complete the Look</p>
+            <h2 class="card-title">Accessories</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__womens-cat_ranch.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">From our Family to Yours</p>
+            <h2 class="card-title">Ranch Home</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
