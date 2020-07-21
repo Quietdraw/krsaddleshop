@@ -126,21 +126,44 @@
 <!--// Static page below this line //-->
 
 <div class="cms-page-men">
+
   <div class="cms-header container-fluid">
     <div class="row">
       <div class="col">
         <div class="heading-group">
           <span class="heading-title">Men’s Gear</span>
           <p>Timeless essetials for work and the outdoors.</p>
-          <a href="https://www.krsaddleshop.com/Mens-Elite-Vented-Short-Sleeve-Shirt" class="button-style"
-            title="Click for Men's Gear from King Ranch">SHOP NOW</a>
+          <a href="#" class="button-style" title="Click for Men's Gear from King Ranch">Shirts &amp; Pants</a>
+          <a href="#" class="button-style" title="Click for Men's Gear from King Ranch">Vests &amp; Jackets</a>
+          <a href="#" class="button-style" title="Click for Men's Gear from King Ranch">Wallets &amp; Money Clips</a>
+          <a href="#" class="button-style" title="Click for Men's Gear from King Ranch">Hats &amp; Caps</a>
         </div>
 
       </div>
     </div>
   </div>
 
-  <div class="cms-3up-feature-columns container">
+  <div class="cms__2-col container-fluid dark-bg">
+    <div class="wrapper">
+      <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 cms__2-col_photo">
+        <img src="/img/2020-06__01/KRSS_NEWS-IMAGE-01-compressor.jpg"
+          alt="From the King Ranch Blog: A look at the role of conservation on King Ranch.">
+      </div>
+      <div class="col-lg-5 col-lg-pull-5 cms__2-col_body">
+        <p class="tinytype">Product Number: #223275</p>
+        <h3>New Arrival</h3>
+        <p class="subheading">Elite Vented Short Sleeve Shirt</p>
+        <p>Designed to meet the needs of the hunter or angler. these cool,
+          protective shirts are constructed of a soft, lightweight fabric with
+          a relaxed fit. Moisture-wicking technology keeps you cool and dry
+          on especially hot days out on the water or field.</p>
+        <a href="https://blog.krsaddleshop.com/2020/05/conservation-baptism-by-fire/" class="btn btn-primary"
+          title="Click to read this article from the King Ranch blog">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cms__3up-feature-columns container">
     <div class="row">
       <div class="col-sm-4">
         <div class="card">
@@ -182,5 +205,271 @@
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <h1 class="heading-marquee">King Ranch<br>Best Sellers</h1>
+    <div class="bx-wrapper" style="max-width: 1380px; margin: 0px auto;">
+      <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 338px;">
+        <div class="bx-controls bx-has-controls-direction">
+          <div class="bx-controls-direction"><a class="bx-prev" href=""></a><a
+              class="btn-arrow btn-arrow-prev"><span></span></a><a class="bx-next" href=""></a><a
+              class="btn-arrow btn-arrow-next"><span></span></a></div>
+        </div>
+        <div class="row"
+          style="width: 815%; position: relative; transition-duration: 0.5s; transform: translate3d(-2860px, 0px, 0px);">
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Waxed-Canvas-Dopp-Kit"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223458_main-image.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="WAXED CANVAS DOPP KIT">
+                <div class="card-body">
+                  <h5 class="card-title">WAXED CANVAS DOPP KIT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Mens-S-S-Linen-Button-Down-Shirt"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223767_Olive-Color[1].png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="MEN'S S/S LINEN BUTTON DOWN SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">MEN'S S/S LINEN BUTTON DOWN SHIRT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Mens-Performance-Polo"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223274_Brown-Color.png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="MEN'S PERFORMANCE POLO">
+                <div class="card-body">
+                  <h5 class="card-title">MEN'S PERFORMANCE POLO</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="ANTLER HANDLE LION KNIFE">
+                <div class="card-body">
+                  <h5 class="card-title">ANTLER HANDLE LION KNIFE</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/SHOPPER-TOTE"><img class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223574_Chaparral%20Docil-Color.png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="SHOPPER TOTE">
+                <div class="card-body">
+                  <h5 class="card-title">SHOPPER TOTE</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Circular-Shaving-Kit"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/219728_Chaparral-Color.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="LEATHER CIRCULAR SHAVING KIT">
+                <div class="card-body">
+                  <h5 class="card-title">LEATHER CIRCULAR SHAVING KIT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Waxed-Canvas-Dopp-Kit"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223458_main-image.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="WAXED CANVAS DOPP KIT">
+                <div class="card-body">
+                  <h5 class="card-title">WAXED CANVAS DOPP KIT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Mens-S-S-Linen-Button-Down-Shirt"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223767_Olive-Color[1].png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="MEN'S S/S LINEN BUTTON DOWN SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">MEN'S S/S LINEN BUTTON DOWN SHIRT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Mens-Performance-Polo"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223274_Brown-Color.png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="MEN'S PERFORMANCE POLO">
+                <div class="card-body">
+                  <h5 class="card-title">MEN'S PERFORMANCE POLO</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="ANTLER HANDLE LION KNIFE">
+                <div class="card-body">
+                  <h5 class="card-title">ANTLER HANDLE LION KNIFE</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/SHOPPER-TOTE"><img class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223574_Chaparral%20Docil-Color.png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="SHOPPER TOTE">
+                <div class="card-body">
+                  <h5 class="card-title">SHOPPER TOTE</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Circular-Shaving-Kit"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/219728_Chaparral-Color.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="LEATHER CIRCULAR SHAVING KIT">
+                <div class="card-body">
+                  <h5 class="card-title">LEATHER CIRCULAR SHAVING KIT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Waxed-Canvas-Dopp-Kit"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223458_main-image.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="WAXED CANVAS DOPP KIT">
+                <div class="card-body">
+                  <h5 class="card-title">WAXED CANVAS DOPP KIT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Mens-S-S-Linen-Button-Down-Shirt"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223767_Olive-Color[1].png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="MEN'S S/S LINEN BUTTON DOWN SHIRT">
+                <div class="card-body">
+                  <h5 class="card-title">MEN'S S/S LINEN BUTTON DOWN SHIRT</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Mens-Performance-Polo"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223274_Brown-Color.png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="MEN'S PERFORMANCE POLO">
+                <div class="card-body">
+                  <h5 class="card-title">MEN'S PERFORMANCE POLO</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="ANTLER HANDLE LION KNIFE">
+                <div class="card-body">
+                  <h5 class="card-title">ANTLER HANDLE LION KNIFE</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/SHOPPER-TOTE"><img class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/223574_Chaparral%20Docil-Color.png?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="SHOPPER TOTE">
+                <div class="card-body">
+                  <h5 class="card-title">SHOPPER TOTE</h5>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 bx-clone"
+            style="float: left; list-style: none; position: relative; width: 260px;">
+            <div class="card product"><a href="https://www.krsaddleshop.com/Circular-Shaving-Kit"><img
+                  class="card-img-top"
+                  src="https://www.krsaddleshop.com/Images/products/219728_Chaparral-Color.jpg?resizeid=6&amp;resizeh=1200&amp;resizew=1200"
+                  alt="LEATHER CIRCULAR SHAVING KIT">
+                <div class="card-body">
+                  <h5 class="card-title">LEATHER CIRCULAR SHAVING KIT</h5>
+                </div>
+              </a></div>
+          </div>
+
+        </div>
+        <!--// EndRow //-->
+      </div>
+    </div>
+  </div>
+
+<div class="cms-spotlight__full">
+  <div class="wrapper">
+    <img class="cms-spotlight__full_photo" src="/img/2020-06__01/KRSS_MID-FULLWIDTH_01-compressor.jpg" alt="Elite Vented Shirt">
+    <div class="cms-spotlight__full_body">
+      <h3>Men’s Accessories</h3>
+      <p>A compliment to your everyday needs.</p>
+      <a href="/search?keywords=Men" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div>
+</div>
+
+
+  <div class="cms-spotlight__3-col">
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-3">
+        <div class="card">
+          <a href="http://kingranch.production.netsuitestaging.com/sca-dev-montblanc/shopping-local.ssp#/subcategory/Carry-Ons--AND--Duffels" title="Click to shop leather luggage, duffles, and cary-on collection.">
+            <img class="card-img-top" src="/img/2020-06__01/KRSS_BOTTOM-ITEMS_01-compressor.jpg" alt="Leather goods Collection">
+            <div class="card-body">
+              <p class="card-tagline">Explore King Ranch</p>
+              <h3 class="card-title">Leather Goods</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col col-sm-3">
+        <div class="card">
+          <a href="/subcategory/Knives" title="Click to shop King Ranch quality knives.">
+            <img class="card-img-top" src="/img/2020-06__01/KRSS_BOTTOM-ITEMS_02-compressor.jpg" alt="Hunting gear">
+            <div class="card-body">
+              <p class="card-tagline">Explore King Ranch</p>
+              <h3 class="card-title">Knives</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col col-sm-3">
+        <div class="card">
+          <a href="/subcategory/Shave-Cases" title="Click to shop luxury leather for travel.">
+            <img class="card-img-top" src="/img/2020-06__01/KRSS_BOTTOM-ITEMS_03-compressor.jpg" alt="Shop red leather luxury goods for your home.">
+            <div class="card-body">
+              <p class="card-tagline">Explore King Ranch</p>
+              <h3 class="card-title">Travel Gear</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </div>

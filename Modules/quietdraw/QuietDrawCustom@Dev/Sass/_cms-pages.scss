@@ -5,6 +5,24 @@
 
 $centered_width: 650px;
 
+@mixin button-outlined($color: #777a6c, $size: 0.8rem) {
+    font-family: "Gotham Light", sans-serif;
+    text-transform: uppercase;
+    color: $color;
+    padding: 10px 15px;
+    font-size: $size;
+    border: 1px solid $color;
+    border-radius: 6px;
+    display: inline-block;
+    @include transition-duration(.2s);
+    @include transition-timing-function(ease);
+
+    &:hover {
+        background-color: #702b25;
+        color: white;
+        border-color: #702b25;
+    }
+}
 
 .cms-landing-page {
     font-family: CentSchbookBTWGL4WXX-Roman, serif;
@@ -766,52 +784,78 @@ img.img-responsive {
 
 // Static Page: Header 
 .cms-header {
-    background-image: url('/img/landing_page_assets/cms-page__header-bg_01.jpg');
+    background-image: url('http://kingranch.production.netsuitestaging.com/img/landing_page_assets/cms-page__header-bg_01.jpg');
+    background-size: cover;
+    background-position: center;
     text-align: center;
 
     .heading-group {
-		position: relative;
-	}
-	.heading-leadin {
-		font-family: FreightTextProBook-Italic, serif;
-		font-size: 0.6rem;
-		display: block;
-    color: #777a6c;
-    @media (min-width: $screen-md-min){
-      font-size: 0.8rem;
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-	}
-	.heading-title {
-		font-family: CentSchbookBTWGL4WXX-Roman, serif;
-		font-weight: normal;
-		font-style: normal;
-		color: #777a6c;
-		line-height: 1em;
-    margin-bottom: 15px;
-    font-size: 1.7rem;
-		@media (min-width: $screen-md-min){
-		  font-size: 2.8rem;
-		  margin-bottom: 20px;
-      font-size: 2.2rem;
-		}
-	}
-	p {
-		color: #777a6c;
-    font-family: $font-family-syncopate;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    font-size: 0.6rem;
-    @media (max-width: $screen-sm-min - 1){
-      padding: 0 50px;
+
+    .heading-leadin {
+        font-family: FreightTextProBook-Italic, serif;
+        font-size: 0.6rem;
+        display: block;
+        color: #777a6c;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 0.8rem;
+        }
+
     }
-		@media (min-width: $screen-md-min){
-			font-size: 1.3rem;
-		}
-	}
+
+    .heading-title {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: normal;
+        font-style: normal;
+        color: #777a6c;
+        line-height: 1em;
+        margin-bottom: 15px;
+        font-size: 1.7rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+        }
+    }
+
+    p {
+        color: #777a6c;
+        font-family: $font-family-syncopate;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 0.6rem;
+
+        @media (max-width: $screen-sm-min - 1) {
+            padding: 0 50px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.3rem;
+        }
+    }
+
+    .button-style {
+        @include button-outlined;
+        width: 200px;
+        background-color: rgba(228, 226, 210, 0.2);
+        text-transform: uppercase;
+        margin: 0 5px;
+
+        @media (max-width: $screen-sm-min - 1) {
+            padding: 6px 15px;
+            font-size: 0.7rem;
+            width: 160px;
+        }
+    }
 }
 
 // Static Page: Featured Collections
-.cms-3up-feature-columns {
+.cms__3up-feature-columns {
     @media (max-width: $screen-sm-min) {
         padding: 0 5%;
     }
@@ -858,5 +902,293 @@ img.img-responsive {
             }
         }
     }
-   
+
+}
+
+.cms__2-col {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media (max-width: $screen-md-min) {
+        padding: 0;
+    }
+
+    .wrapper {
+        @media (max-width: $screen-lg-min - 1) and (min-width:600px) {
+            max-width: 600px;
+            margin: auto;
+        }
+    }
+
+    .cms__2-col_photo {
+        @media (max-width: $screen-md-min) {
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    //
+    .cms__2-col_body {
+        padding: 20px;
+        text-align: center;
+
+        @media (min-width: $screen-lg-min) {
+            text-align: left;
+            padding-right: 40px;
+        }
+
+        h3 {
+            font-family: CentSchbookBTWGL4WXX-Roman, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2.2rem;
+            line-height: 1em;
+            color: #777a6c;
+            margin-bottom: 15px;
+
+            @media (min-width: $screen-md-min) {
+                font-size: 2.8rem;
+                margin-bottom: 20px;
+            }
+        }
+
+        .tinytype {
+            font-family: FreightTextProBook-Italic, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 0.6rem;
+            color: #777a6c;
+        }
+
+        .subheading {
+            color: #777a6c;
+            font-family: $font-family-syncopate;
+            font-size: 1rem;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+
+            @media (min-width: $screen-md-min) {
+                font-size: 1.1rem;
+            }
+        }
+
+        p {
+            font-family: CentSchbookBTWGL4WXX-Roman, serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 0.8rem;
+            color: #777a6c;
+            margin-bottom: 30px;
+            line-height: 1.2rem;
+
+            @media (min-width: $screen-md-min) {
+                font-size: 1.0rem;
+            }
+        }
+
+        .btn {
+            @include button-outlined;
+
+            @media (min-width: $screen-md-min) {
+                @include button-outlined(#777a6c);
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+// BX Slider Pager
+.bx-wrapper {
+    position: relative;
+}
+
+.card-tagline {
+    font-size: 0.6rem;
+    margin-bottom: 6px;
+}
+
+.card-title {
+    font-size: 0.6rem;
+}
+
+.btn-arrow {
+    span {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background-color: #f0e9e9;
+        display: inline-block;
+        border-radius: 100%;
+
+        &::after {
+            content: url(../img/arrow-left-brown.svg);
+            width: 10px;
+            height: auto;
+            display: block;
+            top: 50%;
+            left: 50%;
+            line-height: 0;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+    }
+
+    &.btn-arrow-prev {
+        position: absolute;
+        top: 40%;
+        left: -20px;
+        transform: translateY(-50%);
+    }
+
+    &.btn-arrow-next {
+        position: absolute;
+        top: 40%;
+        right: -20px;
+        transform: translateY(-50%);
+
+        span {
+            &::after {
+                content: url(../img/arrow-right-brown.svg);
+            }
+        }
+    }
+}
+
+// Spotlight Ads
+.cms-spotlight__full {
+    .wrapper {
+        position: relative;
+    }
+
+    .cms-spotlight__full_photo {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cms-spotlight__full_body {
+        padding: 30px 50px;
+        text-align: center;
+        width: 100%;
+
+        @media (min-width: $screen-md-min) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+        }
+    }
+
+    h3 {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2.2rem;
+        color: #777a6c;
+        line-height: 1em;
+        margin-bottom: 15px;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 2.8rem;
+            color: #e4e2d2;
+            margin-bottom: 20px;
+        }
+    }
+
+    p {
+        color: #777a6c;
+        font-family: $font-family-syncopate;
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin-bottom: 15px;
+
+        @media (min-width: $screen-md-min) {
+            color: #e4e2d2;
+            font-size: 1.1rem;
+        }
+    }
+
+    .btn {
+        @include button-outlined;
+
+        background-color: rgba(228, 226, 210, 0.2);
+
+        @media (min-width: $screen-md-min) {
+            @include button-outlined(#e4e2d2);
+            margin-top: 30px;
+        }
+    }
+}
+
+// 
+
+
+// Spotlight 3 Cols
+.cms-spotlight__3-col {
+
+    .container {
+        max-width: 1025px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        @media (min-width: $screen-sm-min) {
+            width: 33%;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+    }
+
+    // cards
+    .card {
+        position: relative;
+        overflow: hidden;
+
+        a {
+            cursor: pointer;
+
+            &:hover {
+                .card-img-top {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .card-img-top {
+        transition: all 300ms;
+    }
+
+    .card-body {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card-title {
+        margin-bottom: 0 !important;
+        color: #e4e2d2 !important;
+        font-size: 1.1rem;
+    }
+
+    .card-tagline {
+        color: #e4e2d2 !important;
+        margin-bottom: 6px;
+        font-size: 0.6rem;
+    }
+}
+
+.dark-bg {
+    background-color: #dfddcf;
+    color: #777a6c;
 }
