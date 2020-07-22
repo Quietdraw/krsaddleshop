@@ -63,7 +63,9 @@ $centered_width: 650px;
 .cms-page-faq,
 .cms-page-terms,
 .cms-page-corp,
-.cms-page-men {
+.cms-page-men,
+.cms-page-women,
+.cms-page-youth {
     margin: 0 -15px;
 }
 
@@ -783,9 +785,19 @@ img.img-responsive {
     }
 }
 
-// Static Page: Header 
+// Static Page: Headers
 .cms-header {
     background-image: url('http://kingranch.production.netsuitestaging.com/img/landing_page_assets/cms-page__header-bg_01.jpg');
+
+}
+
+.cms-header-youth {
+    background-image: url('http://kingranch.production.netsuitestaging.com/img/landing_page_assets/cms-page__header-bg_02.jpg');
+    min-height: 350px;
+}
+
+.cms-header,
+.cms-header-youth {
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -865,6 +877,38 @@ img.img-responsive {
 }
 
 // Static Page: Featured Collections
+.cms__5up-feature-products {
+    padding-top: 20px;
+    text-align: center;
+    font-family: CentSchbookBTWGL4WXX-Roman, serif;
+
+    > div {
+        > div {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .wrapper {
+        max-width: 1300px;
+    }
+
+    .card-title {
+        font-family: CentSchbookBTWGL4WXX-Roman, serif !important;
+        font-size: 1.05rem !important;
+        text-transform: capitalize !important;
+    }
+
+    .product-price {
+        font-weight: 700;
+        color: #702b25;
+    }
+
+    .product-sku {
+        color: #777a6c;
+    }
+}
+
 .cms__3up-feature-columns {
     padding-top: 20px;
 
@@ -1204,10 +1248,10 @@ img.img-responsive {
         margin: 20px auto;
         text-align: center;
         font-family: $font-family-syncopate, sans-serif;
-		color: #777a6c;
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 1.2em;
+        color: #777a6c;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.2em;
     }
 }
 
