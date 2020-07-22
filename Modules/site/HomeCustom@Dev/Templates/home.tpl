@@ -329,11 +329,11 @@
 
   <div class="cms-spotlight__full">
     <div class="wrapper">
-      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__womens-spotlight_bg.jpg"
+      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__youth-spotlight_bg.jpg"
         alt="Elite Vented Shirt">
       <div class="cms-spotlight__full_body">
-        <h3>The Armstrong Collection</h3>
-        <p>Our Pinnacle Luggage Line for your Travel Needs.</p>
+        <h3>Outdoor Collection</h3>
+        <p>Start’em off right with the tools they need for adventure.</p>
         <a href="/search?keywords=Men" class="btn btn-primary">Shop Now</a>
       </div>
     </div>
