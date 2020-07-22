@@ -125,18 +125,18 @@
 
 <!--// Static page below this line //-->
 
-<div class="cms-page-luggage">
+<div class="cms-page-office">
 
   <div class="cms-header container-fluid">
     <div class="row">
       <div class="col">
         <div class="heading-group">
-          <span class="heading-title">Luggage</span>
-          <p>Trusted Travel Companions.</p>
-          <a href="#" class="button-style" title="Click for Luggage from King Ranch">Saddle Stitch COLLECTION</a>
+          <span class="heading-title">Office</span>
+          <p>Items for Work and the Frequent Traveler.</p>
           <a href="/subcategory/Womens-Apparel" class="button-style" title="Click for Luggage from King Ranch">Briefcases</a>
-          <a href="/subcategory/Handbags--AND--Wallets" class="button-style" title="Click for Luggage from King Ranch">Armstrong Collection</a>
-          <a href="/subcategory/Womens-Boots" class="button-style" title="Click for Luggage from King Ranch">Waxed Canvas</a>
+          <a href="#" class="button-style" title="Click for Luggage from King Ranch">Saddle Stitch Collection</a>
+          <a href="/subcategory/Handbags--AND--Wallets" class="button-style" title="Click for Luggage from King Ranch">Office Accessories</a>
+          <a href="/subcategory/Womens-Boots" class="button-style" title="Click for Luggage from King Ranch">Corporate Gifting</a>
         </div>
       </div>
     </div>
@@ -145,15 +145,15 @@
   <div class="cms-spotlight__2-col container-fluid dark-bg">
     <div class="wrapper">
       <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 cms-spotlight__2-col_photo">
-        <img src="/img/landing_page_assets/cms-page__luggage-duffle.jpg" alt="Tooled Leather Duffle">
+        <img src="/img/landing_page_assets/cms-page__office-messenger.jpg" alt="Saddle Stitch Leather Messenger">
       </div>
       <div class="col-lg-5 col-lg-pull-5 cms-spotlight__2-col_body">
-        <p class="tinytype">Product Number: 222765ST</p>
-        <h3>Timeless Style</h3>
-        <p class="subheading">Tooled Leather Duffle</p>
-        <p>A bag equally at home on ranch and resort. Double-snap leather
-          connections for security, luxurious flower cognac stamp finish,
-          antiqued brass zipper closure and ball feet.</p>
+        <p class="tinytype">PRODUCT NUMBER: 221338</p>
+        <h3>Our Favorite Briefcase</h3>
+        <p class="subheading">SADDLE STITCH LEATHER MESSENGER</p>
+        <p>This messenger bag is built for the long haul with its rugged construction,
+          two hand-stitched straps with tab closures-while the rolled leather handle
+          and detachable leather shoulder strap make it easy to sling and go.</p>
         <a href="https://blog.krsaddleshop.com/2020/05/conservation-baptism-by-fire/" class="btn btn-primary"
           title="Click to read this article from the King Ranch blog">READ MORE</a>
       </div>

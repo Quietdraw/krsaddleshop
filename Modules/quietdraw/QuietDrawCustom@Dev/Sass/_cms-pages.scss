@@ -1024,7 +1024,7 @@ img.img-responsive {
             color: #777a6c;
             font-family: $font-family-syncopate;
             font-size: 1rem;
-            // text-transform: capitalize !important;
+            text-transform: uppercase;
             margin-bottom: 30px;
 
             @media (min-width: $screen-md-min) {
