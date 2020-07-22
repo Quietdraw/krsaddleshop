@@ -125,101 +125,117 @@
 
 <!--// Static page below this line //-->
 
-<div class="cms-page-youth">
+<div class="cms-page-luggage">
 
-  <div class="cms-header-youth container-fluid">
+  <div class="cms-header container-fluid">
     <div class="row">
       <div class="col">
         <div class="heading-group">
-          <span class="heading-title">Youth</span>
-          <p>All of your Saddle Shop favorites in smaller sizes.</p>
+          <span class="heading-title">Luggage</span>
+          <p>Trusted Travel Companions.</p>
+          <a href="#" class="button-style" title="Click for Luggage from King Ranch">Saddle Stitch COLLECTION</a>
+          <a href="/subcategory/Womens-Apparel" class="button-style" title="Click for Luggage from King Ranch">Briefcases</a>
+          <a href="/subcategory/Handbags--AND--Wallets" class="button-style" title="Click for Luggage from King Ranch">Armstrong Collection</a>
+          <a href="/subcategory/Womens-Boots" class="button-style" title="Click for Luggage from King Ranch">Waxed Canvas</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="cms__5up-feature-products container">
-    <div class="row center-block">
+  <div class="cms-spotlight__2-col container-fluid dark-bg">
+    <div class="wrapper">
+      <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 cms-spotlight__2-col_photo">
+        <img src="/img/landing_page_assets/cms-page__luggage-duffle.jpg" alt="Tooled Leather Duffle">
+      </div>
+      <div class="col-lg-5 col-lg-pull-5 cms-spotlight__2-col_body">
+        <p class="tinytype">Product Number: 222765ST</p>
+        <h3>Timeless Style</h3>
+        <p class="subheading">Tooled Leather Duffle</p>
+        <p>A bag equally at home on ranch and resort. Double-snap leather
+          connections for security, luxurious flower cognac stamp finish,
+          antiqued brass zipper closure and ball feet.</p>
+        <a href="https://blog.krsaddleshop.com/2020/05/conservation-baptism-by-fire/" class="btn btn-primary"
+          title="Click to read this article from the King Ranch blog">READ MORE</a>
+      </div>
+    </div>
+  </div>
 
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__youth-sample_product.jpg"
-              alt="CANVAS QUAD JOURNEYMAN">
-            <div class="card-body">
-              <h5 class="card-title">Youth Bonded Poly Vest</h5>
-              <p class="product-price">$48.00</p>
-              <p class="product-sku">SKU: # 221772</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__youth-sample_product.jpg"
-              alt="CANVAS QUAD JOURNEYMAN">
-            <div class="card-body">
-              <h5 class="card-title">Youth Bonded Poly Vest</h5>
-              <p class="product-price">$48.00</p>
-              <p class="product-sku">SKU: # 221772</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__youth-sample_product.jpg"
-              alt="CANVAS QUAD JOURNEYMAN">
-            <div class="card-body">
-              <h5 class="card-title">Youth Bonded Poly Vest</h5>
-              <p class="product-price">$48.00</p>
-              <p class="product-sku">SKU: # 221772</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__youth-sample_product.jpg"
-              alt="CANVAS QUAD JOURNEYMAN">
-            <div class="card-body">
-              <h5 class="card-title">Youth Bonded Poly Vest</h5>
-              <p class="product-price">$48.00</p>
-              <p class="product-sku">SKU: # 221772</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__youth-sample_product.jpg"
-              alt="CANVAS QUAD JOURNEYMAN">
-            <div class="card-body">
-              <h5 class="card-title">Youth Bonded Poly Vest</h5>
-              <p class="product-price">$48.00</p>
-              <p class="product-sku">SKU: # 221772</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/QUAD-JOURNEYMAN">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__youth-sample_product.jpg"
-              alt="CANVAS QUAD JOURNEYMAN">
-            <div class="card-body">
-              <h5 class="card-title">Youth Bonded Poly Vest</h5>
-              <p class="product-price">$48.00</p>
-              <p class="product-sku">SKU: # 221772</p>
-            </div>
-          </a>
+  <div class="cms__3up-feature-columns container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_duffles.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">For the Seasoned Traveler</p>
+            <h2 class="card-title">CARRY-ONS &amp; DUFFLES</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
         </div>
       </div>
 
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_backpacks.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Everyday Carry</p>
+            <h2 class="card-title">Backpacks</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_rolling.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Durability and Ease</p>
+            <h2 class="card-title">Rolling Bags</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_hanging.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Suit or Garment Protection</p>
+            <h2 class="card-title">Hanging Bags</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_shave.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Organized Essentials</p>
+            <h2 class="card-title">Shave Cases</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_shooting.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Equiptment Protection and Style</p>
+            <h2 class="card-title">Shooting Bags</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -329,11 +345,11 @@
 
   <div class="cms-spotlight__full">
     <div class="wrapper">
-      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__youth-spotlight_bg.jpg"
+      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__luggage-spotlight_bg.jpg"
         alt="Elite Vented Shirt">
       <div class="cms-spotlight__full_body">
-        <h3>Outdoor Collection</h3>
-        <p>Start’em off right with the tools they need for adventure.</p>
+        <h3>Luggage Cleaner</h3>
+        <p>Protect your investment with our Conditioner and Cleaner.</p>
         <a href="/search?keywords=Men" class="btn btn-primary">Shop Now</a>
       </div>
     </div>

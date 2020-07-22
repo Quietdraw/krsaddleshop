@@ -1000,6 +1000,7 @@ img.img-responsive {
             font-family: CentSchbookBTWGL4WXX-Roman, serif;
             font-weight: normal;
             font-style: normal;
+            text-transform: capitalize;
             font-size: 2.2rem;
             line-height: 1em;
             color: #777a6c;
@@ -1023,7 +1024,7 @@ img.img-responsive {
             color: #777a6c;
             font-family: $font-family-syncopate;
             font-size: 1rem;
-            text-transform: uppercase;
+            // text-transform: capitalize !important;
             margin-bottom: 30px;
 
             @media (min-width: $screen-md-min) {
