@@ -164,11 +164,11 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_duffles.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_briefcases.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">For the Seasoned Traveler</p>
-            <h2 class="card-title">CARRY-ONS &amp; DUFFLES</h2>
+            <p class="card-tagline">Your Everyday Business Companion</p>
+            <h2 class="card-title">Briefcases</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -176,11 +176,11 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_backpacks.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_agendas.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">Everyday Carry</p>
-            <h2 class="card-title">Backpacks</h2>
+            <p class="card-tagline">The Essentials, Redefined</p>
+            <h2 class="card-title">AGENDAS &amp; TABLET CASES</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -188,24 +188,11 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_rolling.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_desk.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">Durability and Ease</p>
-            <h2 class="card-title">Rolling Bags</h2>
-            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_hanging.jpg"
-            alt="ANTLER HANDLE LION KNIFE">
-          <div class="card-body">
-            <p class="card-tagline">Suit or Garment Protection</p>
-            <h2 class="card-title">Hanging Bags</h2>
+            <p class="card-tagline">A Reminder of the Ranch</p>
+            <h2 class="card-title">Office & Desk Items</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -214,11 +201,11 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_shave.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_furniture.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">Organized Essentials</p>
-            <h2 class="card-title">Shave Cases</h2>
+            <p class="card-tagline">Office Staples</p>
+            <h2 class="card-title">Furniture</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -227,11 +214,24 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__luggage-cat_shooting.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_leather.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">Equiptment Protection and Style</p>
-            <h2 class="card-title">Shooting Bags</h2>
+            <p class="card-tagline">From Business Cards to Credit Cards</p>
+            <h2 class="card-title">Leather Goods</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_gifting.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Show your Gratitude</p>
+            <h2 class="card-title">Corporate Gifting</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -345,11 +345,11 @@
 
   <div class="cms-spotlight__full">
     <div class="wrapper">
-      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__luggage-spotlight_bg.jpg"
+      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__office-spotlight_bg.jpg"
         alt="Elite Vented Shirt">
       <div class="cms-spotlight__full_body">
-        <h3>Luggage Cleaner</h3>
-        <p>Protect your investment with our Conditioner and Cleaner.</p>
+        <h3>A Lifetime Investment</h3>
+        <p>Natural Leather Briefcases for any style or occasion.</p>
         <a href="/search?keywords=Men" class="btn btn-primary">Shop Now</a>
       </div>
     </div>
