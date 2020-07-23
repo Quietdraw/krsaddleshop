@@ -125,18 +125,18 @@
 
 <!--// Static page below this line //-->
 
-<div class="cms-page-office">
+<div class="cms-page-outdoor">
 
   <div class="cms-header container-fluid">
     <div class="row">
       <div class="col">
         <div class="heading-group">
-          <span class="heading-title">Office</span>
-          <p>Items for Work and the Frequent Traveler.</p>
-          <a href="/subcategory/Womens-Apparel" class="button-style" title="Click for Luggage from King Ranch">Briefcases</a>
-          <a href="#" class="button-style" title="Click for Luggage from King Ranch">Saddle Stitch Collection</a>
-          <a href="/subcategory/Handbags--AND--Wallets" class="button-style" title="Click for Luggage from King Ranch">Office Accessories</a>
-          <a href="/subcategory/Womens-Boots" class="button-style" title="Click for Luggage from King Ranch">Corporate Gifting</a>
+          <span class="heading-title">Outdoor Gear</span>
+          <p>Durable Tools to Enhance the Experience</p>
+          <a href="/subcategory/Womens-Apparel" class="button-style" title="Click for Outdoor Gear from King Ranch">Saddle Shop Knives</a>
+          <a href="#" class="button-style" title="Click for Outdoor Gear from King Ranch">Waxed Canvas</a>
+          <a href="/subcategory/Handbags--AND--Wallets" class="button-style" title="Click for Outdoor Gear from King Ranch">Gun Cases</a>
+          <a href="/subcategory/Womens-Boots" class="button-style" title="Click for Outdoor Gear from King Ranch">Snake Boots</a>
         </div>
       </div>
     </div>
@@ -145,15 +145,16 @@
   <div class="cms-spotlight__2-col container-fluid dark-bg">
     <div class="wrapper">
       <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 cms-spotlight__2-col_photo">
-        <img src="/img/landing_page_assets/cms-page__office-messenger.jpg" alt="Saddle Stitch Leather Messenger">
+        <img src="/img/landing_page_assets/cms-page__outdoor-knife.jpg" alt="Limited Edition King Ranch Knife">
       </div>
       <div class="col-lg-5 col-lg-pull-5 cms-spotlight__2-col_body">
-        <p class="tinytype">PRODUCT NUMBER: 221338</p>
-        <h3>Our Favorite Briefcase</h3>
-        <p class="subheading">SADDLE STITCH LEATHER MESSENGER</p>
-        <p>This messenger bag is built for the long haul with its rugged construction,
-          two hand-stitched straps with tab closures-while the rolled leather handle
-          and detachable leather shoulder strap make it easy to sling and go.</p>
+        <p class="tinytype">PRODUCT NUMBER: 223414</p>
+        <h3>Silver Stag Knives</h3>
+        <p class="subheading">LIMITED EDITION KING RANCH KNIFE</p>
+        <p>2020 Limited Edition King Ranch Knife. For 2020 we've taken the
+          Limited Edition Knife to the next level. Featuring Silver Stag Damascus
+          Steel Blade with King Ranch Running W® medallion and protected in a
+          hand-laced leather sheath with matching Running W&reg; logo.</p>
         <a href="https://blog.krsaddleshop.com/2020/05/conservation-baptism-by-fire/" class="btn btn-primary"
           title="Click to read this article from the King Ranch blog">READ MORE</a>
       </div>
@@ -164,11 +165,11 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_briefcases.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__outdoor-cat_cases.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">Your Everyday Business Companion</p>
-            <h2 class="card-title">Briefcases</h2>
+            <p class="card-tagline">Protect your Investment</p>
+            <h2 class="card-title">Gun Cases</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -176,11 +177,11 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_agendas.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__outdoor-cat_shooting.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">The Essentials, Redefined</p>
-            <h2 class="card-title">AGENDAS &amp; TABLET CASES</h2>
+            <p class="card-tagline">Field Tested / Guide Designed</p>
+            <h2 class="card-title">Shooting Bags &amp; Gear</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -188,24 +189,11 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_desk.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__outdoor-cat_knives.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">A Reminder of the Ranch</p>
-            <h2 class="card-title">Office & Desk Items</h2>
-            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_furniture.jpg"
-            alt="ANTLER HANDLE LION KNIFE">
-          <div class="card-body">
-            <p class="card-tagline">Office Staples</p>
-            <h2 class="card-title">Furniture</h2>
+            <p class="card-tagline">The Right Tool for the Task</p>
+            <h2 class="card-title">Knives</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -214,11 +202,23 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_leather.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__outdoor-cat_nilgai.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">From Business Cards to Credit Cards</p>
-            <h2 class="card-title">Leather Goods</h2>
+            <p class="card-tagline">Memories of the Field</p>
+            <h2 class="card-title">NILGAI BRONZE SCULPTURE</h2>
+            <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__outdoor-cat_canine.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">Accessories for your Hunting Partner</p>
+            <h2 class="card-title">Canine</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -227,11 +227,11 @@
 
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__office-cat_gifting.jpg"
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__outdoor-cat_ops.jpg"
             alt="ANTLER HANDLE LION KNIFE">
           <div class="card-body">
-            <p class="card-tagline">Show your Gratitude</p>
-            <h2 class="card-title">Corporate Gifting</h2>
+            <p class="card-tagline">Learn more about King Ranch</p>
+            <h2 class="card-title">Hunting Operations</h2>
             <a href="/subcategory/Knives" class="btn btn-primary" title="Click to shop shirts and pants.">Shop Now</a>
           </div>
         </div>
@@ -345,11 +345,11 @@
 
   <div class="cms-spotlight__full">
     <div class="wrapper">
-      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__office-spotlight_bg.jpg"
+      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__outdoor-spotlight_bg.jpg"
         alt="Elite Vented Shirt">
       <div class="cms-spotlight__full_body">
-        <h3>A Lifetime Investment</h3>
-        <p>Natural Leather Briefcases for any style or occasion.</p>
+        <h3>Hunting Specific</h3>
+        <p>Guide Approved Gear Built for this Environment</p>
         <a href="/search?keywords=Men" class="btn btn-primary">Shop Now</a>
       </div>
     </div>
