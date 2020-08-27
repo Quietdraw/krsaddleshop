@@ -66,7 +66,7 @@
 								<a data-touchpoint="register" data-hashtag="#login-register" href="/login-register">Register for An Account</a>
 							</li>
 							<li id="menu-item-shipping-returns" class="menu-item">
-								<a href="/terms-of-use" data-touchpoint="home" data-hashtag="#terms-of-use">Shipping &amp; Returns</a>
+								<a href="/faq" data-touchpoint="home" data-hashtag="#faq">Shipping &amp; Returns</a>
 							</li>
 							<li id="menu-item-catalog-request" class="menu-item">
 								<a href="/catalog-request" data-touchpoint="home" data-hashtag="#catalog-request">Catalog Request</a>

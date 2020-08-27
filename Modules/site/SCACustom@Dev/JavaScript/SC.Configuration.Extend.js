@@ -218,7 +218,7 @@ define(
                 },
                 {
                     text: _('Men').translate(),
-                    href: '#',
+                    href: '/mens-gear',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -290,7 +290,7 @@ define(
                 },
                 {
                     text: _('Women').translate(),
-                    href: '#',
+                    href: '/womens-gear',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -342,34 +342,8 @@ define(
                     ]
                 },
                 {
-                    text: _('YOUTH').translate(),
-                    href: '#',
-                    'class': 'header-menu-level1-anchor'
-                        // @property {Array<NavigationData>} categories
-                        ,
-                    categories: [{
-                            text: _('Youth Apparel').translate(),
-                            href: '/youth/apparel',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Youth-Apparel'
-                            }
-                        },
-                        {
-                            text: _('Youth Accessories').translate(),
-                            href: '/youth/accessories',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Youth-Accessories'
-                            }
-                        }
-                    ]
-                },
-                {
                     text: _('Luggage').translate(),
-                    href: '#',
+                    href: '/luggage',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -432,7 +406,7 @@ define(
                 },
                 {
                     text: _('Outdoors').translate(),
-                    href: '#',
+                    href: '/outdoors',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
@@ -467,7 +441,7 @@ define(
                 },
                 {
                     text: _('Office').translate(),
-                    href: '#',
+                    href: '/office',
                     'class': 'header-menu-level1-anchor',
                     categories: [{
                             text: _('Briefcases').translate(),
@@ -509,7 +483,7 @@ define(
                 },
                 {
                     text: _('Ranch Home').translate(),
-                    href: '#',
+                    href: '/ranch-home',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,

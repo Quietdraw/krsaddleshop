@@ -63,10 +63,12 @@ define(
 		// Bind Backbone.Events = Click
 		events: {
 			'click .global-header-mobile__toggle-button': 'toggleMobileMenu',
-			'click .header-menu-level1-anchor': 'toggleDesktopMenu',
+			'mouseover .menu-dropdown-link': 'toggleDesktopMenu',
+			'mouseleave .menu-dropdown-link': 'toggleDesktopMenuInactive',
 			//'click .global-header-navigation__wrapper:not(.menu-open) .header-menu-level1-anchor': 'toggleDesktopMenu',
 			//'mouseover .global-header-navigation__wrapper.menu-open .header-menu-level1-anchor': 'toggleDesktopMenu',
-			'click a[data-toggle-submenu]': 'toggleMobileMenuLinks',
+			//'click a[data-toggle-submenu]': 'toggleMobileMenuLinks',
+			'click .menu-item-has-children .toggle-menu-arrow': 'toggleMobileMenuLinks',
 			'click .global-header-mobile__closer-menu': 'toggleMobileMenu'
 		},
 		// Onload
@@ -125,26 +127,52 @@ define(
 		},
 		toggleDesktopMenu: function (e) {
 			//console.log(e);
-			e.preventDefault();
-
+			//e.preventDefault();
+			var dropdown_inactive = undefined;
 			
-			if (this.$(e.target).parent().hasClass("open")) {
-				this.$(e.target).parent().toggleClass("open");
-				this.$('.global-header-navigation__wrapper').removeClass("menu-open");
+
+			// Remove all open menus
+			$('.menu-dropdown-link').removeClass('open');
+
+			//clearTimeout(dropdown_inactive)
+			
+			if (this.$(e.currentTarget).hasClass("open")) {
+				//this.$(e.currentTarget).toggleClass("open");
+				//this.$('.global-header-navigation__wrapper').removeClass("menu-open");
 			} else {
 				this.$('.global-header-navigation__wrapper').addClass("menu-open");
-				this.$('.header-menu-level1-anchor').parent().removeClass('open');
-				this.$(e.target).parent().addClass("open");
+				this.$('.header-menu-level1-anchor').removeClass('open');
+				this.$(e.currentTarget).addClass("open");
 			}
+			
+		},
+		toggleDesktopMenuInactive: function (e) {
+			console.log(e);
+			//e.preventDefault();
+
+			var dropdown_inactive = undefined;
+
+			/*dropdown_inactive = setTimeout(() => {
+				this.$(e.currentTarget).removeClass("open");
+				this.$('.global-header-navigation__wrapper').removeClass("menu-open");
+			}, 500);
+			*/
+			
+			this.$(e.currentTarget).removeClass("open");
+			this.$('.global-header-navigation__wrapper').removeClass("menu-open");
 		},
 		// Mobile style menu
 		toggleMobileMenuLinks: function (e) {
-			console.log('click');
+			//console.log('this has been clicked' + e);
+			//console.log(e);
+			//this.$(e.target).preventDefault();
+			e.preventDefault();
 
-			if (this.$(e.target).parent().hasClass("menu-item-has-children")) {
-				e.preventDefault();
-				this.$(e.target).parent().toggleClass("open");
-				console.log(e);
+			if (this.$(e.currentTarget).parent().parent().hasClass("menu-item-has-children")) {
+				//this.$(e.currentTarget).preventDefault();
+				this.$(e.target).parent().parent().toggleClass("open");
+				//console.log('And now the event' + e);
+				//console.log(this.$(e));
 			}
 			
 			

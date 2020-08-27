@@ -1048,7 +1048,7 @@ and (orientation : portrait) { padding-top: 40px; }
 			display: none;
 		}
 		.global-header-mobile__auxiliary-links {
-			transform: translateX(100px);
+			transform: translateX(1000px);
 		}
 		.global-header-mobile__closer-button {
 			transform: translateX(0px);
@@ -1265,6 +1265,17 @@ and (orientation : portrait) { padding-top: 40px; }
 			-webkit-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			&.menu-item-has-children{
+				.toggle-menu-arrow {
+					&::after {
+						content: url(../img/arrow-right-brown.svg);
+						width: 6px;
+						height: auto;
+						line-height: 5px;
+						display: inline-block;
+						transform: translate(4px, -2px);
+						transition: all .25s ease-in-out;
+					}
+				}
 				> a {
 					.toggle-menu-arrow {
 						&::after {
@@ -1279,6 +1290,11 @@ and (orientation : portrait) { padding-top: 40px; }
 					}
 				}
 				&.open {
+					.toggle-menu-arrow {
+						&::after {
+							transform: rotate(90deg);
+						}
+					}
 					> a {
 						.toggle-menu-arrow {
 							&::after {
@@ -1293,8 +1309,8 @@ and (orientation : portrait) { padding-top: 40px; }
 				}
 			}
 			> a {
-				display: block;
-				padding: 5px 15px;
+				display: inline-block;
+				padding: 5px 0px 5px 15px;
 				position: relative;
 				text-decoration: none;
 				text-transform: uppercase;

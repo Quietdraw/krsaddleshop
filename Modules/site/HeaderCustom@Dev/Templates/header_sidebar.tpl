@@ -10,7 +10,7 @@
 
 			{{#each categories}}
 			<li {{#if categories}} class="menu-item menu-item-has-children" {{/if}}>
-				{{#if image}}{{else}}<a {{objectToAtrributes this}} data-toggle-submenu >{{text}} <i class="toggle-menu-arrow"></i></a>{{/if}}
+				{{#if image}}{{else}}<a {{objectToAtrributes this}} data-toggle-submenu >{{text}} </a> <a href="#"><i class="toggle-menu-arrow"></i></a>{{/if}}
 				{{#if categories}}
 				<ul class="sub-menu">
 					<span>Shop by category</span>
