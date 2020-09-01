@@ -242,6 +242,15 @@ define(
                             }
                         },
                         {
+                            text: _('Mens Vests').translate(),
+                            href: '/men/vests',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=MENS%20VESTS'
+                            }
+                        },
+                        {
                             text: _('Belts & Buckles').translate(),
                             href: '/men/belts-buckles',
                             'class': 'header-menu-level3-anchor',
