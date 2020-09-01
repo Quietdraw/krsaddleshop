@@ -242,12 +242,30 @@ define(
                             }
                         },
                         {
-                            text: _('Mens Vests').translate(),
+                            text: _('Men\'s Vests').translate(),
                             href: '/men/vests',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
                                 hashtag: '#search?keywords=MENS%20VESTS'
+                            }
+                        },
+                        {
+                            text: _('Men\'s Jackets').translate(),
+                            href: '/men/jackets',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=MENS%20JACKETS'
+                            }
+                        },
+                        {
+                            text: _('SHOP THIS LOOK').translate(),
+                            href: '/men/shop-this-look',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=SHOP%20THIS%20LOOK'
                             }
                         },
                         {
