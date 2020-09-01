@@ -233,6 +233,15 @@ define(
                             }
                         },
                         {
+                            text: _('Casual Shirts').translate(),
+                            href: '/men/casual-shirts',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=CASUAL%20SHIRTS'
+                            }
+                        },
+                        {
                             text: _('Belts & Buckles').translate(),
                             href: '/men/belts-buckles',
                             'class': 'header-menu-level3-anchor',
