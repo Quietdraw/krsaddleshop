@@ -222,23 +222,14 @@ define(
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
-                    categories: [{
-                            text: _('Men\'s Shirts & Pants').translate(),
-                            href: '/men/shirts-pants',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Mens-Shirts--AND--Pants'
-                            }
-                        },
-
+                    categories: [
                         {
-                            text: _('Men\'s Vests & Jackets').translate(),
-                            href: '/men/men-vest-jackets',
+                            text: _('Dress Shirts').translate(),
+                            href: '/men/dress-shirts',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Mens-Vests--AND--Jackets'
+                                hashtag: '#search?keywords=DRESS%20SHIRTS'
                             }
                         },
                         {
