@@ -322,12 +322,30 @@ define(
                         // @property {Array<NavigationData>} categories
                         ,
                     categories: [{
-                            text: _('Handbags & Wallets').translate(),
-                            href: '/women/handbags-wallets',
+                            text: _('Handbags').translate(),
+                            href: '/women/handbags',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Handbags--AND--Wallets'
+                                hashtag: '#search?keywords=HANDBAGS'
+                            }
+                        },
+                        {
+                            text: _('Wallets').translate(),
+                            href: '/women/wallets',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=WALLETS'
+                            }
+                        },
+                        {
+                            text: _('SHOP THIS LOOK').translate(),
+                            href: '/women/shop-this-look',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=SHOP%20THIS%20LOOK'
                             }
                         },
                         {
@@ -437,7 +455,26 @@ define(
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
-                    categories: [{
+                    categories: [
+                        {
+                            text: _('Truck Accessories').translate(),
+                            href: '/outdoors/truck-accessories',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=TRUCK%20ACCESSORIES'
+                            }
+                        },
+                        {
+                            text: _('Coolers & Accessories').translate(),
+                            href: '/outdoors/coolers-accessories',
+                            'class': 'header-menu-level3-anchor',
+                            data: {
+                                touchpoint: 'home',
+                                hashtag: '#search?keywords=COOLERS'
+                            }
+                        },
+                        {
                             text: _('Gun Cases').translate(),
                             href: '/outdoors/gun-cases',
                             'class': 'header-menu-level3-anchor',
