@@ -551,13 +551,14 @@ define(
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
                         ,
-                    categories: [{
-                            text: _('Decor Accessories').translate(),
-                            href: '/ranch-home/decor-accessories',
+                    categories: [
+                        {
+                            text: _('Bar & Wine Accessories').translate(),
+                            href: '/ranch-home/bar-wine-accessories',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Decor-Accessories'
+                                hashtag: '#search?keywords=BAR%20&%20WINE%20ACCESSORIES'
                             }
                         },
                         {
@@ -570,8 +571,8 @@ define(
                             }
                         },
                         {
-                            text: _('Table Decor').translate(),
-                            href: '/ranch-home/table-decor',
+                            text: _('Serveware & Accessories').translate(),
+                            href: '/ranch-home/serveware-accessories',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
@@ -579,30 +580,21 @@ define(
                             }
                         },
                         {
-                            text: _('Glassware').translate(),
-                            href: '/ranch-home/glassware',
+                            text: _('Home Decor').translate(),
+                            href: '/ranch-home/home-decor',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Glassware'
+                                hashtag: '#search?keywords=HOME%20DÉCOR'
                             }
                         },
                         {
-                            text: _('Flatware').translate(),
-                            href: '/ranch-home/flatware',
+                            text: _('Spices & Seasonings').translate(),
+                            href: '/ranch-home/spices-seasonings',
                             'class': 'header-menu-level3-anchor',
                             data: {
                                 touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Flatware'
-                            }
-                        },
-                        {
-                            text: _('Foods').translate(),
-                            href: '/ranch-home/foods',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Foods'
+                                hashtag: '#search?keywords=SPICES%20&%20SEASONINGS'
                             }
                         },
                         {
@@ -612,15 +604,6 @@ define(
                             data: {
                                 touchpoint: 'home',
                                 hashtag: '#custitem_websubcat/Books'
-                            }
-                        },
-                        {
-                            text: _('Wall & Art Decor').translate(),
-                            href: 'wall-art-decor',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Wall--AND--Art-Decor'
                             }
                         },
                         {
@@ -640,16 +623,7 @@ define(
                                 touchpoint: 'home',
                                 hashtag: '#custitem_websubcat/Rugs--AND--Rug-Rails'
                             }
-                        },
-                        {
-                            text: _('Lighting & Fireplace').translate(),
-                            href: '/ranch-home/lighting-fireplace',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Lighting--AND--Fireplace'
-                            }
-                        },
+                        }
                     ]
                 },
                 {
