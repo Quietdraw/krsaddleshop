@@ -217,7 +217,7 @@ define(
                     }
                 },
                 {
-                    text: _('Men').translate(),
+                    text: _('Men\'s').translate(),
                     href: '/mens-gear',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
@@ -289,7 +289,7 @@ define(
                     ]
                 },
                 {
-                    text: _('Women').translate(),
+                    text: _('Women\'s').translate(),
                     href: '/womens-gear',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
@@ -342,7 +342,7 @@ define(
                     ]
                 },
                 {
-                    text: _('Luggage').translate(),
+                    text: _('Luggage & Bags').translate(),
                     href: '/luggage',
                     'class': 'header-menu-level1-anchor'
                         // @property {Array<NavigationData>} categories
