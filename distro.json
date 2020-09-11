@@ -5,11 +5,13 @@
     "folders": {
         "modules": "Modules",
         "suitecommerceModules": "Modules/suitecommerce",
+        "extensionsModules": "Modules/extensions",
         "thirdPartyModules": "Modules/third_parties",
         "distribution": "LocalDistribution",
         "deploy": "DeployDistribution"
     },
     "modules": {
+        "extensions/SspLibrariesExtension": "1.0.0",
         "quietdraw/QuietDrawCustom":"Dev",
         "css/FacebookTracking":"Dev",
         "css/Tracker.Custom":"Dev",
@@ -53,9 +55,6 @@
         "site/SspLibrariesCustom":"Dev",
         "site/WizardCustom":"Dev",
         "site/GoogleTagManagerCustom": "Dev",
-
-
-
 
         "suitecommerce/Account": "2.1.0",
         "suitecommerce/Address": "2.1.0",
