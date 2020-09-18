@@ -18,32 +18,32 @@
     <h1 class="heading-marquee">King Ranch<br>Essentials</h1>
     
     <div class="row">
-      <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Waxed-Canvas-Dopp-Kit">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223458_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="WAXED CANVAS DOPP KIT">
+          <a href="https://www.krsaddleshop.com/King-Ranch-Leather-Jean-Jacket">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224014_TAN-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH LEATHER JEAN JACKET">
             <div class="card-body">
-              <h5 class="card-title">WAXED CANVAS DOPP KIT</h5>
+              <h5 class="card-title">KING RANCH LEATHER JEAN JACKET</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Mens-S-S-Linen-Button-Down-Shirt">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223767_Olive-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="MEN'S S/S LINEN BUTTON DOWN SHIRT">
+          <a href="https://www.krsaddleshop.com/Leather-Duffel-w-Oval-Opening">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223843_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="DUFFEL W. U-ZIP OPENING">
             <div class="card-body">
-              <h5 class="card-title">MEN'S S/S LINEN BUTTON DOWN SHIRT</h5>
+              <h5 class="card-title">DUFFEL W. U-ZIP OPENING</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Mens-Performance-Polo">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223274_Brown-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="MEN'S PERFORMANCE POLO">
+          <a href="https://www.krsaddleshop.com/King-Ranch-Guide-Combo-Pack-Knives">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223444_main-image[2].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH GUIDE COMBO PACK KNIVES">
             <div class="card-body">
-              <h5 class="card-title">MEN'S PERFORMANCE POLO</h5>
+              <h5 class="card-title">KING RANCH GUIDE COMBO PACK KNIVES</h5>
             </div>
             
           </a>
@@ -51,30 +51,30 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/ANTLER-HANDLE-LION-KNIFE">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222552_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="ANTLER HANDLE LION KNIFE">
+          <a href="https://www.krsaddleshop.com/Ladies-L-S-Quail-Button-Up-Shirt">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223984_White-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES LONG SLEEVE QUAIL BUTTON UP">
             <div class="card-body">
-              <h5 class="card-title">ANTLER HANDLE LION KNIFE</h5>
+              <h5 class="card-title">LADIES LONG SLEEVE QUAIL BUTTON UP</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/SHOPPER-TOTE">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223574_Chaparral%20Docil-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="SHOPPER TOTE">
+          <a href="https://www.krsaddleshop.com/King-Ranch-Leather-Care-Set">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223627_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH LEATHER CARE SET">
             <div class="card-body">
-              <h5 class="card-title">SHOPPER TOTE</h5>
+              <h5 class="card-title">KING RANCH LEATHER CARE SET</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Circular-Shaving-Kit">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/219728_Chaparral-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LEATHER CIRCULAR SHAVING KIT">
+          <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223576_Chaparral%20Docil-Color[2].png?resizeid=6&resizeh=1200&resizew=1200" alt="PALOMA HANDBAG">
             <div class="card-body">
-              <h5 class="card-title">LEATHER CIRCULAR SHAVING KIT</h5>
+              <h5 class="card-title">PALOMA HANDBAG</h5>
             </div>
           </a>
         </div>
