@@ -72,7 +72,7 @@
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
           <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223576_Chaparral%20Docil-Color[2].png?resizeid=6&resizeh=1200&resizew=1200" alt="PALOMA HANDBAG">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223576_Chaparral-Color[2].png?resizeid=6&resizeh=1200&resizew=1200" alt="PALOMA HANDBAG">
             <div class="card-body">
               <h5 class="card-title">PALOMA HANDBAG</h5>
             </div>
