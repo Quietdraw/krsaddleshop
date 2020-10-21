@@ -115,10 +115,19 @@
 										<address>
 											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
 												<span itemprop="name" class="office-name"> City Centre Houston</span>
-												<span itemprop="streetAddress" class="office-street-address"> 796 Town and Country Blvd Suite 118A</span>
+												<span itemprop="streetAddress" class="office-street-address"> 796 Town and Country Blvd. Suite 118A</span>
 												<span class="office-locality" itemprop="addressLocality">Houston</span>, 
 												<span class="office-region" itemprop="addressRegion">TX</span>
 												<span class="office-postal-code" itemprop="postalCode">77024</span>
+											</span>
+										</address>
+										<address>
+											<span class="office-address" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+												<span itemprop="name" class="office-name"> Mule Alley</span>
+												<span itemprop="streetAddress" class="office-street-address"> 128 E. Exchange Ave. Suite 530</span>
+												<span class="office-locality" itemprop="addressLocality">Fort Worth</span>, 
+												<span class="office-region" itemprop="addressRegion">TX</span>
+												<span class="office-postal-code" itemprop="postalCode">76164</span>
 											</span>
 										</address>
 									</div>
