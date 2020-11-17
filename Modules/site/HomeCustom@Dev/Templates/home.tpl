@@ -20,30 +20,30 @@
     <div class="row">
           <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/King-Ranch-Leather-Jean-Jacket">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224014_TAN-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH LEATHER JEAN JACKET">
+          <a href="https://www.krsaddleshop.com/KINENO-TRADITIONAL-BRUSHED-JACKET">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223994_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KINEÑO TRADITIONAL BRUSHED JACKET">
             <div class="card-body">
-              <h5 class="card-title">KING RANCH LEATHER JEAN JACKET</h5>
+              <h5 class="card-title">KINEÑO TRADITIONAL BRUSHED JACKET</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Leather-Duffel-w-Oval-Opening">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223843_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="DUFFEL W. U-ZIP OPENING">
+          <a href="https://www.krsaddleshop.com/EAST-WEST-ROUGH-OUT-TOTE">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224158_Ginger-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="EAST WEST ROUGH OUT TOTE">
             <div class="card-body">
-              <h5 class="card-title">DUFFEL W. U-ZIP OPENING</h5>
+              <h5 class="card-title">EAST WEST ROUGH OUT TOTE</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/King-Ranch-Guide-Combo-Pack-Knives">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223444_main-image[2].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH GUIDE COMBO PACK KNIVES">
+          <a href="https://www.krsaddleshop.com/King-Ranch-Cowboy-Felt-Hat-King-Ranch-Saddle-Shop">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224117_Brown-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH COWBOY FELT HAT">
             <div class="card-body">
-              <h5 class="card-title">KING RANCH GUIDE COMBO PACK KNIVES</h5>
+              <h5 class="card-title">KING RANCH COWBOY FELT HAT</h5>
             </div>
             
           </a>
@@ -51,10 +51,10 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Ladies-L-S-Quail-Button-Up-Shirt">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223984_White-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES LONG SLEEVE QUAIL BUTTON UP">
+          <a href="https://www.krsaddleshop.com/Mid-Length-Puff-Jacket">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223982_Black-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES CRYSTAL PUFF JACKET">
             <div class="card-body">
-              <h5 class="card-title">LADIES LONG SLEEVE QUAIL BUTTON UP</h5>
+              <h5 class="card-title">LADIES CRYSTAL PUFF JACKET</h5>
             </div>
           </a>
         </div>
@@ -71,10 +71,10 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223576_Chaparral-Color[2].png?resizeid=6&resizeh=1200&resizew=1200" alt="PALOMA HANDBAG">
+          <a href="https://www.krsaddleshop.com/Saddle-Stitch-Dopp-Kit">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221341_Tan-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="LEATHER SADDLE STITCH DOPP KIT">
             <div class="card-body">
-              <h5 class="card-title">PALOMA HANDBAG</h5>
+              <h5 class="card-title">LEATHER SADDLE STITCH DOPP KIT</h5>
             </div>
           </a>
         </div>
