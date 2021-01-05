@@ -20,30 +20,30 @@
     <div class="row">
           <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/KINENO-TRADITIONAL-BRUSHED-JACKET">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223994_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KINEÑO TRADITIONAL BRUSHED JACKET">
+          <a href="https://www.krsaddleshop.com/Suede-Bomber-Jacket">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223999_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="SUEDED BOMBER JACKET">
             <div class="card-body">
-              <h5 class="card-title">KINEÑO TRADITIONAL BRUSHED JACKET</h5>
+              <h5 class="card-title">SUEDED BOMBER JACKET</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/EAST-WEST-ROUGH-OUT-TOTE">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224158_Ginger-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="EAST WEST ROUGH OUT TOTE">
+          <a href="https://www.krsaddleshop.com/Ladies-L-S-Quail-Button-Up-Shirt">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223984_White-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES LONG SLEEVE QUAIL BUTTON UP">
             <div class="card-body">
-              <h5 class="card-title">EAST WEST ROUGH OUT TOTE</h5>
+              <h5 class="card-title">LADIES LONG SLEEVE QUAIL BUTTON UP</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/King-Ranch-Cowboy-Felt-Hat-King-Ranch-Saddle-Shop">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224117_Brown-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH COWBOY FELT HAT">
+          <a href="https://www.krsaddleshop.com/Tooled-Duffel">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/222765_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="TOOLED LEATHER DUFFEL">
             <div class="card-body">
-              <h5 class="card-title">KING RANCH COWBOY FELT HAT</h5>
+              <h5 class="card-title">TOOLED LEATHER DUFFEL</h5>
             </div>
             
           </a>
@@ -51,30 +51,30 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Mid-Length-Puff-Jacket">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223982_Black-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES CRYSTAL PUFF JACKET">
+          <a href="https://www.krsaddleshop.com/One-Plus-Wallet">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/202557_Chaparral%20Latigo-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LEATHER ONE-PLUS WALLET">
             <div class="card-body">
-              <h5 class="card-title">LADIES CRYSTAL PUFF JACKET</h5>
+              <h5 class="card-title">LEATHER ONE-PLUS WALLET</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/King-Ranch-Leather-Care-Set">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223627_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH LEATHER CARE SET">
+          <a href="https://www.krsaddleshop.com/Buffalo-Trapper-Knife">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221132_main-image[1].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="BUFFALO TRAPPER KNIFE">
             <div class="card-body">
-              <h5 class="card-title">KING RANCH LEATHER CARE SET</h5>
+              <h5 class="card-title">BUFFALO TRAPPER KNIFE</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Saddle-Stitch-Dopp-Kit">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/221341_Tan-Color[1].png?resizeid=6&resizeh=1200&resizew=1200" alt="LEATHER SADDLE STITCH DOPP KIT">
+          <a href="https://www.krsaddleshop.com/Canvas-Wax-4oz">
+            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223648_main-image[2].jpg?resizeid=6&resizeh=1200&resizew=1200" alt="CANVAS WAX 4OZ">
             <div class="card-body">
-              <h5 class="card-title">LEATHER SADDLE STITCH DOPP KIT</h5>
+              <h5 class="card-title">CANVAS WAX 4OZ</h5>
             </div>
           </a>
         </div>
