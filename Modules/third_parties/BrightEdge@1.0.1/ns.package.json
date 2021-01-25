@@ -1,7 +1,7 @@
 {
 	"gulp": {
 		"javascript": [
-			"assets/BrightEdgeCdn.js"
+			"assets/BrightEdge.js"
 		]
 	}
 ,	"jshint": "false"

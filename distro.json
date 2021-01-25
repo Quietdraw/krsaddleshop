@@ -172,8 +172,7 @@
         "suitecommerce/Wizard": "2.1.0",
 
         "third_parties/almond": "0.3.0",
-        "third_parties/autopilot": "1.0.0",
-        "third_parties/BrightEdgeCdn": "1.0.0",
+        "third_parties/BrightEdge": "1.0.1",
         "third_parties/backbone.js": "1.1.2-custom",
         "third_parties/backbone.validation": "0.9.1-custom",
         "third_parties/backbone.stickit": "0.8.0",
@@ -255,8 +254,7 @@
                     "ItemDetails.View.Custom",
                     "FacebookTracking",
                     "QuietDrawCustom",
-                    "autopilot",
-                    "BrightEdgeCdn",
+                    "BrightEdge",
                     "Cart.Detailed.View.Extend",
                     "AcuityPlatform"
 				,	"ItemViews.Option.View.CustomImage"
