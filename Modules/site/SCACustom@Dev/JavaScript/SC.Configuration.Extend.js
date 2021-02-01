@@ -506,15 +506,6 @@ define(
                             }
                         },
                         {
-                            text: _('Table Decor').translate(),
-                            href: '/ranch-home/table-decor',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Table-Decor'
-                            }
-                        },
-                        {
                             text: _('Glassware').translate(),
                             href: '/ranch-home/glassware',
                             'class': 'header-menu-level3-anchor',
@@ -550,42 +541,6 @@ define(
                                 hashtag: '#custitem_websubcat/Books'
                             }
                         },
-                        {
-                            text: _('Wall & Art Decor').translate(),
-                            href: 'wall-art-decor',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Wall--AND--Art-Decor'
-                            }
-                        },
-                        {
-                            text: _('Pillows & Throws').translate(),
-                            href: 'pillows-throws',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: 'custitem_websubcat/Pillows--AND--Throws'
-                            }
-                        },
-                        {
-                            text: _('Rugs &  Rug Rails').translate(),
-                            href: 'rugs-rails',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Rugs--AND--Rug-Rails'
-                            }
-                        },
-                        {
-                            text: _('Lighting & Fireplace').translate(),
-                            href: '/ranch-home/lighting-fireplace',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Lighting--AND--Fireplace'
-                            }
-                        },
                     ]
                 },
                 {
@@ -601,15 +556,6 @@ define(
                             data: {
                                 touchpoint: 'home',
                                 hashtag: '#custitem_websubcat/Western-Saddles'
-                            }
-                        },
-                        {
-                            text: _('Saddle Stands').translate(),
-                            href: '/saddles/saddle-stands',
-                            'class': 'header-menu-level3-anchor',
-                            data: {
-                                touchpoint: 'home',
-                                hashtag: '#custitem_websubcat/Saddle-Stands'
                             }
                         },
                         {
