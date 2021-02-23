@@ -15,7 +15,7 @@
 <section class="home-essentials">
   <div class="container">
     
-    <h1 class="heading-marquee">King Ranch<br>Essentials</h1>
+    <h1 class="heading-marquee">King Ranch<br>Essentials - PG</h1>
     
     <div class="row">
           <div class="col-xs-6 col-sm-3 col-md-2">
