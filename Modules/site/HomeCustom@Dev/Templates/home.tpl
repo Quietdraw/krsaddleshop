@@ -15,7 +15,7 @@
 <section class="home-essentials">
   <div class="container">
     
-    <h1 class="heading-marquee">King Ranch<br>Essentials - PG</h1>
+    <h1 class="heading-marquee">King Ranch<br>Essentials</h1>
     
     <div class="row">
           <div class="col-xs-6 col-sm-3 col-md-2">
@@ -94,6 +94,173 @@
 <section class="home-spotlight__3-col-section" data-cms-area="home-spotlight__3-col-section" data-cms-area-filters="path"></section>
 
 </div><!-- /.home -->
+
+<!--//  Begin Snakeboot Page  //-->
+
+
+<div class="cms-page-snakeboot">
+
+  <div class="cms-spotlight__full">
+    <div class="wrapper">
+      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-top-video.jpg"
+        alt="Covey Rise Blog Title">
+      <div class="cms-spotlight__full_body">
+        <h3>Covey Rise Blog TitleA</h3>
+        <p>Behind the Scenes with King Ranch Saddle Shop and Covey Rise</p>
+        <a href="/search?keywords=armstrong" class="btn btn-primary">READ THE BLOG</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cms__3up-feature-columns container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_01.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">The King Ranch Snake Boot</p>
+            <h2 class="card-title">COLORWAY NAME HERE</h2>
+            <a href="/subcategory/Handbags--AND--Wallets" class="btn btn-primary"
+              title="Click to shop The King Ranch Snake Boot.">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_02.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">The King Ranch Snake Boot</p>
+            <h2 class="card-title">COLORWAY NAME HERE</h2>
+            <a href="/subcategory/Womens-Apparel" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
+              Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_03.jpg"
+            alt="ANTLER HANDLE LION KNIFE">
+          <div class="card-body">
+            <p class="card-tagline">The King Ranch Snake Boot</p>
+            <h2 class="card-title">COLORWAY NAME HERE</h2>
+            <a href="/subcategory/Womens-Boots" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
+              Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide Begin -->
+  <script>
+    // Load the Product Carousel
+    $(document).ready(function () {
+      console.log("ready!");
+      $('.the-product-slider .row').bxSlider({
+        auto: true,
+        minSlides: 1,
+        maxSlides: 6,
+        slideWidth: 230,
+        moveSlides: 1,
+        pager: false,
+        shrinkItems: true,
+        prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
+        nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+      });
+      console.log("done!");
+    });
+  </script>
+ <section class="the-product-slider">
+
+  <h1 class="heading-marquee v2">King Ranch<br>Essentials</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Womens-Goat-Suede-Shirt-Jacket">
+            <img class="card-img-top"
+              src="https://www.krsaddleshop.com/Images/products/223624_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200"
+              alt="WOMEN'S GOAT SUEDE SHIRT JACKET">
+            <div class="card-body">
+              <h5 class="card-title">WOMEN'S GOAT SUEDE SHIRT JACKET</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Ladies-Long-Sleeve-Western-Shirt">
+            <img class="card-img-top"
+              src="https://www.krsaddleshop.com/Images/products/223271_Coral-Color.png?resizeid=6&resizeh=1200&resizew=1200"
+              alt="LADIES LONG SLEEVE WESTERN SHIRT">
+            <div class="card-body">
+              <h5 class="card-title">LADIES LONG SLEEVE WESTERN SHIRT</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/SLEEVELESS-RUFFLED-BLOUSE">
+            <img class="card-img-top"
+              src="https://www.krsaddleshop.com/Images/products/223102_Tobacco-Color.png?resizeid=4&resizeh=600&resizew=600"
+              alt="SLEEVELESS RUFFLED BLOUSE">
+            <div class="card-body">
+              <h5 class="card-title">SLEEVELESS RUFFLED BLOUSE</h5>
+            </div>
+    
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
+            <img class="card-img-top"
+              src="https://www.krsaddleshop.com/Images/products/223576_Chaparral%20Docil-Color[2].png?resizeid=6&resizeh=1200&resizew=1200"
+              alt="PALOMA HANDBAG">
+            <div class="card-body">
+              <h5 class="card-title">PALOMA HANDBAG</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Sabona-Executive-Regal-Magnetic-Bracelet">
+            <img class="card-img-top"
+              src="https://www.krsaddleshop.com/Images/products/202418_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200"
+              alt="SABONA EXECUTIVE REGAL MAGNETIC BRACELET">
+            <div class="card-body">
+              <h5 class="card-title">SABONA EXECUTIVE REGAL MAGNETIC BRACELET</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="card product">
+          <a href="https://www.krsaddleshop.com/Ladies-Short-Sleeve-Shooting-Shirt">
+            <img class="card-img-top"
+              src="https://www.krsaddleshop.com/Images/products/223759_Brown-Color[1].png?resizeid=6&resizeh=1200&resizew=1200"
+              alt="LADIES SHORT SLEEVE SHOOTING SHIRT">
+            <div class="card-body">
+              <h5 class="card-title">LADIES SHORT SLEEVE SHOOTING SHIRT</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Slide End -->
+  <div class="section-breaker"></div>
+
+</div>
+
+<!--//  End Snakeboot Page  //-->
 
 <div class="modal fade" tabindex="-1" role="dialog" id="homeVideoModal">
   <div class="modal-dialog" role="document">
