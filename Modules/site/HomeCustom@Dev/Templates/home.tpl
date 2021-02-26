@@ -97,170 +97,221 @@
 
 <!--//  Begin Snakeboot Page  //-->
 
-
 <div class="cms-page-snakeboot">
-
-  <div class="cms-spotlight__full">
-    <div class="wrapper">
-      <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-top-video.jpg"
-        alt="Covey Rise Blog Title">
-      <div class="cms-spotlight__full_body">
-        <h3>Covey Rise Blog TitleA</h3>
-        <p>Behind the Scenes with King Ranch Saddle Shop and Covey Rise</p>
-        <a href="/search?keywords=armstrong" class="btn btn-primary">READ THE BLOG</a>
+  <!-- Title Video -->
+    <div class="cms-spotlight__full">
+      <div class="wrapper">
+        <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-top-video.jpg"
+          alt="Covey Rise Blog Title">
+        <div class="cms-spotlight__full_body">
+          <p>A Lucchese Bootmaker and King Ranch Saddle Shop Partnership:</p>
+          <h3>King Ranch Snake Boot</h3>
+        </div>
       </div>
     </div>
+
+  <!-- Middle Text -->
+  <div class="cms-page-snakeboot">
+
+      <section class="cms-page-corp__intro section-copy--center section-padding">
+        <h3>BUILT FOR THIS COUNTRY</h3>
+        <p>With a combined experience of over 300 years in Leather and Footwear, we’ve partnered to introduce the next milestone in a legacy of Texas outfitters, the King Ranch Snake Boot.  Featuring renowned Lucchese quality and style, reinforced with a TurtleSkinTM bite and venom protective barrier, this boot has been rigorously tested and deemed worthy of the King Ranch name.</p>
+
+        <p>A FEATURE SET UNIQUE TO KING RANCH</p> 
+      </section>
   </div>
 
+  <!-- Three Columns -->
   <div class="cms__3up-feature-columns container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_01.jpg"
-            alt="ANTLER HANDLE LION KNIFE">
-          <div class="card-body">
-            <p class="card-tagline">The King Ranch Snake Boot</p>
-            <h2 class="card-title">COLORWAY NAME HERE</h2>
-            <a href="/subcategory/Handbags--AND--Wallets" class="btn btn-primary"
-              title="Click to shop The King Ranch Snake Boot.">Shop Now</a>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_01.jpg"
+              alt="ANTLER HANDLE LION KNIFE">
+            <div class="card-body">
+              <p class="card-tagline">The King Ranch Snake Boot</p>
+              <h2 class="card-title">COLORWAY NAME HERE</h2>
+              <a href="/subcategory/Handbags--AND--Wallets" class="btn btn-primary"
+                title="Click to shop The King Ranch Snake Boot.">Shop Now</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_02.jpg"
-            alt="ANTLER HANDLE LION KNIFE">
-          <div class="card-body">
-            <p class="card-tagline">The King Ranch Snake Boot</p>
-            <h2 class="card-title">COLORWAY NAME HERE</h2>
-            <a href="/subcategory/Womens-Apparel" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
-              Now</a>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_02.jpg"
+              alt="ANTLER HANDLE LION KNIFE">
+            <div class="card-body">
+              <p class="card-tagline">The King Ranch Snake Boot</p>
+              <h2 class="card-title">COLORWAY NAME HERE</h2>
+              <a href="/subcategory/Womens-Apparel" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
+                Now</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_03.jpg"
-            alt="ANTLER HANDLE LION KNIFE">
-          <div class="card-body">
-            <p class="card-tagline">The King Ranch Snake Boot</p>
-            <h2 class="card-title">COLORWAY NAME HERE</h2>
-            <a href="/subcategory/Womens-Boots" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
-              Now</a>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_03.jpg"
+              alt="ANTLER HANDLE LION KNIFE">
+            <div class="card-body">
+              <p class="card-tagline">The King Ranch Snake Boot</p>
+              <h2 class="card-title">COLORWAY NAME HERE</h2>
+              <a href="/subcategory/Womens-Boots" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
+                Now</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+  <!-- Blog -->
+  <div class="home-spotlight__full">
+    <div class="wrapper">
+      <img class="home-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-FULLWIDTH_01.jpg" alt="Leather Wine Carriers">
+      <div class="home-spotlight__full_body" style="top:unset;bottom:0px">
+        <h3>Covey Rise Blog Title</h3>
+        <p>Behind the Scenes with King Ranch Saddle Shop and Covey Rise</p>
+        <a href="" class="btn btn-primary">READ THE BLOG</a>
+      </div>
+    </div>
   </div>
 
-  <!-- Slide Begin -->
-  <script>
-    // Load the Product Carousel
-    $(document).ready(function () {
-      console.log("ready!");
-      $('.the-product-slider .row').bxSlider({
-        auto: true,
-        minSlides: 1,
-        maxSlides: 6,
-        slideWidth: 230,
-        moveSlides: 1,
-        pager: false,
-        shrinkItems: true,
-        prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
-        nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+  <!-- Field Tested -->
+  <div class="home-spotlight__2-col container">
+    <div class="wrapper">
+      <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
+        <img src="/img/landing_page_assets/cms-page__snakeboot-deer.jpg" alt="Field tested Snake boots.">
+      </div>
+      <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
+        <p class="tinytype">Field Tested</p>
+        <h3>Snake Boots</h3>
+        <p class="subheading">Contact Us to Learn More</p>
+        <p>From day hunts out of our Saltillo Lodge to longer excursions spent tracking Nilgai in the Norias Division, no one puts more miles in their snake boots than our King Ranch Guides.</p>
+          <p>When it came time to consider how we would redesign such an integral piece of field gear, our guides and staff were the first people to provide the input that ultimately became the King Ranch Snake Boot.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Built for this Country -->
+  <div class="home-spotlight__full">
+    <div class="wrapper">
+      <img class="home-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-bottom-FULLWIDTH_01.jpg" alt="Built for this Country">
+      <div class="home-spotlight__full_body" style="top:unset;bottom:0px">
+        <h3>BUILT FOR THIS COUNTRY</h3>
+      </div>
+    </div>
+  </div>
+
+    <!-- Slide Begin -->
+    <script>
+      // Load the Product Carousel
+      $(document).ready(function () {
+        console.log("ready!");
+        $('.the-product-slider .row').bxSlider({
+          auto: true,
+          minSlides: 1,
+          maxSlides: 6,
+          slideWidth: 230,
+          moveSlides: 1,
+          pager: false,
+          shrinkItems: true,
+          prevText: '<a class="btn-arrow btn-arrow-prev"><span></span></a>',
+          nextText: '<a class="btn-arrow btn-arrow-next"><span></span></a>'
+        });
+        console.log("done!");
       });
-      console.log("done!");
-    });
-  </script>
- <section class="the-product-slider">
+    </script>
+  <section class="the-product-slider">
 
-  <h1 class="heading-marquee v2">King Ranch<br>Essentials</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Womens-Goat-Suede-Shirt-Jacket">
-            <img class="card-img-top"
-              src="https://www.krsaddleshop.com/Images/products/223624_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200"
-              alt="WOMEN'S GOAT SUEDE SHIRT JACKET">
-            <div class="card-body">
-              <h5 class="card-title">WOMEN'S GOAT SUEDE SHIRT JACKET</h5>
-            </div>
-          </a>
+    <h1 class="heading-marquee v2">King Ranch<br>Essentials</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="card product">
+            <a href="https://www.krsaddleshop.com/Womens-Goat-Suede-Shirt-Jacket">
+              <img class="card-img-top"
+                src="https://www.krsaddleshop.com/Images/products/223624_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200"
+                alt="WOMEN'S GOAT SUEDE SHIRT JACKET">
+              <div class="card-body">
+                <h5 class="card-title">WOMEN'S GOAT SUEDE SHIRT JACKET</h5>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Ladies-Long-Sleeve-Western-Shirt">
-            <img class="card-img-top"
-              src="https://www.krsaddleshop.com/Images/products/223271_Coral-Color.png?resizeid=6&resizeh=1200&resizew=1200"
-              alt="LADIES LONG SLEEVE WESTERN SHIRT">
-            <div class="card-body">
-              <h5 class="card-title">LADIES LONG SLEEVE WESTERN SHIRT</h5>
-            </div>
-          </a>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="card product">
+            <a href="https://www.krsaddleshop.com/Ladies-Long-Sleeve-Western-Shirt">
+              <img class="card-img-top"
+                src="https://www.krsaddleshop.com/Images/products/223271_Coral-Color.png?resizeid=6&resizeh=1200&resizew=1200"
+                alt="LADIES LONG SLEEVE WESTERN SHIRT">
+              <div class="card-body">
+                <h5 class="card-title">LADIES LONG SLEEVE WESTERN SHIRT</h5>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/SLEEVELESS-RUFFLED-BLOUSE">
-            <img class="card-img-top"
-              src="https://www.krsaddleshop.com/Images/products/223102_Tobacco-Color.png?resizeid=4&resizeh=600&resizew=600"
-              alt="SLEEVELESS RUFFLED BLOUSE">
-            <div class="card-body">
-              <h5 class="card-title">SLEEVELESS RUFFLED BLOUSE</h5>
-            </div>
-    
-          </a>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="card product">
+            <a href="https://www.krsaddleshop.com/SLEEVELESS-RUFFLED-BLOUSE">
+              <img class="card-img-top"
+                src="https://www.krsaddleshop.com/Images/products/223102_Tobacco-Color.png?resizeid=4&resizeh=600&resizew=600"
+                alt="SLEEVELESS RUFFLED BLOUSE">
+              <div class="card-body">
+                <h5 class="card-title">SLEEVELESS RUFFLED BLOUSE</h5>
+              </div>
+      
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
-            <img class="card-img-top"
-              src="https://www.krsaddleshop.com/Images/products/223576_Chaparral%20Docil-Color[2].png?resizeid=6&resizeh=1200&resizew=1200"
-              alt="PALOMA HANDBAG">
-            <div class="card-body">
-              <h5 class="card-title">PALOMA HANDBAG</h5>
-            </div>
-          </a>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="card product">
+            <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
+              <img class="card-img-top"
+                src="https://www.krsaddleshop.com/Images/products/223576_Chaparral%20Docil-Color[2].png?resizeid=6&resizeh=1200&resizew=1200"
+                alt="PALOMA HANDBAG">
+              <div class="card-body">
+                <h5 class="card-title">PALOMA HANDBAG</h5>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Sabona-Executive-Regal-Magnetic-Bracelet">
-            <img class="card-img-top"
-              src="https://www.krsaddleshop.com/Images/products/202418_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200"
-              alt="SABONA EXECUTIVE REGAL MAGNETIC BRACELET">
-            <div class="card-body">
-              <h5 class="card-title">SABONA EXECUTIVE REGAL MAGNETIC BRACELET</h5>
-            </div>
-          </a>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="card product">
+            <a href="https://www.krsaddleshop.com/Sabona-Executive-Regal-Magnetic-Bracelet">
+              <img class="card-img-top"
+                src="https://www.krsaddleshop.com/Images/products/202418_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200"
+                alt="SABONA EXECUTIVE REGAL MAGNETIC BRACELET">
+              <div class="card-body">
+                <h5 class="card-title">SABONA EXECUTIVE REGAL MAGNETIC BRACELET</h5>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-2">
-        <div class="card product">
-          <a href="https://www.krsaddleshop.com/Ladies-Short-Sleeve-Shooting-Shirt">
-            <img class="card-img-top"
-              src="https://www.krsaddleshop.com/Images/products/223759_Brown-Color[1].png?resizeid=6&resizeh=1200&resizew=1200"
-              alt="LADIES SHORT SLEEVE SHOOTING SHIRT">
-            <div class="card-body">
-              <h5 class="card-title">LADIES SHORT SLEEVE SHOOTING SHIRT</h5>
-            </div>
-          </a>
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="card product">
+            <a href="https://www.krsaddleshop.com/Ladies-Short-Sleeve-Shooting-Shirt">
+              <img class="card-img-top"
+                src="https://www.krsaddleshop.com/Images/products/223759_Brown-Color[1].png?resizeid=6&resizeh=1200&resizew=1200"
+                alt="LADIES SHORT SLEEVE SHOOTING SHIRT">
+              <div class="card-body">
+                <h5 class="card-title">LADIES SHORT SLEEVE SHOOTING SHIRT</h5>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Slide End -->
-  <div class="section-breaker"></div>
+  </section>
+  <!-- Slide End -->
+    <div class="section-breaker"></div>
 
 </div>
 
 <!--//  End Snakeboot Page  //-->
+
+
+
 
 <div class="modal fade" tabindex="-1" role="dialog" id="homeVideoModal">
   <div class="modal-dialog" role="document">
