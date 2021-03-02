@@ -101,7 +101,7 @@
   <!-- Title Video -->
     <div class="cms-spotlight__full">
       <div class="wrapper">
-        <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-top-video.jpg"
+        <img class="cms-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-top-video_02.jpg"
           alt="Covey Rise Blog Title">
         <div class="cms-spotlight__full_body">
           <p>A Lucchese Bootmaker and King Ranch Saddle Shop Partnership:</p>
@@ -126,11 +126,11 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_01.jpg"
-              alt="ANTLER HANDLE LION KNIFE">
+            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_04.jpg"
+              alt="WOMEN’S LOW TOP SNAKE BOOT">
             <div class="card-body">
-              <p class="card-tagline">The King Ranch Snake Boot</p>
-              <h2 class="card-title">COLORWAY NAME HERE</h2>
+              <p class="card-tagline">The King Ranch Snake Boot - Product Number: 224048</p>
+              <h2 class="card-title">WOMEN’S LOW TOP SNAKE BOOT</h2>
               <a href="/subcategory/Handbags--AND--Wallets" class="btn btn-primary"
                 title="Click to shop The King Ranch Snake Boot.">Shop Now</a>
             </div>
@@ -139,11 +139,11 @@
 
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_02.jpg"
-              alt="ANTLER HANDLE LION KNIFE">
+            <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_01.jpg"
+              alt="WOMEN’S HIGH TOP SNAKE BOOT">
             <div class="card-body">
-              <p class="card-tagline">The King Ranch Snake Boot</p>
-              <h2 class="card-title">COLORWAY NAME HERE</h2>
+              <p class="card-tagline">The King Ranch Snake Boot - Product Number: 224047</p>
+              <h2 class="card-title">WOMEN’S HIGH TOP SNAKE BOOT</h2>
               <a href="/subcategory/Womens-Apparel" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
                 Now</a>
             </div>
@@ -153,17 +153,44 @@
         <div class="col-sm-4">
           <div class="card">
             <img class="card-img-top" src="/img/landing_page_assets/cms-page__snakeboot-MIDCOLUMN_03.jpg"
-              alt="ANTLER HANDLE LION KNIFE">
+              alt="MEN’S KING RANCH LUCCHESE SNAKE BOOT">
             <div class="card-body">
-              <p class="card-tagline">The King Ranch Snake Boot</p>
-              <h2 class="card-title">COLORWAY NAME HERE</h2>
+              <p class="card-tagline">The King Ranch Snake Boot - Product Number: 224049</p>
+              <h2 class="card-title">MEN’S KING RANCH LUCCHESE SNAKE BOOT</h2>
               <a href="/subcategory/Womens-Boots" class="btn btn-primary" title="Click to shop The King Ranch Snake Boot.">Shop
                 Now</a>
             </div>
           </div>
         </div>
       </div>
+  </div>
+
+  <!-- Rattlesnake Banner -->
+  <div class="home-spotlight__full">
+    <div class="wrapper">
+      <img class="home-spotlight__full_photo" src="/img/landing_page_assets/cms-page__snakeboot-fullwidth-banner.jpg" alt="Leather Wine Carriers">
     </div>
+  </div>
+
+  <!-- Boot Layout -->
+  <div class="home-spotlight__2-col container">
+    <div class="wrapper">
+      <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
+        <img src="/img/landing_page_assets/cms-page__snakeboot-boot-layout.jpg" alt="Field tested Snake boots.">
+      </div>
+      <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
+        <ul>
+          <li>Fully lined (vamp and quarters) with TurtleSkin SnakeArmor’s patented technology for lightweight, high-strength protection.</li>
+          <li>Waxed storm welt for increased wear and water protection.</li>
+          <li>Full leather lining for comfort.</li>
+          <li>King Ranch Running W embroidered logo detail on every pair.</li>
+          <li>Grooved Vibram outsole for sure footing on Women’s models and Lucchese Xtreme crepe outsole with extended wear rubber pad for Men’s Models.</li>
+          <li>Women’s boots are available in either a 15” height with covered side seams or a 17” full height for extended protection.</li>
+          <li>Rigorously tested, designed, and educated by the Hunting Guides of King Ranch.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <!-- Blog -->
   <div class="home-spotlight__full">
@@ -181,7 +208,7 @@
   <div class="home-spotlight__2-col container">
     <div class="wrapper">
       <div class="col-lg-5 col-lg-push-5 col-lg-offset-1 home-spotlight__2-col_photo">
-        <img src="/img/landing_page_assets/cms-page__snakeboot-deer.jpg" alt="Field tested Snake boots.">
+        <img src="/img/landing_page_assets/cms-page__snakeboot-field-tested.jpg" alt="Field tested Snake boots.">
       </div>
       <div class="col-lg-5 col-lg-pull-5 home-spotlight__2-col_body">
         <p class="tinytype">Field Tested</p>
