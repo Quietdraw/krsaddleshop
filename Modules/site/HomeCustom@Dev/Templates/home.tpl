@@ -18,32 +18,32 @@
     <h1 class="heading-marquee">King Ranch<br>Essentials</h1>
     
     <div class="row">
-          <div class="col-xs-6 col-sm-3 col-md-2">
+      <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/King-Ranch-Leather-Jean-Jacket">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/224014_TAN-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KING RANCH LEATHER JEAN JACKET">
+          <a href="https://https://www.krsaddleshop.com/KINENO-JACKET">
+            <img class="card-img-top" src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/Images/products/215873_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="KINEÑO JACKET">
             <div class="card-body">
-              <h5 class="card-title">KING RANCH LEATHER JEAN JACKET</h5>
+              <h5 class="card-title">KINEÑO JACKET</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/PALOMA-HANDBAG">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223576_Chaparral-Color[2].png?resizeid=4&resizeh=600&resizew=600" alt="PALOMA HANDBAG">
+          <a href="https://www.krsaddleshop.com/2021-LIMITED-EDITION-KING-RANCH-KNIFE">
+            <img class="card-img-top" src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/Images/products/224013_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="2021 LIMITED EDITION KING RANCH KNIFE">
             <div class="card-body">
-              <h5 class="card-title">PALOMA HANDBAG</h5>
+              <h5 class="card-title">2021 LIMITED EDITION KING RANCH KNIFE</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Silver-Rope-Hitch-Plug">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223408_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="SILVER ROPE HITCH PLUG">
+          <a href="https://www.krsaddleshop.com/Ladies-Barn-Coat">
+            <img class="card-img-top" src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/Images/products/223986_Olive-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES BARN COAT">
             <div class="card-body">
-              <h5 class="card-title">SILVER ROPE HITCH PLUG</h5>
+              <h5 class="card-title">LADIES BARN COAT</h5>
             </div>
             
           </a>
@@ -51,30 +51,30 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Onyx-Folklore-Boot">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223356_Main-image.jpg?resizeid=4&resizeh=600&resizew=600" alt="ONYX FOLKLORE BOOT">
+          <a href="https://www.krsaddleshop.com/Soaring-Quail-Meshback-Olive-Bone-Cap">
+            <img class="card-img-top" src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/Images/products/223757_main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="SOARING QUAIL MESH-BACK CAP - OLIVE">
             <div class="card-body">
-              <h5 class="card-title">ONYX FOLKLORE BOOT</h5>
+              <h5 class="card-title">SOARING QUAIL MESH-BACK CAP - OLIVE</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/2020-Limited-Edition-Cap">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223460_Main-image.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="2020 LIMITED EDITION CAP">
+          <a href="https://www.krsaddleshop.com/WAXED-CANVAS-SHOOTING-BAG">
+            <img class="card-img-top" src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/Images/products/222573_Olive-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="WAXED CANVAS SHOOTING BAG">
             <div class="card-body">
-              <h5 class="card-title">2020 LIMITED EDITION CAP</h5>
+              <h5 class="card-title">WAXED CANVAS SHOOTING BAG</h5>
             </div>
           </a>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 col-md-2">
         <div class="card product">
-          <a href="https://www.krsaddleshop.com/Ladies-Twill-L-S-Button-Up-Shirt">
-            <img class="card-img-top" src="https://www.krsaddleshop.com/Images/products/223983_Pink-Color.jpg?resizeid=6&resizeh=1200&resizew=1200" alt="LADIES TWILL LONG SLEEVE BUTTON UP">
+          <a href="https://www.krsaddleshop.com/Rifle-Scabbard_3">
+            <img class="card-img-top" src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/Images/products/12000_Tan-Color.png?resizeid=6&resizeh=1200&resizew=1200" alt="RIFLE SCABBARD">
             <div class="card-body">
-              <h5 class="card-title">LADIES TWILL LONG SLEEVE BUTTON UP</h5>
+              <h5 class="card-title">RIFLE SCABBARD</h5>
             </div>
           </a>
         </div>
