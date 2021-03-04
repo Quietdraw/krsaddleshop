@@ -1,0 +1,36 @@
+
+
+
+
+// The Profile
+SC.ENVIRONMENT.PROFILE = {"contactloginid":"0","firstname":"","paymentterms":null,"phoneinfo":null,"middlename":"","vatregistration":null,"creditholdoverride":null,"lastname":"","internalid":"0","addressbook":null,"campaignsubscriptions":[{"internalid":6,"subscribed":false,"name":"Catalogs","description":null},{"internalid":4,"subscribed":false,"name":"Newsletters","description":null},{"internalid":1,"subscribed":false,"name":"Promotional Emails","description":null},{"internalid":7,"subscribed":false,"name":"Third Party Subscriptions","description":"at certain times King Ranch shares our customer list with national co-op companies."}],"stage":null,"isperson":null,"balance":null,"creditcards":null,"companyname":null,"name":null,"emailsubscribe":"T","creditlimit":null,"email":"","subsidiary":"1","language":"en","currency":{"internalid":"1","symbol":"$","currencyname":"USA","code":"USD","precision":2},"isLoggedIn":"F","isGuest":"F","priceLevel":"5"};
+
+SC.SESSION = {
+	currency: {"internalid":"1","symbol":"$","code":"USD","name":"USA","currencyname":"USA","isdefault":"T","symbolplacement":1}
+,	language: {"name":"English (U.S.)","isdefault":"T","locale":"en_US","languagename":"English (U.S.)"}
+,	priceLevel: "5"
+,	touchpoints: {"logout":"https://checkout.krsaddleshop.com/sca-dev-montblanc/logOut.ssp?logoff=T&ckabandon=f8rlXc7QAhteKkEh&vid=J2R4bM7QAhxeKn2P&chrole=17&ck=f8rlXc7QAhteKkEh&cktime=184526&promocode=&promocodeaction=overwrite&sj=QxxARsDOauxIGI486SckWsJ4U%3B1614725930%3B631668000&gc=clear","customercenter":"https://checkout.krsaddleshop.com/sca-dev-montblanc/my_account.ssp?vid=J2R4bM7QAhxeKn2P&chrole=17&ck=f8rlXc7QAhteKkEh&cktime=184526&promocode=&promocodeaction=overwrite&sj=QxxARsDOauxIGI486SckWsJ4U%3B1614725930%3B631668000&gc=clear","serversync":"https://checkout.krsaddleshop.com/app/site/backend/syncidentity.nl?c=4031305&n=2&vid=J2R4bM7QAhxeKn2P&chrole=17&ck=f8rlXc7QAhteKkEh&cktime=184526","viewcart":"/sca-dev-montblanc/goToCart.ssp","login":"https://checkout.krsaddleshop.com/sca-dev-montblanc/checkout.ssp?is=login&login=T&vid=J2R4bM7QAhxeKn2P&chrole=17&ck=f8rlXc7QAhteKkEh&cktime=184526&promocode=&promocodeaction=overwrite&sj=QxxARsDOauxIGI486SckWsJ4U%3B1614725930%3B631668000&gc=clear","welcome":"/s.nl","checkout":"https://checkout.krsaddleshop.com/sca-dev-montblanc/checkout.ssp?is=checkout&vid=J2R4bM7QAhxeKn2P&chrole=17&ck=f8rlXc7QAhteKkEh&cktime=184526&promocode=&promocodeaction=overwrite&sj=QxxARsDOauxIGI486SckWsJ4U%3B1614725930%3B631668000&gc=clear","continueshopping":"/","home":"https://www.krsaddleshop.com","register":"https://checkout.krsaddleshop.com/sca-dev-montblanc/checkout.ssp?is=register&login=T&reset=T&newcust=T&vid=J2R4bM7QAhxeKn2P&chrole=17&ck=f8rlXc7QAhteKkEh&cktime=184526&promocode=&promocodeaction=overwrite&sj=QxxARsDOauxIGI486SckWsJ4U%3B1614725930%3B631668000&gc=clear"}
+,	loginToSeePrices: false
+,	passwordProtectedSite: false
+};
+
+SC.ENVIRONMENT.permissions = {"transactions":{"tranCashSale":0,"tranCustCred":0,"tranCustDep":0,"tranCustPymt":0,"tranStatement":0,"tranCustInvc":0,"tranItemShip":0,"tranSalesOrd":0,"tranEstimate":0,"tranRtnAuth":0,"tranDepAppl":0,"tranSalesOrdFulfill":0,"tranFind":0,"tranPurchases":0,"tranPurchasesReturns":0},"lists":{"regtAcctRec":0,"regtNonPosting":0,"listCase":0,"listContact":0,"listCustJob":0,"listCompany":0,"listIssue":0,"listCustProfile":0,"listExport":0,"listFind":0,"listCrmMessage":0}};
+
+// Cases configuration
+
+	SC.ENVIRONMENT.CASES_CONFIG = {"default_values":{"status_start":{"id":"1","name":"Not Started"},"status_close":{"id":"5","name":"Closed"},"origin":{"id":"-5","name":"Web"}}};
+
+
+
+// The Product Lists and its configuration.
+SC.ENVIRONMENT.PRODUCTLISTS_CONFIG = {"additionEnabled":true,"loginRequired":true,"list_templates":[{"templateid":"1","name":"Favorites","description":"A great place to house favorite items","scope":{"id":"2","name":"private"}},{"templateid":"2","name":"Saved for Later","description":"This is for the cart saved for later items","scope":{"id":"2","name":"private"},"type":{"id":"2","name":"later"}}]};
+
+
+if (SC.PROFILE_PROMISE)
+{
+	SC.PROFILE_PROMISE.resolve(SC.ENVIRONMENT.PROFILE);
+	SC.PROFILE_REFRESH = true;
+}
+
+SC.ENVIRONMENT.published = {};
+
