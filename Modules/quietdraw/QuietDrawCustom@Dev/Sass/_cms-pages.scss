@@ -503,12 +503,20 @@ img.img-responsive {
 }
 
 .faq-container {
-    margin-left: -15px;
-    margin-right: -15px;
+    //margin-left: -15px;
+    //margin-right: -15px;
+    margin-left: 0;
+    margin-right: 0;
     position: relative;
 
     @media (min-width: $screen-md-min) {
         padding: 10px 10px 30px;
+    }
+    .collapsible {
+        padding: 1rem 1.6rem 1rem 1rem;
+    }
+    .collapsible__content {
+        padding: 1rem;
     }
 }
 
@@ -576,7 +584,7 @@ img.img-responsive {
 }
 
 .collapsible__content {
-    padding: 1rem 10;
+    padding: 1rem 1rem;
 
     h5 {
         font-family: CentSchbookBTWGL4WXX-Roman, serif;
