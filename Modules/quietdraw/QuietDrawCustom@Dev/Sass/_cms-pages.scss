@@ -1,6 +1,38 @@
 /*
     CMS Landing Pages - overridden by Quiet Draw - originals found:
     ../Modules/site/CMSadapterCustom@Dev/Sass/_cms-landing-page.scss
+
+BREAK POINTS
+$screen-xs-min:     480px
+$screen-sm-min:     768px
+$screen-md-min:     992px
+$screen-lg-min:     1300px
+
+EXAMPLE:
+    MOBILE DEVICES UP TO: 480px
+    @media (max-width: $screen-xs-min) {
+        height: 550px;
+    }
+
+    MOBILE DEVICES STARTING AT: 481px
+    @media (min-width: $screen-xs-min) {
+        height: 550px;
+    }
+
+    DEVICES STARTING AT (TABLET): 768px
+    @media (min-width: $screen-sm-min) {
+        height: 550px;
+    }
+
+    DEVICES STARTING AT (LAPTOP - 13in): 992px
+    @media (min-width: $screen-md-min) {
+        height: 550px;
+    }
+
+    DEVICES STARTING AT (LAPTOP - 15in): 1300px
+    @media (min-width: $screen-lg-min) {
+        height: 550px;
+    }
 */
 
 $centered_width: 650px;
@@ -829,6 +861,24 @@ $snakebook-brown: #414042;
 $snakebook-gold: #D9A94B;
 $snakeboot-cream: #e8e7d9;
 
+.cms-page-snakeboot {
+    p {
+        line-height: 1.5em;
+        font-size: 15px;  
+    }
+
+    // Card Titles
+    .cms__3up-feature-columns .card .card-title {
+        // height: 60px;
+        @media (min-width: $screen-sm-min) {
+           font-size: 1.0rem;
+        }
+        @media (min-width: $screen-lg-min) {
+            font-size: 1.2rem;
+         }
+    }
+}
+
 // Video Intro
 .cms-page-snakeboot__intro {
     position: relative;
@@ -909,13 +959,15 @@ $snakeboot-cream: #e8e7d9;
     margin-bottom: 30px;
     img {
         display: block;
+        width: 100%;
+        height: auto;
     }
     .copy {
         background-color: $snakeboot-cream;
         padding: 2px 15px 15px;
     }
     h4 {
-        font-size: 5px;
+        font-size: 15px;
         margin-top: 4px;
         margin-bottom: 0px;
         @media (min-width: $screen-md-min) {
@@ -1042,7 +1094,7 @@ $snakeboot-cream: #e8e7d9;
     }
 }
 
-// Nakeboot - Built for this country
+// Snakeboot - Built for this country
 .cms-page-snakeboot__builtforthiscountry {
     h3 {
         color: $snakebook-gold;
@@ -1050,7 +1102,8 @@ $snakeboot-cream: #e8e7d9;
         font-weight: bold;
     }
     img {
-        max-width: 280px;
+        max-width: 340px;
+        width: 80%;
     }
 }
 
